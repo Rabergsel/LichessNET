@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['links_0',['Links',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a8b28e0f8afb799601533d6167d87d168',1,'LichessNET::Entities::Social::LichessProfile']]],
-  ['location_1',['Location',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ae66693011add04b79de1452b4c2d5c32',1,'LichessNET::Entities::Social::LichessProfile']]]
+  ['hasmoved_0',['HasMoved',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#ac76cadba9c54c121de70b353b42d1d1f',1,'LichessNET::Entities::Game::OngoingGame']]],
+  ['highlight_1',['Highlight',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a3b0f15b48432b6f39a1153f6c81ad500',1,'LichessNET::Entities::Account::Preferences']]]
 ];

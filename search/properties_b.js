@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['title_0',['Title',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a21d537f518ff539afe32e0430de6419d',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['tosviolation_1',['TosViolation',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a5186837284e6d47656bc6506e4701256',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['totalgames_2',['TotalGames',['../classLichessNET_1_1Entities_1_1Social_1_1Matchup.html#af3beb5e3b6fc5446a483c5cec5b84f30',1,'LichessNET::Entities::Social::Matchup']]],
-  ['totalspan_3',['TotalSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a0a8437aeab338e34a242cf19bee5c76f',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
-  ['tvspan_4',['TvSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a1b39e8779a0524886df48814a1b9d507',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
-  ['twitch_5',['Twitch',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a363263007b0a0f8b06a0c5681cc584c1',1,'LichessNET::Entities::Social::StreamingInfo']]]
+  ['language_0',['Language',['../classLichessNET_1_1Entities_1_1Account_1_1AccountPreferences.html#a3e725b79e6985c2593166ee544c27f4e',1,'LichessNET::Entities::Account::AccountPreferences']]],
+  ['lastmove_1',['LastMove',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#add5bd49447ae3501dc771a1faa95015c',1,'LichessNET::Entities::Game::OngoingGame']]],
+  ['lastmove_2',['lastMove',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#af19fa290ed9296c7b14cefa0b5f5d08b',1,'LichessNET::Entities::Game::GameStream']]],
+  ['leader_3',['Leader',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#ac765d7c93cdf6cb4256eb2e44a67d17c',1,'LichessNET::Entities::Teams::LichessTeam']]],
+  ['leaders_4',['Leaders',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#a2262493db46c9575ea2d3ed02c5fc6ef',1,'LichessNET::Entities::Teams::LichessTeam']]],
+  ['links_5',['Links',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a8b28e0f8afb799601533d6167d87d168',1,'LichessNET::Entities::Social::LichessProfile']]],
+  ['location_6',['Location',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ae66693011add04b79de1452b4c2d5c32',1,'LichessNET::Entities::Social::LichessProfile']]],
+  ['loss_7',['Loss',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a3574ef9101f18ab4a52f56ad8f3d9518',1,'LichessNET::Entities::Stats::GameCounts']]],
+  ['lossh_8',['LossH',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a726339a8f6c247a13c8d1efecb6adfca',1,'LichessNET::Entities::Stats::GameCounts']]]
 ];

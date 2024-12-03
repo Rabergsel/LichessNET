@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['onmovemade_0',['OnMoveMade',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#ada087ffb222a7ddcedfedc99f739dfc7',1,'LichessNET::Entities::Game::GameStream']]]
+  ['gameupdatereceived_0',['GameUpdateReceived',['../classLichessNET_1_1API_1_1LichessStream.html#a0a2d9b076f832349c199ac785f83519d',1,'LichessNET::API::LichessStream']]]
 ];

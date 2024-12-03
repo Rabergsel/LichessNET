@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['teamleader_0',['TeamLeader',['../classLichessNET_1_1Entities_1_1Social_1_1TeamLeader.html',1,'LichessNET::Entities::Social']]],
-  ['teammember_1',['TeamMember',['../classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html',1,'LichessNET::Entities::Teams']]],
-  ['title_2',['Title',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a21d537f518ff539afe32e0430de6419d',1,'LichessNET.Entities.Social.LichessUser.Title'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fab',1,'LichessNET.Entities.Enumerations.Title']]],
-  ['tosviolation_3',['TosViolation',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a5186837284e6d47656bc6506e4701256',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['totalgames_4',['TotalGames',['../classLichessNET_1_1Entities_1_1Social_1_1Matchup.html#af3beb5e3b6fc5446a483c5cec5b84f30',1,'LichessNET::Entities::Social::Matchup']]],
-  ['totalspan_5',['TotalSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a0a8437aeab338e34a242cf19bee5c76f',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
-  ['tvspan_6',['TvSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a1b39e8779a0524886df48814a1b9d507',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
-  ['twitch_7',['Twitch',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a363263007b0a0f8b06a0c5681cc584c1',1,'LichessNET::Entities::Social::StreamingInfo']]]
+  ['ongoinggame_0',['OngoingGame',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html',1,'LichessNET::Entities::Game']]],
+  ['ongoinggame_2ecs_1',['OngoingGame.cs',['../OngoingGame_8cs.html',1,'']]],
+  ['online_2',['Online',['../classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a0e9d124162573fe2860cc7742cd0afac',1,'LichessNET::Entities::Social::UserRealTimeStatus']]],
+  ['onmovemade_3',['OnMoveMade',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#ada087ffb222a7ddcedfedc99f739dfc7',1,'LichessNET::Entities::Game::GameStream']]],
+  ['open_4',['Open',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#acedd8066ea8ff6669e87ce1a4bdab724',1,'LichessNET::Entities::Teams::LichessTeam']]],
+  ['opening_5',['Opening',['../classLichessNET_1_1Entities_1_1Game_1_1Game.html#a14653256dc1d8fea023557251ab92333',1,'LichessNET::Entities::Game::Game']]],
+  ['opponent_6',['Opponent',['../classLichessNET_1_1Entities_1_1Game_1_1Opponent.html',1,'LichessNET.Entities.Game.Opponent'],['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#afe283c75ca934d65db72467c824a95f6',1,'LichessNET.Entities.Game.OngoingGame.Opponent']]],
+  ['opponent_2ecs_7',['Opponent.cs',['../Opponent_8cs.html',1,'']]],
+  ['originalpgn_8',['OriginalPgn',['../classLichessNET_1_1Entities_1_1Game_1_1MoveSequence.html#ae5a7fb65ec8d5b716ebab2ae3632f168',1,'LichessNET::Entities::Game::MoveSequence']]]
 ];

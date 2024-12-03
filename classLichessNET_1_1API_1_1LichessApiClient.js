@@ -20,11 +20,17 @@ var classLichessNET_1_1API_1_1LichessApiClient =
     [ "GetRandomPuzzle", "classLichessNET_1_1API_1_1LichessApiClient.html#a8dc714ee0c380103dd17d927ca4e8c6c", null ],
     [ "GetRealTimeUserStatusAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#af21245db8968adf1d7873c092d647657", null ],
     [ "GetRealTimeUserStatusAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a36a8f620c3fc3cf64c9d63342dcce96b", null ],
+    [ "GetRequestScaffold", "classLichessNET_1_1API_1_1LichessApiClient.html#abe4df8ca858a510cb14002033589460f", null ],
     [ "GetSwissGames", "classLichessNET_1_1API_1_1LichessApiClient.html#acbf4e25c433f701174ef2be40125233a", null ],
     [ "GetTeamAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a98270b32ae4c21a86da3fabcc50460f4", null ],
+    [ "GetTeamMembersAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a975b186fdfba4428f0ef5042278187a4", null ],
     [ "GetTeamOfUserAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a045270b0c30bb1d283561c98d053921a", null ],
+    [ "GetUriBuilder", "classLichessNET_1_1API_1_1LichessApiClient.html#a6869face1e47e7ec5ec750c338265ab8", null ],
     [ "GetUserProfile", "classLichessNET_1_1API_1_1LichessApiClient.html#abf9f0910d93ba59a790837854eeda36c", null ],
+    [ "SendRequest", "classLichessNET_1_1API_1_1LichessApiClient.html#a50af9f1eed96a40e680638d590160de3", null ],
     [ "SetKidModeStatus", "classLichessNET_1_1API_1_1LichessApiClient.html#a08ea2b5a216801ce752d2a5f80781674", null ],
     [ "UnblockPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#aad4f5bb63f79f2845ff77cb3b72183fa", null ],
-    [ "UnfollowPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a328556d7e335fc272bbf86632e36cfd6", null ]
+    [ "UnfollowPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a328556d7e335fc272bbf86632e36cfd6", null ],
+    [ "_logger", "classLichessNET_1_1API_1_1LichessApiClient.html#aad653976de2cb96ef48ce5a22cfa6f80", null ],
+    [ "_ratelimitController", "classLichessNET_1_1API_1_1LichessApiClient.html#a93944bb11c049c26e0c6989b1ba871c7", null ]
 ];

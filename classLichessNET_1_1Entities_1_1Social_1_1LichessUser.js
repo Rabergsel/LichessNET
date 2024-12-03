@@ -2,6 +2,7 @@ var classLichessNET_1_1Entities_1_1Social_1_1LichessUser =
 [
     [ "Blocking", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a092510e8bec068812f4b618afda412e8", null ],
     [ "Count", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a735e54a97a3df4152b197a6005745d63", null ],
+    [ "CreatedAt", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ad1710caf9a221dbc8c0be06d008c95e0", null ],
     [ "Disabled", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ab19df9017a39c0b6565bba985b62cb29", null ],
     [ "Flair", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a2f26a2fe7e805d774a621a3ca2700901", null ],
     [ "Followable", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a8651929961265618540a6d95f33dd0ef", null ],
@@ -12,6 +13,7 @@ var classLichessNET_1_1Entities_1_1Social_1_1LichessUser =
     [ "PlayTime", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a2b1d29ad32aca09a4ca5dd8efe1aba80", null ],
     [ "Profile", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#aebcfe93e1488f57c667d707736a808af", null ],
     [ "Ratings", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a844354ad639bfd67df8d2d83de661aeb", null ],
+    [ "SeenAt", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ac0e8831f4ca2f017369d06e359b0c9b2", null ],
     [ "Streaming", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878", null ],
     [ "Title", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a21d537f518ff539afe32e0430de6419d", null ],
     [ "TosViolation", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a5186837284e6d47656bc6506e4701256", null ],

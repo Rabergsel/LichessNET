@@ -1,6 +1,26 @@
 var searchData=
 [
-  ['disabled_0',['Disabled',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ab19df9017a39c0b6565bba985b62cb29',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['documentation_20a_1',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
-  ['dsbrating_2',['DsbRating',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a0c58ef96404139778f27805e4013b7bb',1,'LichessNET::Entities::Social::LichessProfile']]]
+  ['captured_0',['Captured',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#aaeb2d354c9c73589a46c85e3e580df30',1,'LichessNET::Entities::Account::Preferences']]],
+  ['cfcrating_1',['CfcRating',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ad3b8562802b54c40f1d7b898c42026d8',1,'LichessNET::Entities::Social::LichessProfile']]],
+  ['challenge_2',['Challenge',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#aee51921db7a48a7b74770d3b9e1cc90c',1,'LichessNET::Entities::Account::Preferences']]],
+  ['chess960_3',['Chess960',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5caca8db08f4e50c6c07dc44158b2ccec24',1,'LichessNET::Entities::Enumerations']]],
+  ['classical_4',['Classical',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca2091523979dbedcad728958414922c72',1,'LichessNET::Entities::Enumerations']]],
+  ['client_5',['client',['../Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7',1,'Program.cs']]],
+  ['clock_6',['Clock',['../classLichessNET_1_1Entities_1_1Game_1_1Move.html#abcf9d51b6df62abc8ab1fab5a7c321e2',1,'LichessNET.Entities.Game.Move.Clock'],['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame.html#a9548dd4058d50a973ffb7658097c181b',1,'LichessNET.Entities.Puzzle.PuzzleGame.Clock']]],
+  ['clockbar_7',['ClockBar',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#abf1deb694480f41893039b42ffb97336',1,'LichessNET::Entities::Account::Preferences']]],
+  ['clocksound_8',['ClockSound',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a00e4bb6f1d67925eca26ba4ed9ea025d',1,'LichessNET::Entities::Account::Preferences']]],
+  ['clocktenths_9',['ClockTenths',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ad4efd5755ce7c733b0bb2e59cd1abc34',1,'LichessNET::Entities::Account::Preferences']]],
+  ['cm_10',['Cm',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba4d42fd7ad795178d64613eba2a2aa9ad',1,'LichessNET::Entities::Enumerations']]],
+  ['color_11',['Color',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a791e4aa07440d0e64053f473bcc41de3',1,'LichessNET::Entities::Game::OngoingGame']]],
+  ['confirmresign_12',['ConfirmResign',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#af6c18a20b8e93a8bcb5e6ae0814bb55a',1,'LichessNET::Entities::Account::Preferences']]],
+  ['constants_2ecs_13',['Constants.cs',['../Constants_8cs.html',1,'']]],
+  ['consume_14',['Consume',['../classLichessNET_1_1API_1_1ApiRatelimitController.html#a7a1f677fc36980e2eb37c675c537047d',1,'LichessNET.API.ApiRatelimitController.Consume()'],['../classLichessNET_1_1API_1_1ApiRatelimitController.html#ad140677c0abd6494b7b689ec6ee7726b',1,'LichessNET.API.ApiRatelimitController.Consume(string endpointUrl, bool consumedefaultBucket)']]],
+  ['coords_15',['Coords',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a8d891416feb7bab2029549ade5adc1b1',1,'LichessNET::Entities::Account::Preferences']]],
+  ['count_16',['Count',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a735e54a97a3df4152b197a6005745d63',1,'LichessNET::Entities::Social::LichessUser']]],
+  ['crazyhouse_17',['Crazyhouse',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca712a36e0753ab7fa9a6ef16b5e745e71',1,'LichessNET::Entities::Enumerations']]],
+  ['createdat_18',['CreatedAt',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ad1710caf9a221dbc8c0be06d008c95e0',1,'LichessNET::Entities::Social::LichessUser']]],
+  ['crosstable_19',['CrossTable',['../classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html',1,'LichessNET::Entities::Social']]],
+  ['crosstable_2ecs_20',['CrossTable.cs',['../CrossTable_8cs.html',1,'']]],
+  ['currently_20supported_20endpoints_3a_21',['Currently supported Endpoints:',['../md_README.html#autotoc_md3',1,'']]],
+  ['currentmatchup_22',['CurrentMatchup',['../classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html#a58b9381e706ebe0f90456fbbcb9c0508',1,'LichessNET::Entities::Social::CrossTable']]]
 ];

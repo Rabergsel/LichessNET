@@ -18,7 +18,7 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -98,6 +98,8 @@ $(function(){initNavTree('classLichessNET_1_1API_1_1LichessApiClient.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classLichessNET_1_1API_1_1LichessApiClient-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">LichessNET.API.LichessApiClient Class Reference</div></div>
 </div><!--header-->
@@ -174,8 +176,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a045270b0c30bb1d283561c98d053921a" id="r_a045270b0c30bb1d283561c98d053921a"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html">LichessTeam</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a045270b0c30bb1d283561c98d053921a">GetTeamOfUserAsync</a> (string username)</td></tr>
 <tr class="memdesc:a045270b0c30bb1d283561c98d053921a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of teams that the specified user is in.  <br /></td></tr>
 <tr class="separator:a045270b0c30bb1d283561c98d053921a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a975b186fdfba4428f0ef5042278187a4" id="r_a975b186fdfba4428f0ef5042278187a4"><td class="memItemLeft" align="right" valign="top"><a id="a975b186fdfba4428f0ef5042278187a4" name="a975b186fdfba4428f0ef5042278187a4"></a>
-async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html">TeamMember</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetTeamMembersAsync</b> (string teamId)</td></tr>
+<tr class="memitem:a975b186fdfba4428f0ef5042278187a4" id="r_a975b186fdfba4428f0ef5042278187a4"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html">TeamMember</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975b186fdfba4428f0ef5042278187a4">GetTeamMembersAsync</a> (string teamId)</td></tr>
 <tr class="separator:a975b186fdfba4428f0ef5042278187a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a8f620c3fc3cf64c9d63342dcce96b" id="r_a36a8f620c3fc3cf64c9d63342dcce96b"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html">UserRealTimeStatus</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a8f620c3fc3cf64c9d63342dcce96b">GetRealTimeUserStatusAsync</a> (string id, bool withSignal=false, bool withGameIds=false, bool withGameMetas=false)</td></tr>
 <tr class="memdesc:a36a8f620c3fc3cf64c9d63342dcce96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the real-time status of a specified user on Lichess.  <br /></td></tr>
@@ -192,6 +193,24 @@ async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams
 <tr class="memitem:abf9f0910d93ba59a790837854eeda36c" id="r_abf9f0910d93ba59a790837854eeda36c"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html">LichessUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9f0910d93ba59a790837854eeda36c">GetUserProfile</a> (string username)</td></tr>
 <tr class="memdesc:abf9f0910d93ba59a790837854eeda36c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the profile of a specified user on Lichess.  <br /></td></tr>
 <tr class="separator:abf9f0910d93ba59a790837854eeda36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6869face1e47e7ec5ec750c338265ab8" id="r_a6869face1e47e7ec5ec750c338265ab8"><td class="memItemLeft" align="right" valign="top">UriBuilder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6869face1e47e7ec5ec750c338265ab8">GetUriBuilder</a> (string endpoint, params Tuple&lt; string, string &gt;[] queryParameters)</td></tr>
+<tr class="memdesc:a6869face1e47e7ec5ec750c338265ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the UriBuilder objects for the lichess client. If something changes in the future, it will be easy to change it.  <br /></td></tr>
+<tr class="separator:a6869face1e47e7ec5ec750c338265ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4df8ca858a510cb14002033589460f" id="r_abe4df8ca858a510cb14002033589460f"><td class="memItemLeft" align="right" valign="top">HttpRequestMessage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe4df8ca858a510cb14002033589460f">GetRequestScaffold</a> (string endpoint, params Tuple&lt; string, string &gt;[] queryParameters)</td></tr>
+<tr class="separator:abe4df8ca858a510cb14002033589460f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50af9f1eed96a40e680638d590160de3" id="r_a50af9f1eed96a40e680638d590160de3"><td class="memItemLeft" align="right" valign="top">async Task&lt; HttpResponseMessage &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50af9f1eed96a40e680638d590160de3">SendRequest</a> (HttpRequestMessage request, HttpMethod method=null, bool useToken=true)</td></tr>
+<tr class="separator:a50af9f1eed96a40e680638d590160de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aad653976de2cb96ef48ce5a22cfa6f80" id="r_aad653976de2cb96ef48ce5a22cfa6f80"><td class="memItemLeft" align="right" valign="top">readonly ILogger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad653976de2cb96ef48ce5a22cfa6f80">_logger</a></td></tr>
+<tr class="separator:aad653976de2cb96ef48ce5a22cfa6f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93944bb11c049c26e0c6989b1ba871c7" id="r_a93944bb11c049c26e0c6989b1ba871c7"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="classLichessNET_1_1API_1_1ApiRatelimitController.html">ApiRatelimitController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93944bb11c049c26e0c6989b1ba871c7">_ratelimitController</a> = new()</td></tr>
+<tr class="memdesc:a93944bb11c049c26e0c6989b1ba871c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bucket handler for ratelimits.  <br /></td></tr>
+<tr class="separator:a93944bb11c049c26e0c6989b1ba871c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a client for the lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. It handles all ratelimits and requests. </p>
@@ -728,6 +747,35 @@ async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams
 
 </div>
 </div>
+<a id="abe4df8ca858a510cb14002033589460f" name="abe4df8ca858a510cb14002033589460f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe4df8ca858a510cb14002033589460f">&#9670;&#160;</a></span>GetRequestScaffold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HttpRequestMessage LichessNET.API.LichessApiClient.GetRequestScaffold </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>endpoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params Tuple&lt; string, string &gt;[]</td>          <td class="paramname"><span class="paramname"><em>queryParameters</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acbf4e25c433f701174ef2be40125233a" name="acbf4e25c433f701174ef2be40125233a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbf4e25c433f701174ef2be40125233a">&#9670;&#160;</a></span>GetSwissGames()</h2>
 
@@ -780,6 +828,23 @@ async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams
 
 </div>
 </div>
+<a id="a975b186fdfba4428f0ef5042278187a4" name="a975b186fdfba4428f0ef5042278187a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a975b186fdfba4428f0ef5042278187a4">&#9670;&#160;</a></span>GetTeamMembersAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html">TeamMember</a> &gt; &gt; LichessNET.API.LichessApiClient.GetTeamMembersAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>teamId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a045270b0c30bb1d283561c98d053921a" name="a045270b0c30bb1d283561c98d053921a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a045270b0c30bb1d283561c98d053921a">&#9670;&#160;</a></span>GetTeamOfUserAsync()</h2>
 
@@ -806,6 +871,44 @@ async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams
 
 </div>
 </div>
+<a id="a6869face1e47e7ec5ec750c338265ab8" name="a6869face1e47e7ec5ec750c338265ab8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6869face1e47e7ec5ec750c338265ab8">&#9670;&#160;</a></span>GetUriBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UriBuilder LichessNET.API.LichessApiClient.GetUriBuilder </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>endpoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params Tuple&lt; string, string &gt;[]</td>          <td class="paramname"><span class="paramname"><em>queryParameters</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the UriBuilder objects for the lichess client. If something changes in the future, it will be easy to change it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">endpoint</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="abf9f0910d93ba59a790837854eeda36c" name="abf9f0910d93ba59a790837854eeda36c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf9f0910d93ba59a790837854eeda36c">&#9670;&#160;</a></span>GetUserProfile()</h2>
 
@@ -829,6 +932,40 @@ async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the user's profile. </dd></dl>
+
+</div>
+</div>
+<a id="a50af9f1eed96a40e680638d590160de3" name="a50af9f1eed96a40e680638d590160de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50af9f1eed96a40e680638d590160de3">&#9670;&#160;</a></span>SendRequest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; HttpResponseMessage &gt; LichessNET.API.LichessApiClient.SendRequest </td>
+          <td>(</td>
+          <td class="paramtype">HttpRequestMessage</td>          <td class="paramname"><span class="paramname"><em>request</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HttpMethod</td>          <td class="paramname"><span class="paramname"><em>method</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useToken</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -910,13 +1047,60 @@ async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aad653976de2cb96ef48ce5a22cfa6f80" name="aad653976de2cb96ef48ce5a22cfa6f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad653976de2cb96ef48ce5a22cfa6f80">&#9670;&#160;</a></span>_logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly ILogger LichessNET.API.LichessApiClient._logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93944bb11c049c26e0c6989b1ba871c7" name="a93944bb11c049c26e0c6989b1ba871c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93944bb11c049c26e0c6989b1ba871c7">&#9670;&#160;</a></span>_ratelimitController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="classLichessNET_1_1API_1_1ApiRatelimitController.html">ApiRatelimitController</a> LichessNET.API.LichessApiClient._ratelimitController = new()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bucket handler for ratelimits. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>LichessNET/API/<b>AccountAPI.cs</b></li>
-<li>LichessNET/API/<b>GamesAPI.cs</b></li>
-<li>LichessNET/API/<b>LichessAPIClient.cs</b></li>
-<li>LichessNET/API/<b>PuzzlesAPI.cs</b></li>
-<li>LichessNET/API/<b>TeamAPI.cs</b></li>
-<li>LichessNET/API/<b>UsersAPI.cs</b></li>
+<li>LichessNET/API/<a class="el" href="AccountAPI_8cs.html">AccountAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="GamesAPI_8cs.html">GamesAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="LichessAPIClient_8cs.html">LichessAPIClient.cs</a></li>
+<li>LichessNET/API/<a class="el" href="PuzzlesAPI_8cs.html">PuzzlesAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="TeamAPI_8cs.html">TeamAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="UsersAPI_8cs.html">UsersAPI.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

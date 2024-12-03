@@ -1,10 +1,17 @@
 var searchData=
 [
-  ['rabergsel_20github_20io_20lichessnet_20index_20html_20documentation_20a_0',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
-  ['rating_1',['Rating',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#a8d47c06afb4615b08ef2aa6bef0f12b9',1,'LichessNET::Entities::Stats::GamemodeStats']]],
-  ['ratings_2',['Ratings',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a844354ad639bfd67df8d2d83de661aeb',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['rd_3',['Rd',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#aff5c3990650a0bc2eda74ae957c7b0cc',1,'LichessNET::Entities::Stats::GamemodeStats']]],
-  ['readme_4',['README',['../md_README.html',1,'']]],
-  ['readme_5',['readme',['../md_doxygen__css_2readme.html',1,'']]],
-  ['realname_6',['RealName',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a45df26430cd3cdce33be1c812d40013e',1,'LichessNET::Entities::Social::LichessProfile']]]
+  ['matchup_0',['Matchup',['../classLichessNET_1_1Entities_1_1Social_1_1Matchup.html',1,'LichessNET::Entities::Social']]],
+  ['matchup_2ecs_1',['MatchUp.cs',['../MatchUp_8cs.html',1,'']]],
+  ['me_2',['Me',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a373794a6579f0350cdf68ab4ac1ece53',1,'LichessNET::Entities::Stats::GameCounts']]],
+  ['medium_3',['Medium',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22a87f8a6ab85c9ced3702b4ea641ad4bb5',1,'LichessNET::Entities::Enumerations']]],
+  ['message_4',['Message',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a2f975ec43150c9cd9ed81a464a1e5a7a',1,'LichessNET::Entities::Account::Preferences']]],
+  ['moretime_5',['Moretime',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a8bea822069064c715d57b2db019c8acd',1,'LichessNET::Entities::Account::Preferences']]],
+  ['move_6',['Move',['../classLichessNET_1_1Entities_1_1Game_1_1Move.html',1,'LichessNET::Entities::Game']]],
+  ['move_2ecs_7',['Move.cs',['../Move_8cs.html',1,'']]],
+  ['moveevent_8',['MoveEvent',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a19b5cd944eec52cbb07e401c34becebb',1,'LichessNET::Entities::Account::Preferences']]],
+  ['movenumber_9',['MoveNumber',['../classLichessNET_1_1Entities_1_1Game_1_1Move.html#a2e0fe3f4d626182228c5a779ddada103',1,'LichessNET::Entities::Game::Move']]],
+  ['moves_10',['Moves',['../classLichessNET_1_1Entities_1_1Game_1_1Game.html#afd38ee94e4922c8299534e5bceb4e25c',1,'LichessNET.Entities.Game.Game.Moves'],['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a8cfc93bca01c94743c1f1d403cddf183',1,'LichessNET.Entities.Game.GameStream.Moves'],['../classLichessNET_1_1Entities_1_1Game_1_1MoveSequence.html#a5c1a033aae6be43b43fb70fa3d111bb1',1,'LichessNET.Entities.Game.MoveSequence.Moves']]],
+  ['movesequence_11',['MoveSequence',['../classLichessNET_1_1Entities_1_1Game_1_1MoveSequence.html',1,'LichessNET::Entities::Game']]],
+  ['movesequence_2ecs_12',['MoveSequence.cs',['../MoveSequence_8cs.html',1,'']]],
+  ['moveupdatehandler_13',['MoveUpdateHandler',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a36e53175205b8ced1a0ba88e0dfa534d',1,'LichessNET::Entities::Game::GameStream']]]
 ];

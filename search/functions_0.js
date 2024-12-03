@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['blockplayerasync_0',['BlockPlayerAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a37f7ec4f1577c4f13784498853077d7a',1,'LichessNET::API::LichessApiClient']]]
+  ['apiratelimitcontroller_0',['ApiRatelimitController',['../classLichessNET_1_1API_1_1ApiRatelimitController.html#aaac6cb03790f64a6887fd9136545bcf2',1,'LichessNET::API::ApiRatelimitController']]]
 ];
