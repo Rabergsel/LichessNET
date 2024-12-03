@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['youtube_0',['YouTube',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a14401c49066e3d7fef070c17590ae049',1,'LichessNET::Entities::Social::StreamingInfo']]]
+  ['variant_0',['Variant',['../classLichessNET_1_1Entities_1_1Game_1_1Variant.html',1,'LichessNET::Entities::Game']]],
+  ['verified_1',['Verified',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa',1,'LichessNET::Entities::Social::LichessUser']]]
 ];

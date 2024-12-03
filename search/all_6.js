@@ -27,5 +27,6 @@ var searchData=
   ['getswissgames_24',['GetSwissGames',['../classLichessNET_1_1API_1_1LichessApiClient.html#acbf4e25c433f701174ef2be40125233a',1,'LichessNET::API::LichessApiClient']]],
   ['getteamasync_25',['GetTeamAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a98270b32ae4c21a86da3fabcc50460f4',1,'LichessNET::API::LichessApiClient']]],
   ['getteamofuserasync_26',['GetTeamOfUserAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a045270b0c30bb1d283561c98d053921a',1,'LichessNET::API::LichessApiClient']]],
-  ['getuserprofile_27',['GetUserProfile',['../classLichessNET_1_1API_1_1LichessApiClient.html#abf9f0910d93ba59a790837854eeda36c',1,'LichessNET::API::LichessApiClient']]]
+  ['getuserprofile_27',['GetUserProfile',['../classLichessNET_1_1API_1_1LichessApiClient.html#abf9f0910d93ba59a790837854eeda36c',1,'LichessNET::API::LichessApiClient']]],
+  ['github_20io_20lichessnet_20index_20html_20documentation_20a_28',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]]
 ];

@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['setkidmodestatus_0',['SetKidModeStatus',['../classLichessNET_1_1API_1_1LichessApiClient.html#a08ea2b5a216801ce752d2a5f80781674',1,'LichessNET::API::LichessApiClient']]],
-  ['signalconnection_1',['SignalConnection',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22',1,'LichessNET::Entities::Enumerations']]],
-  ['streaming_2',['Streaming',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['streaminginfo_3',['StreamingInfo',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html',1,'LichessNET::Entities::Social']]],
-  ['supported_20endpoints_3a_4',['Currently supported Endpoints:',['../md_README.html#autotoc_md2',1,'']]]
+  ['rabergsel_20github_20io_20lichessnet_20index_20html_20documentation_20a_0',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
+  ['rating_1',['Rating',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#a8d47c06afb4615b08ef2aa6bef0f12b9',1,'LichessNET::Entities::Stats::GamemodeStats']]],
+  ['ratings_2',['Ratings',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a844354ad639bfd67df8d2d83de661aeb',1,'LichessNET::Entities::Social::LichessUser']]],
+  ['rd_3',['Rd',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#aff5c3990650a0bc2eda74ae957c7b0cc',1,'LichessNET::Entities::Stats::GamemodeStats']]],
+  ['readme_4',['README',['../md_README.html',1,'']]],
+  ['realname_5',['RealName',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a45df26430cd3cdce33be1c812d40013e',1,'LichessNET::Entities::Social::LichessProfile']]]
 ];

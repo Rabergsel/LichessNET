@@ -27,8 +27,9 @@ var NAVTREE =
   [ "LichessNET Documentation", "index.html", [
     [ "README", "md_README.html", [
       [ "LichessNET", "md_README.html#autotoc_md0", [
-        [ "Installation", "md_README.html#autotoc_md1", null ],
-        [ "Currently supported Endpoints:", "md_README.html#autotoc_md2", null ]
+        [ "Documentation", "md_README.html#autotoc_md1", null ],
+        [ "Installation", "md_README.html#autotoc_md2", null ],
+        [ "Currently supported Endpoints:", "md_README.html#autotoc_md3", null ]
       ] ]
     ] ],
     [ "Packages", "namespaces.html", [

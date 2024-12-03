@@ -1,8 +1,11 @@
 var searchData=
 [
-  ['unblockplayerasync_0',['UnblockPlayerAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#aad4f5bb63f79f2845ff77cb3b72183fa',1,'LichessNET::API::LichessApiClient']]],
-  ['unfollowplayerasync_1',['UnfollowPlayerAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a328556d7e335fc272bbf86632e36cfd6',1,'LichessNET::API::LichessApiClient']]],
-  ['uscfrating_2',['UsCfRating',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a2140c37e2d01eed216ca700665f26d88',1,'LichessNET::Entities::Social::LichessProfile']]],
-  ['username_3',['Username',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a95176fa1e5799f12717e45e70538e28f',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['userrealtimestatus_4',['UserRealTimeStatus',['../classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html',1,'LichessNET::Entities::Social']]]
+  ['teamleader_0',['TeamLeader',['../classLichessNET_1_1Entities_1_1Social_1_1TeamLeader.html',1,'LichessNET::Entities::Social']]],
+  ['teammember_1',['TeamMember',['../classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html',1,'LichessNET::Entities::Teams']]],
+  ['title_2',['Title',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a21d537f518ff539afe32e0430de6419d',1,'LichessNET.Entities.Social.LichessUser.Title'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fab',1,'LichessNET.Entities.Enumerations.Title']]],
+  ['tosviolation_3',['TosViolation',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a5186837284e6d47656bc6506e4701256',1,'LichessNET::Entities::Social::LichessUser']]],
+  ['totalgames_4',['TotalGames',['../classLichessNET_1_1Entities_1_1Social_1_1Matchup.html#af3beb5e3b6fc5446a483c5cec5b84f30',1,'LichessNET::Entities::Social::Matchup']]],
+  ['totalspan_5',['TotalSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a0a8437aeab338e34a242cf19bee5c76f',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
+  ['tvspan_6',['TvSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a1b39e8779a0524886df48814a1b9d507',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
+  ['twitch_7',['Twitch',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a363263007b0a0f8b06a0c5681cc584c1',1,'LichessNET::Entities::Social::StreamingInfo']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['id_0',['Id',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a05c90a16f553caf9af81c4bf8625c4d1',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['installation_1',['Installation',['../md_README.html#autotoc_md1',1,'']]]
+  ['href_20https_3a_20rabergsel_20github_20io_20lichessnet_20index_20html_20documentation_20a_0',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
+  ['html_20documentation_20a_1',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
+  ['https_3a_20rabergsel_20github_20io_20lichessnet_20index_20html_20documentation_20a_2',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]]
 ];
