@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "LichessNET Documentation", "index.html", [
+    [ "readme", "md_doxygen__css_2readme.html", null ],
     [ "README", "md_README.html", [
       [ "LichessNET", "md_README.html#autotoc_md0", [
         [ "Documentation", "md_README.html#autotoc_md1", null ],
