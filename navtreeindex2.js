@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#ae28261aae0eb9ca09355af0d9f59e69c":[2,0,0,1,4,6,0],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#ae28261aae0eb9ca09355af0d9f59e69c":[3,0,0,1,3,6,0],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#aea52e966a3467493e7893312e28440eb":[2,0,0,1,4,6,3],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#aea52e966a3467493e7893312e28440eb":[3,0,0,1,3,6,3],
@@ -174,11 +175,12 @@ var NAVTREEINDEX2 =
 "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a7206552e0c2aea5ff690787a3174a2bdaa72412a026b529ad03128dbaa431c635":[2,0,0,1,1,1,1],
 "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a7206552e0c2aea5ff690787a3174a2bdacf707b8fe61c9f34bbb3750574420a41":[2,0,0,1,1,1,2],
 "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fab":[2,0,0,1,1,3],
-"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba090401c358a794ab8cc43773bde7b5cd":[2,0,0,1,1,3,3],
-"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba277dd68fe14717dcff20e76ca03772e4":[2,0,0,1,1,3,2],
+"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba090401c358a794ab8cc43773bde7b5cd":[2,0,0,1,1,3,4],
+"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba277dd68fe14717dcff20e76ca03772e4":[2,0,0,1,1,3,3],
 "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba4d42fd7ad795178d64613eba2a2aa9ad":[2,0,0,1,1,3,0],
-"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba6adf97f83acf6453d4a6a4b1070f3754":[2,0,0,1,1,3,4],
-"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabad0fa7c3b5984b6f28d08dcba9cc682ec":[2,0,0,1,1,3,1],
+"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba6adf97f83acf6453d4a6a4b1070f3754":[2,0,0,1,1,3,5],
+"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabaa4033ef25d14c21b1b5b5c56438062b5":[2,0,0,1,1,3,1],
+"namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabad0fa7c3b5984b6f28d08dcba9cc682ec":[2,0,0,1,1,3,2],
 "namespaceLichessNET_1_1Entities_1_1Game.html":[2,0,0,1,2],
 "namespaceLichessNET_1_1Entities_1_1Puzzle.html":[2,0,0,1,3],
 "namespaceLichessNET_1_1Entities_1_1Social.html":[2,0,0,1,4],

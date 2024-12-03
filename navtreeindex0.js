@@ -66,11 +66,12 @@ var NAVTREEINDEX0 =
 "TeamMember_8cs.html":[4,0,1,1,6,2],
 "Title_8cs.html":[4,0,1,1,1,3],
 "Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1fab":[4,0,1,1,1,3,0],
-"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba090401c358a794ab8cc43773bde7b5cd":[4,0,1,1,1,3,0,3],
-"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba277dd68fe14717dcff20e76ca03772e4":[4,0,1,1,1,3,0,2],
+"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba090401c358a794ab8cc43773bde7b5cd":[4,0,1,1,1,3,0,4],
+"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba277dd68fe14717dcff20e76ca03772e4":[4,0,1,1,1,3,0,3],
 "Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba4d42fd7ad795178d64613eba2a2aa9ad":[4,0,1,1,1,3,0,0],
-"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba6adf97f83acf6453d4a6a4b1070f3754":[4,0,1,1,1,3,0,4],
-"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1fabad0fa7c3b5984b6f28d08dcba9cc682ec":[4,0,1,1,1,3,0,1],
+"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1faba6adf97f83acf6453d4a6a4b1070f3754":[4,0,1,1,1,3,0,5],
+"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1fabaa4033ef25d14c21b1b5b5c56438062b5":[4,0,1,1,1,3,0,1],
+"Title_8cs.html#a8ce10ccfded776fc4ae674045e0f1fabad0fa7c3b5984b6f28d08dcba9cc682ec":[4,0,1,1,1,3,0,2],
 "UserRealTimeStatus_8cs.html":[4,0,1,1,4,5],
 "UsersAPI_8cs.html":[4,0,1,0,7],
 "Variant_8cs.html":[4,0,1,1,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#acb2f443a7a076e32ee94e508b0194d10":[2,0,0,1,0,1,2],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#acb2f443a7a076e32ee94e508b0194d10":[3,0,0,1,0,1,2],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ad4efd5755ce7c733b0bb2e59cd1abc34":[2,0,0,1,0,1,8],
-"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ad4efd5755ce7c733b0bb2e59cd1abc34":[3,0,0,1,0,1,8],
-"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ae4bd7e11daa518c29ec78a0a15b54699":[2,0,0,1,0,1,23]
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ad4efd5755ce7c733b0bb2e59cd1abc34":[3,0,0,1,0,1,8]
 };

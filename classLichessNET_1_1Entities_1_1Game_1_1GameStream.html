@@ -104,6 +104,9 @@ $(function(){initNavTree('classLichessNET_1_1Entities_1_1Game_1_1GameStream.html
   <div class="headertitle"><div class="title">LichessNET.Entities.Game.GameStream Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a stream for a Lichess game, handling real-time updates of moves and game information. Initializes a game stream and listens for game updates from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  
+ <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -134,7 +137,22 @@ Events</h2></td></tr>
 <tr class="memdesc:ada087ffb222a7ddcedfedc99f739dfc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when a move is made in the game.  <br /></td></tr>
 <tr class="separator:ada087ffb222a7ddcedfedc99f739dfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a stream for a Lichess game, handling real-time updates of moves and game information. Initializes a game stream and listens for game updates from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. </p>
+<p>The following example shows how to create a game stream and listen for move updates. </p><div class="fragment"><div class="line">async Task ExampleUsage()</div>
+<div class="line">{</div>
+<div class="line">    var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_class" href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessApiClient</a>();</div>
+<div class="line">    var gameStream = await <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.GetGameStreamAsync(<span class="stringliteral">&quot;someGameId&quot;</span>);</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Add an event handler to write the last move to the console</span></div>
+<div class="line">    gameStream.OnMoveMade += (sender, move) =&gt;</div>
+<div class="line">    {</div>
+<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Last move: {move.Notation}&quot;</span>);</div>
+<div class="line">    };</div>
+<div class="line">}</div>
+<div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:6</div></div>
+<div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html"><div class="ttname"><a href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessNET.API.LichessApiClient</a></div><div class="ttdoc">This class represents a client for the lichess API. It handles all ratelimits and requests.</div><div class="ttdef"><b>Definition</b> UsersAPI.cs:11</div></div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9f402a6e7725abaa9d837581ff820303" name="a9f402a6e7725abaa9d837581ff820303"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f402a6e7725abaa9d837581ff820303">&#9670;&#160;</a></span>GameStream()</h2>
 

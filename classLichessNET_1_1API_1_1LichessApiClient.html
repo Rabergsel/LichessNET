@@ -177,6 +177,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a045270b0c30bb1d283561c98d053921a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of teams that the specified user is in.  <br /></td></tr>
 <tr class="separator:a045270b0c30bb1d283561c98d053921a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a975b186fdfba4428f0ef5042278187a4" id="r_a975b186fdfba4428f0ef5042278187a4"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html">TeamMember</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975b186fdfba4428f0ef5042278187a4">GetTeamMembersAsync</a> (string teamId)</td></tr>
+<tr class="memdesc:a975b186fdfba4428f0ef5042278187a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This funciton gets the members of a team, in chronoclogical order of joining the team. (Latest first), with up to 5000 members.  <br /></td></tr>
 <tr class="separator:a975b186fdfba4428f0ef5042278187a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a8f620c3fc3cf64c9d63342dcce96b" id="r_a36a8f620c3fc3cf64c9d63342dcce96b"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html">UserRealTimeStatus</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a8f620c3fc3cf64c9d63342dcce96b">GetRealTimeUserStatusAsync</a> (string id, bool withSignal=false, bool withGameIds=false, bool withGameMetas=false)</td></tr>
 <tr class="memdesc:a36a8f620c3fc3cf64c9d63342dcce96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the real-time status of a specified user on Lichess.  <br /></td></tr>
@@ -214,7 +215,11 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a client for the lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. It handles all ratelimits and requests. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>This example shows how to initialize the LichessAPIClient. </p><div class="fragment"><div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_function" href="#a04168d76fb6f84ad24c72409f1af3c66">LichessApiClient</a>(<span class="stringliteral">&quot;YOUR_API_TOKEN&quot;</span>);</div>
+<div class="line">Console.WriteLine($<span class="stringliteral">&quot;User is part of {team.Count} teams.&quot;</span>);</div>
+<div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:6</div></div>
+<div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html_a04168d76fb6f84ad24c72409f1af3c66"><div class="ttname"><a href="#a04168d76fb6f84ad24c72409f1af3c66">LichessNET.API.LichessApiClient.LichessApiClient</a></div><div class="ttdeci">LichessApiClient(string token=&quot;&quot;)</div><div class="ttdoc">Creates a lichess API client, according to settings.</div><div class="ttdef"><b>Definition</b> LichessAPIClient.cs:40</div></div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a04168d76fb6f84ad24c72409f1af3c66" name="a04168d76fb6f84ad24c72409f1af3c66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a04168d76fb6f84ad24c72409f1af3c66">&#9670;&#160;</a></span>LichessApiClient()</h2>
 
@@ -842,6 +847,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This funciton gets the members of a team, in chronoclogical order of joining the team. (Latest first), with up to 5000 members. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">teamId</td><td>ID of the Team</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ae4bd7e11daa518c29ec78a0a15b54699":[2,0,0,1,0,1,23],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ae4bd7e11daa518c29ec78a0a15b54699":[3,0,0,1,0,1,23],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#aee51921db7a48a7b74770d3b9e1cc90c":[2,0,0,1,0,1,5],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#aee51921db7a48a7b74770d3b9e1cc90c":[3,0,0,1,0,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a3c909b0df2a73da589c2134789a3b3c4":[2,0,0,1,4,6,6],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a3c909b0df2a73da589c2134789a3b3c4":[3,0,0,1,3,6,6],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a87c5978a9709902eb574f996078a9c74":[2,0,0,1,4,6,5],
-"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a87c5978a9709902eb574f996078a9c74":[3,0,0,1,3,6,5],
-"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#ae28261aae0eb9ca09355af0d9f59e69c":[2,0,0,1,4,6,0]
+"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a87c5978a9709902eb574f996078a9c74":[3,0,0,1,3,6,5]
 };
