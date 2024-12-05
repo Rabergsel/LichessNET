@@ -65,8 +65,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "APIRatelimitController_8cs.html",
-"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ae4bd7e11daa518c29ec78a0a15b54699",
-"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#ae28261aae0eb9ca09355af0d9f59e69c"
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a9890a880da8f5766dbed43112bac2487",
+"classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a363263007b0a0f8b06a0c5681cc584c1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

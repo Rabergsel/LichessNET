@@ -6,12 +6,11 @@ var searchData=
   ['im_3',['Im',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabad0fa7c3b5984b6f28d08dcba9cc682ec',1,'LichessNET::Entities::Enumerations']]],
   ['import_4',['Import',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a3171a98072f91d6977bdb849b402e8ee',1,'LichessNET::Entities::Stats::GameCounts']]],
   ['index_20html_20documentation_20a_5',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
-  ['initialfen_6',['initialFEN',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a5c8b7d693e19235dd8ac673eb1db595a',1,'LichessNET::Entities::Game::GameStream']]],
-  ['initialply_7',['InitialPly',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html#ae37aeef76965733348faebe00b7a1237',1,'LichessNET::Entities::Puzzle::Puzzle']]],
-  ['insightshare_8',['InsightShare',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211',1,'LichessNET::Entities::Account::Preferences']]],
-  ['installation_9',['Installation',['../md_README.html#autotoc_md2',1,'']]],
-  ['io_20lichessnet_20index_20html_20documentation_20a_10',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
-  ['is3d_11',['Is3d',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a6fcd28f62cd22ac6b5499b84370bae29',1,'LichessNET::Entities::Account::Preferences']]],
-  ['ismyturn_12',['IsMyTurn',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a912d6b490180d7481d0324bd7a3d027c',1,'LichessNET::Entities::Game::OngoingGame']]],
-  ['iswhite_13',['IsWhite',['../classLichessNET_1_1Entities_1_1Game_1_1Move.html#a1b7f5822216f93c158a25abcca15bb76',1,'LichessNET::Entities::Game::Move']]]
+  ['initialply_6',['InitialPly',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html#ae37aeef76965733348faebe00b7a1237',1,'LichessNET::Entities::Puzzle::Puzzle']]],
+  ['insightshare_7',['InsightShare',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211',1,'LichessNET::Entities::Account::Preferences']]],
+  ['installation_8',['Installation',['../md_README.html#autotoc_md2',1,'']]],
+  ['io_20lichessnet_20index_20html_20documentation_20a_9',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
+  ['is3d_10',['Is3d',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a6fcd28f62cd22ac6b5499b84370bae29',1,'LichessNET::Entities::Account::Preferences']]],
+  ['ismyturn_11',['IsMyTurn',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a912d6b490180d7481d0324bd7a3d027c',1,'LichessNET::Entities::Game::OngoingGame']]],
+  ['iswhite_12',['IsWhite',['../classLichessNET_1_1Entities_1_1Game_1_1Move.html#a1b7f5822216f93c158a25abcca15bb76',1,'LichessNET::Entities::Game::Move']]]
 ];

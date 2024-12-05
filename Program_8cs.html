@@ -105,27 +105,50 @@ $(function(){initNavTree('Program_8cs.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adcfbbadd1015e51327e059fa4dd184f8" id="r_adcfbbadd1015e51327e059fa4dd184f8"><td class="memItemLeft" align="right" valign="top">Console.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcfbbadd1015e51327e059fa4dd184f8">WriteLine</a> (JsonSerializer.Serialize(<a class="el" href="#adf0789d5e16c3379b340bcc442a7e1a7">puzzle</a>, new JsonSerializerOptions { WriteIndented=true }))</td></tr>
-<tr class="separator:adcfbbadd1015e51327e059fa4dd184f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42b148603fa31e853bd5122bce692ca" id="r_aa42b148603fa31e853bd5122bce692ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa42b148603fa31e853bd5122bce692ca">while</a> (true)</td></tr>
+<tr class="separator:aa42b148603fa31e853bd5122bce692ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ebbc5d41a61194764543832eef8e29" id="r_ae3ebbc5d41a61194764543832eef8e29"><td class="memItemLeft" align="right" valign="top">await Task.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3ebbc5d41a61194764543832eef8e29">Delay</a> (-1)</td></tr>
+<tr class="separator:ae3ebbc5d41a61194764543832eef8e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:af46081dcabb4da1ee7ca00228506bcb7" id="r_af46081dcabb4da1ee7ca00228506bcb7"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af46081dcabb4da1ee7ca00228506bcb7">client</a> = new <a class="el" href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessApiClient</a>(File.ReadAllText(&quot;token.txt&quot;))</td></tr>
 <tr class="separator:af46081dcabb4da1ee7ca00228506bcb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf0789d5e16c3379b340bcc442a7e1a7" id="r_adf0789d5e16c3379b340bcc442a7e1a7"><td class="memItemLeft" align="right" valign="top">var&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf0789d5e16c3379b340bcc442a7e1a7">puzzle</a> = await client.GetTeamOfUserAsync(&quot;thibault&quot;)</td></tr>
-<tr class="separator:adf0789d5e16c3379b340bcc442a7e1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf31e23d36657e6561136dacab73ff5" id="r_abaf31e23d36657e6561136dacab73ff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaf31e23d36657e6561136dacab73ff5">gameStream</a></td></tr>
+<tr class="separator:abaf31e23d36657e6561136dacab73ff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0eeaf307ab426ff85bfee3e6d2863dd" id="r_af0eeaf307ab426ff85bfee3e6d2863dd"><td class="memItemLeft" align="right" valign="top">gameStream.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0eeaf307ab426ff85bfee3e6d2863dd">OnGameInfoFetched</a></td></tr>
+<tr class="separator:af0eeaf307ab426ff85bfee3e6d2863dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86bf53d644ed7c5ea2dc8dcf5db0339d" id="r_a86bf53d644ed7c5ea2dc8dcf5db0339d"><td class="memItemLeft" align="right" valign="top">gameStream.&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86bf53d644ed7c5ea2dc8dcf5db0339d">OnMoveMade</a></td></tr>
+<tr class="separator:a86bf53d644ed7c5ea2dc8dcf5db0339d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="adcfbbadd1015e51327e059fa4dd184f8" name="adcfbbadd1015e51327e059fa4dd184f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcfbbadd1015e51327e059fa4dd184f8">&#9670;&#160;</a></span>WriteLine()</h2>
+<a id="ae3ebbc5d41a61194764543832eef8e29" name="ae3ebbc5d41a61194764543832eef8e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ebbc5d41a61194764543832eef8e29">&#9670;&#160;</a></span>Delay()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Console. WriteLine </td>
+          <td class="memname">await Task. Delay </td>
           <td>(</td>
-          <td class="paramtype">JsonSerializer.</td>          <td class="paramname"><span class="paramname"><em>Serialize</em></span>puzzle, new JsonSerializerOptions { WriteIndented=true }</td><td>)</td>
+          <td class="paramtype">-</td>          <td class="paramname"><span class="paramname"><em>1</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa42b148603fa31e853bd5122bce692ca" name="aa42b148603fa31e853bd5122bce692ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42b148603fa31e853bd5122bce692ca">&#9670;&#160;</a></span>while()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">while </td>
+          <td>(</td>
+          <td class="paramtype">true</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -148,18 +171,54 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adf0789d5e16c3379b340bcc442a7e1a7" name="adf0789d5e16c3379b340bcc442a7e1a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf0789d5e16c3379b340bcc442a7e1a7">&#9670;&#160;</a></span>puzzle</h2>
+<a id="abaf31e23d36657e6561136dacab73ff5" name="abaf31e23d36657e6561136dacab73ff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaf31e23d36657e6561136dacab73ff5">&#9670;&#160;</a></span>gameStream</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">var puzzle = await client.GetTeamOfUserAsync(&quot;thibault&quot;)</td>
+          <td class="memname"><a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a> gameStream</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="af0eeaf307ab426ff85bfee3e6d2863dd" name="af0eeaf307ab426ff85bfee3e6d2863dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0eeaf307ab426ff85bfee3e6d2863dd">&#9670;&#160;</a></span>OnGameInfoFetched</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gameStream. OnGameInfoFetched</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= (sender, game) =&gt;</div>
+<div class="line">{</div>
+<div class="line">    Console.WriteLine(JsonSerializer.Serialize(game, <span class="keyword">new</span> JsonSerializerOptions { WriteIndented = true }));</div>
+<div class="line">}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a86bf53d644ed7c5ea2dc8dcf5db0339d" name="a86bf53d644ed7c5ea2dc8dcf5db0339d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86bf53d644ed7c5ea2dc8dcf5db0339d">&#9670;&#160;</a></span>OnMoveMade</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gameStream. OnMoveMade</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= (sender, move) =&gt;</div>
+<div class="line">{</div>
+<div class="line">    Console.WriteLine(JsonSerializer.Serialize(move, <span class="keyword">new</span> JsonSerializerOptions { WriteIndented = true }));</div>
+<div class="line">}</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

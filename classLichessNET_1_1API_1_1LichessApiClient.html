@@ -143,6 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c357d67e89434029fe75d2bf4576f26" id="r_a5c357d67e89434029fe75d2bf4576f26"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Game.html">Game</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c357d67e89434029fe75d2bf4576f26">GetGamesAsync</a> (string username, int max=10)</td></tr>
 <tr class="memdesc:a5c357d67e89434029fe75d2bf4576f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a list of chess games for a specified user from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
 <tr class="separator:a5c357d67e89434029fe75d2bf4576f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28379c3224a7561b5e90d670a342aff3" id="r_a28379c3224a7561b5e90d670a342aff3"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Game.html">Game</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28379c3224a7561b5e90d670a342aff3">GetGamesAsync</a> (params string[] ids)</td></tr>
+<tr class="memdesc:a28379c3224a7561b5e90d670a342aff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves multiple chess games from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> using a list of unique identifiers.  <br /></td></tr>
+<tr class="separator:a28379c3224a7561b5e90d670a342aff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581ae0d6431020eff5fe28723102856b" id="r_a581ae0d6431020eff5fe28723102856b"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Game.html">Game</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a581ae0d6431020eff5fe28723102856b">GetImportedGamesAsync</a> ()</td></tr>
 <tr class="memdesc:a581ae0d6431020eff5fe28723102856b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a list of chess games that have been imported to the Lichess platform.  <br /></td></tr>
 <tr class="separator:a581ae0d6431020eff5fe28723102856b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +158,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9956eb597247abcaa0b7ac8aa4e10293" id="r_a9956eb597247abcaa0b7ac8aa4e10293"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9956eb597247abcaa0b7ac8aa4e10293">GetGameStreamAsync</a> (string gameId)</td></tr>
 <tr class="memdesc:a9956eb597247abcaa0b7ac8aa4e10293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a real-time stream of a chess game using its unique identifier from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
 <tr class="separator:a9956eb597247abcaa0b7ac8aa4e10293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb075e7f41259192394ed01068aba572" id="r_acb075e7f41259192394ed01068aba572"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb075e7f41259192394ed01068aba572">GetGameStreamByUserAsync</a> (params string[] UserIDs)</td></tr>
+<tr class="memdesc:acb075e7f41259192394ed01068aba572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stream the games played between a list of users, in real time. Only games where both players are part of the list are included. The stream emits an event each time a game is started or finished. To also get all current ongoing games at the beginning of the stream, use the withCurrentGames flag.  <br /></td></tr>
+<tr class="separator:acb075e7f41259192394ed01068aba572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a312c40eced68aed48a078e42ca4784b9" id="r_a312c40eced68aed48a078e42ca4784b9"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a312c40eced68aed48a078e42ca4784b9">GetGameStreamByIDsAsync</a> (params string[] GameIDs)</td></tr>
+<tr class="separator:a312c40eced68aed48a078e42ca4784b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab72782fc7fea47701cc8a45083007923" id="r_ab72782fc7fea47701cc8a45083007923"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab72782fc7fea47701cc8a45083007923">GetOngoingGamesAsync</a> (int maxGames=9)</td></tr>
 <tr class="memdesc:ab72782fc7fea47701cc8a45083007923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the ongoing games for the current user.  <br /></td></tr>
 <tr class="separator:ab72782fc7fea47701cc8a45083007923"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,8 +454,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a28379c3224a7561b5e90d670a342aff3" name="a28379c3224a7561b5e90d670a342aff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28379c3224a7561b5e90d670a342aff3">&#9670;&#160;</a></span>GetGamesAsync() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Game.html">Game</a> &gt; &gt; LichessNET.API.LichessApiClient.GetGamesAsync </td>
+          <td>(</td>
+          <td class="paramtype">params string[]</td>          <td class="paramname"><span class="paramname"><em>ids</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves multiple chess games from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> using a list of unique identifiers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ids</td><td>An array of unique game identifiers to retrieve.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of Game objects representing the retrieved chess games.</dd></dl>
+
+</div>
+</div>
 <a id="a5c357d67e89434029fe75d2bf4576f26" name="a5c357d67e89434029fe75d2bf4576f26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c357d67e89434029fe75d2bf4576f26">&#9670;&#160;</a></span>GetGamesAsync()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c357d67e89434029fe75d2bf4576f26">&#9670;&#160;</a></span>GetGamesAsync() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -500,6 +534,55 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A GameStream object that provides updates as the game progresses.</dd></dl>
+
+</div>
+</div>
+<a id="a312c40eced68aed48a078e42ca4784b9" name="a312c40eced68aed48a078e42ca4784b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312c40eced68aed48a078e42ca4784b9">&#9670;&#160;</a></span>GetGameStreamByIDsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a> &gt; LichessNET.API.LichessApiClient.GetGameStreamByIDsAsync </td>
+          <td>(</td>
+          <td class="paramtype">params string[]</td>          <td class="paramname"><span class="paramname"><em>GameIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb075e7f41259192394ed01068aba572" name="acb075e7f41259192394ed01068aba572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb075e7f41259192394ed01068aba572">&#9670;&#160;</a></span>GetGameStreamByUserAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1GameStream.html">GameStream</a> &gt; LichessNET.API.LichessApiClient.GetGameStreamByUserAsync </td>
+          <td>(</td>
+          <td class="paramtype">params string[]</td>          <td class="paramname"><span class="paramname"><em>UserIDs</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stream the games played between a list of users, in real time. Only games where both players are part of the list are included. The stream emits an event each time a game is started or finished. To also get all current ongoing games at the beginning of the stream, use the withCurrentGames flag. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">UserIDs</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

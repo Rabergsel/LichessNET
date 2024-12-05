@@ -16,8 +16,9 @@ var searchData=
   ['registerbucket_13',['RegisterBucket',['../classLichessNET_1_1API_1_1ApiRatelimitController.html#ab79ba8cc02314d8afc3f480a46b901cb',1,'LichessNET::API::ApiRatelimitController']]],
   ['replay_14',['Replay',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a86ea12c8407ef3f06e99bdfc9fcb9af3',1,'LichessNET::Entities::Account::Preferences']]],
   ['reportblock_15',['ReportBlock',['../classLichessNET_1_1API_1_1ApiRatelimitController.html#ad70bef25965f496290f28ddf0da22b78',1,'LichessNET::API::ApiRatelimitController']]],
-  ['requested_16',['Requested',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#a071d8ab4db0621819503b5131671cc3b',1,'LichessNET::Entities::Teams::LichessTeam']]],
-  ['requesturi_17',['requestUri',['../classLichessNET_1_1API_1_1LichessStream.html#a3d1f0634eee921af1f0d1b2675491f53',1,'LichessNET::API::LichessStream']]],
-  ['result_18',['Result',['../classLichessNET_1_1Entities_1_1Game_1_1Game.html#a6cb75b042535621a079b9f57200c7e3d',1,'LichessNET::Entities::Game::Game']]],
-  ['rookcastle_19',['RookCastle',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a5e91131202c01132ecc5f8e1dfb4e5b5',1,'LichessNET::Entities::Account::Preferences']]]
+  ['request_16',['request',['../classLichessNET_1_1API_1_1LichessStream.html#a489d478f2af26ff15b5b9fd467c80099',1,'LichessNET::API::LichessStream']]],
+  ['requested_17',['Requested',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#a071d8ab4db0621819503b5131671cc3b',1,'LichessNET::Entities::Teams::LichessTeam']]],
+  ['requesturi_18',['requestUri',['../classLichessNET_1_1API_1_1LichessStream.html#a3d1f0634eee921af1f0d1b2675491f53',1,'LichessNET::API::LichessStream']]],
+  ['result_19',['Result',['../classLichessNET_1_1Entities_1_1Game_1_1Game.html#a6cb75b042535621a079b9f57200c7e3d',1,'LichessNET::Entities::Game::Game']]],
+  ['rookcastle_20',['RookCastle',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a5e91131202c01132ecc5f8e1dfb4e5b5',1,'LichessNET::Entities::Account::Preferences']]]
 ];

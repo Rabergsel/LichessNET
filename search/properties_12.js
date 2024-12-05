@@ -9,7 +9,6 @@ var searchData=
   ['totalgames_6',['TotalGames',['../classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html#a10a435d1e50bbae7252ee3afd9a58781',1,'LichessNET.Entities.Social.CrossTable.TotalGames'],['../classLichessNET_1_1Entities_1_1Social_1_1Matchup.html#af3beb5e3b6fc5446a483c5cec5b84f30',1,'LichessNET.Entities.Social.Matchup.TotalGames']]],
   ['totalspan_7',['TotalSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a0a8437aeab338e34a242cf19bee5c76f',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
   ['transp_8',['Transp',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a657a2936a8805784e654718e3e9872c4',1,'LichessNET::Entities::Account::Preferences']]],
-  ['turns_9',['Turns',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a608a2daedabdc95d69196ff58b846530',1,'LichessNET::Entities::Game::GameStream']]],
-  ['tvspan_10',['TvSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a1b39e8779a0524886df48814a1b9d507',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
-  ['twitch_11',['Twitch',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a363263007b0a0f8b06a0c5681cc584c1',1,'LichessNET::Entities::Social::StreamingInfo']]]
+  ['tvspan_9',['TvSpan',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#a1b39e8779a0524886df48814a1b9d507',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
+  ['twitch_10',['Twitch',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html#a363263007b0a0f8b06a0c5681cc584c1',1,'LichessNET::Entities::Social::StreamingInfo']]]
 ];

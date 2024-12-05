@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['total_0',['Total',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#aea7cb21fbeadf81f746424c22a723436',1,'LichessNET::Entities::Stats::PlaytimeStats']]],
-  ['tv_1',['Tv',['../classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html#ac4f0f4cbc3b2aced12799614a46eb469',1,'LichessNET::Entities::Stats::PlaytimeStats']]]
+  ['ongameinfofetched_0',['OnGameInfoFetched',['../Program_8cs.html#af0eeaf307ab426ff85bfee3e6d2863dd',1,'Program.cs']]],
+  ['onmovemade_1',['OnMoveMade',['../Program_8cs.html#a86bf53d644ed7c5ea2dc8dcf5db0339d',1,'Program.cs']]]
 ];

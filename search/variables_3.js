@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['puzzle_0',['puzzle',['../Program_8cs.html#adf0789d5e16c3379b340bcc442a7e1a7',1,'Program.cs']]]
+  ['lichessstreamcounter_0',['LichessStreamCounter',['../classLichessNET_1_1API_1_1LichessStream.html#ac74f00e0235b110d04f2a3271fd1193c',1,'LichessNET::API::LichessStream']]]
 ];

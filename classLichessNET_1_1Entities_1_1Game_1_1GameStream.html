@@ -98,8 +98,9 @@ $(function(){initNavTree('classLichessNET_1_1Entities_1_1Game_1_1GameStream.html
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classLichessNET_1_1Entities_1_1Game_1_1GameStream-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">LichessNET.Entities.Game.GameStream Class Reference</div></div>
 </div><!--header-->
@@ -110,39 +111,42 @@ $(function(){initNavTree('classLichessNET_1_1Entities_1_1Game_1_1GameStream.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a88ca81a32617fef29542d1c0be5333c3" id="r_a88ca81a32617fef29542d1c0be5333c3"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88ca81a32617fef29542d1c0be5333c3">GameInfoFetchedHandler</a> (object sender, <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a> game)</td></tr>
+<tr class="separator:a88ca81a32617fef29542d1c0be5333c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36e53175205b8ced1a0ba88e0dfa534d" id="r_a36e53175205b8ced1a0ba88e0dfa534d"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36e53175205b8ced1a0ba88e0dfa534d">MoveUpdateHandler</a> (object sender, <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Move.html">Move</a> move)</td></tr>
 <tr class="separator:a36e53175205b8ced1a0ba88e0dfa534d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f402a6e7725abaa9d837581ff820303" id="r_a9f402a6e7725abaa9d837581ff820303"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f402a6e7725abaa9d837581ff820303">GameStream</a> (string id)</td></tr>
-<tr class="memdesc:a9f402a6e7725abaa9d837581ff820303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a game stream for a Lichess game, allowing real-time tracking of moves and game state.  <br /></td></tr>
-<tr class="separator:a9f402a6e7725abaa9d837581ff820303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a5c8b7d693e19235dd8ac673eb1db595a" id="r_a5c8b7d693e19235dd8ac673eb1db595a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8b7d693e19235dd8ac673eb1db595a">initialFEN</a> = &quot;&quot;<code> [get, set]</code></td></tr>
-<tr class="separator:a5c8b7d693e19235dd8ac673eb1db595a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dc0b3af43304cdec42119abebe7d7ae" id="r_a3dc0b3af43304cdec42119abebe7d7ae"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dc0b3af43304cdec42119abebe7d7ae">player</a> = &quot;&quot;<code> [get, set]</code></td></tr>
-<tr class="separator:a3dc0b3af43304cdec42119abebe7d7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af19fa290ed9296c7b14cefa0b5f5d08b" id="r_af19fa290ed9296c7b14cefa0b5f5d08b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af19fa290ed9296c7b14cefa0b5f5d08b">lastMove</a> = &quot;&quot;<code> [get, set]</code></td></tr>
-<tr class="separator:af19fa290ed9296c7b14cefa0b5f5d08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a608a2daedabdc95d69196ff58b846530" id="r_a608a2daedabdc95d69196ff58b846530"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608a2daedabdc95d69196ff58b846530">Turns</a> = 0<code> [get, set]</code></td></tr>
-<tr class="separator:a608a2daedabdc95d69196ff58b846530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a705a7b784a7633a066e8ca07d40820cd" id="r_a705a7b784a7633a066e8ca07d40820cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLichessNET_1_1API_1_1LichessStream.html">LichessStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a705a7b784a7633a066e8ca07d40820cd">Stream</a><code> [get, set]</code></td></tr>
-<tr class="separator:a705a7b784a7633a066e8ca07d40820cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cfc93bca01c94743c1f1d403cddf183" id="r_a8cfc93bca01c94743c1f1d403cddf183"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Move.html">Move</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cfc93bca01c94743c1f1d403cddf183">Moves</a> = new List&lt;<a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Move.html">Move</a>&gt;()<code> [get, set]</code></td></tr>
-<tr class="separator:a8cfc93bca01c94743c1f1d403cddf183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a521afab9b93be0e6338c3947643be7a1" id="r_a521afab9b93be0e6338c3947643be7a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a521afab9b93be0e6338c3947643be7a1">GameStream</a> (HttpRequestMessage request, HttpMethod method)</td></tr>
+<tr class="separator:a521afab9b93be0e6338c3947643be7a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:ada087ffb222a7ddcedfedc99f739dfc7" id="r_ada087ffb222a7ddcedfedc99f739dfc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a36e53175205b8ced1a0ba88e0dfa534d">MoveUpdateHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada087ffb222a7ddcedfedc99f739dfc7">OnMoveMade</a></td></tr>
-<tr class="memdesc:ada087ffb222a7ddcedfedc99f739dfc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Occurs when a move is made in the game.  <br /></td></tr>
-<tr class="separator:ada087ffb222a7ddcedfedc99f739dfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551b55045173c646c23cad82fa67ae96" id="r_a551b55045173c646c23cad82fa67ae96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a36e53175205b8ced1a0ba88e0dfa534d">MoveUpdateHandler</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a551b55045173c646c23cad82fa67ae96">OnMoveMade</a></td></tr>
+<tr class="separator:a551b55045173c646c23cad82fa67ae96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04bf88e592c2adff80580b17a723e43e" id="r_a04bf88e592c2adff80580b17a723e43e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a88ca81a32617fef29542d1c0be5333c3">GameInfoFetchedHandler</a>?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04bf88e592c2adff80580b17a723e43e">OnGameInfoFetched</a></td></tr>
+<tr class="separator:a04bf88e592c2adff80580b17a723e43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a51e9da5904a088309810ccb73aca85b7" id="r_a51e9da5904a088309810ccb73aca85b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51e9da5904a088309810ccb73aca85b7">ProcessData</a> (object o, JObject data)</td></tr>
+<tr class="separator:a51e9da5904a088309810ccb73aca85b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e6de481175ab0a8370e240e33ea12d0" id="r_a7e6de481175ab0a8370e240e33ea12d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e6de481175ab0a8370e240e33ea12d0">FetchDataForNewGame</a> (JObject data)</td></tr>
+<tr class="separator:a7e6de481175ab0a8370e240e33ea12d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6f410c7e36c3434ac9e234124a98d8" id="r_a2b6f410c7e36c3434ac9e234124a98d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6f410c7e36c3434ac9e234124a98d8">FetchDataForMove</a> (JObject data)</td></tr>
+<tr class="separator:a2b6f410c7e36c3434ac9e234124a98d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a4ae3998a3ed398f7fe49b3db4d97ea12" id="r_a4ae3998a3ed398f7fe49b3db4d97ea12"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; string, <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ae3998a3ed398f7fe49b3db4d97ea12">_games</a> = new Dictionary&lt;string, <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a>&gt;()</td></tr>
+<tr class="separator:a4ae3998a3ed398f7fe49b3db4d97ea12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d63f8b9340d2fe1d7eff8ad4cab24c" id="r_a42d63f8b9340d2fe1d7eff8ad4cab24c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLichessNET_1_1API_1_1LichessStream.html">LichessStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d63f8b9340d2fe1d7eff8ad4cab24c">_stream</a></td></tr>
+<tr class="separator:a42d63f8b9340d2fe1d7eff8ad4cab24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a stream for a Lichess game, handling real-time updates of moves and game information. Initializes a game stream and listens for game updates from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. </p>
 <p>The following example shows how to create a game stream and listen for move updates. </p><div class="fragment"><div class="line">async Task ExampleUsage()</div>
 <div class="line">{</div>
 <div class="line">    var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_class" href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessApiClient</a>();</div>
-<div class="line">    var gameStream = await <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.GetGameStreamAsync(<span class="stringliteral">&quot;someGameId&quot;</span>);</div>
+<div class="line">    var <a class="code hl_variable" href="Program_8cs.html#abaf31e23d36657e6561136dacab73ff5">gameStream</a> = await <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.GetGameStreamAsync(<span class="stringliteral">&quot;someGameId&quot;</span>);</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Add an event handler to write the last move to the console</span></div>
 <div class="line">    gameStream.OnMoveMade += (sender, move) =&gt;</div>
@@ -150,11 +154,12 @@ Events</h2></td></tr>
 <div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Last move: {move.Notation}&quot;</span>);</div>
 <div class="line">    };</div>
 <div class="line">}</div>
+<div class="ttc" id="aProgram_8cs_html_abaf31e23d36657e6561136dacab73ff5"><div class="ttname"><a href="Program_8cs.html#abaf31e23d36657e6561136dacab73ff5">gameStream</a></div><div class="ttdeci">GameStream gameStream</div><div class="ttdef"><b>Definition</b> Program.cs:8</div></div>
 <div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:6</div></div>
 <div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html"><div class="ttname"><a href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessNET.API.LichessApiClient</a></div><div class="ttdoc">This class represents a client for the lichess API. It handles all ratelimits and requests.</div><div class="ttdef"><b>Definition</b> UsersAPI.cs:11</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9f402a6e7725abaa9d837581ff820303" name="a9f402a6e7725abaa9d837581ff820303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f402a6e7725abaa9d837581ff820303">&#9670;&#160;</a></span>GameStream()</h2>
+<a id="a521afab9b93be0e6338c3947643be7a1" name="a521afab9b93be0e6338c3947643be7a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a521afab9b93be0e6338c3947643be7a1">&#9670;&#160;</a></span>GameStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,17 +167,90 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">LichessNET.Entities.Game.GameStream.GameStream </td>
           <td>(</td>
-          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td class="paramtype">HttpRequestMessage</td>          <td class="paramname"><span class="paramname"><em>request</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">HttpMethod</td>          <td class="paramname"><span class="paramname"><em>method</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Represents a game stream for a Lichess game, allowing real-time tracking of moves and game state. </p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2b6f410c7e36c3434ac9e234124a98d8" name="a2b6f410c7e36c3434ac9e234124a98d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b6f410c7e36c3434ac9e234124a98d8">&#9670;&#160;</a></span>FetchDataForMove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LichessNET.Entities.Game.GameStream.FetchDataForMove </td>
+          <td>(</td>
+          <td class="paramtype">JObject</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e6de481175ab0a8370e240e33ea12d0" name="a7e6de481175ab0a8370e240e33ea12d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e6de481175ab0a8370e240e33ea12d0">&#9670;&#160;</a></span>FetchDataForNewGame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LichessNET.Entities.Game.GameStream.FetchDataForNewGame </td>
+          <td>(</td>
+          <td class="paramtype">JObject</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88ca81a32617fef29542d1c0be5333c3" name="a88ca81a32617fef29542d1c0be5333c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88ca81a32617fef29542d1c0be5333c3">&#9670;&#160;</a></span>GameInfoFetchedHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">delegate void LichessNET.Entities.Game.GameStream.GameInfoFetchedHandler </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>sender</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a></td>          <td class="paramname"><span class="paramname"><em>game</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a36e53175205b8ced1a0ba88e0dfa534d" name="a36e53175205b8ced1a0ba88e0dfa534d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36e53175205b8ced1a0ba88e0dfa534d">&#9670;&#160;</a></span>MoveUpdateHandler()</h2>
 
@@ -194,9 +272,8 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="a5c8b7d693e19235dd8ac673eb1db595a" name="a5c8b7d693e19235dd8ac673eb1db595a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c8b7d693e19235dd8ac673eb1db595a">&#9670;&#160;</a></span>initialFEN</h2>
+<a id="a51e9da5904a088309810ccb73aca85b7" name="a51e9da5904a088309810ccb73aca85b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e9da5904a088309810ccb73aca85b7">&#9670;&#160;</a></span>ProcessData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,20 +282,28 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string LichessNET.Entities.Game.GameStream.initialFEN = &quot;&quot;</td>
+          <td class="memname">void LichessNET.Entities.Game.GameStream.ProcessData </td>
+          <td>(</td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>o</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">JObject</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af19fa290ed9296c7b14cefa0b5f5d08b" name="af19fa290ed9296c7b14cefa0b5f5d08b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af19fa290ed9296c7b14cefa0b5f5d08b">&#9670;&#160;</a></span>lastMove</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4ae3998a3ed398f7fe49b3db4d97ea12" name="a4ae3998a3ed398f7fe49b3db4d97ea12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ae3998a3ed398f7fe49b3db4d97ea12">&#9670;&#160;</a></span>_games</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,20 +312,20 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">string LichessNET.Entities.Game.GameStream.lastMove = &quot;&quot;</td>
+          <td class="memname">Dictionary&lt;string, <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a>&gt; LichessNET.Entities.Game.GameStream._games = new Dictionary&lt;string, <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a>&gt;()</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8cfc93bca01c94743c1f1d403cddf183" name="a8cfc93bca01c94743c1f1d403cddf183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cfc93bca01c94743c1f1d403cddf183">&#9670;&#160;</a></span>Moves</h2>
+<a id="a42d63f8b9340d2fe1d7eff8ad4cab24c" name="a42d63f8b9340d2fe1d7eff8ad4cab24c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d63f8b9340d2fe1d7eff8ad4cab24c">&#9670;&#160;</a></span>_stream</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,78 +334,12 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Move.html">Move</a>&gt; LichessNET.Entities.Game.GameStream.Moves = new List&lt;<a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Move.html">Move</a>&gt;()</td>
+          <td class="memname"><a class="el" href="classLichessNET_1_1API_1_1LichessStream.html">LichessStream</a> LichessNET.Entities.Game.GameStream._stream</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3dc0b3af43304cdec42119abebe7d7ae" name="a3dc0b3af43304cdec42119abebe7d7ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3dc0b3af43304cdec42119abebe7d7ae">&#9670;&#160;</a></span>player</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">string LichessNET.Entities.Game.GameStream.player = &quot;&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a705a7b784a7633a066e8ca07d40820cd" name="a705a7b784a7633a066e8ca07d40820cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a705a7b784a7633a066e8ca07d40820cd">&#9670;&#160;</a></span>Stream</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classLichessNET_1_1API_1_1LichessStream.html">LichessStream</a> LichessNET.Entities.Game.GameStream.Stream</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a608a2daedabdc95d69196ff58b846530" name="a608a2daedabdc95d69196ff58b846530"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a608a2daedabdc95d69196ff58b846530">&#9670;&#160;</a></span>Turns</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int LichessNET.Entities.Game.GameStream.Turns = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -328,20 +347,31 @@ Events</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
-<a id="ada087ffb222a7ddcedfedc99f739dfc7" name="ada087ffb222a7ddcedfedc99f739dfc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada087ffb222a7ddcedfedc99f739dfc7">&#9670;&#160;</a></span>OnMoveMade</h2>
+<a id="a04bf88e592c2adff80580b17a723e43e" name="a04bf88e592c2adff80580b17a723e43e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04bf88e592c2adff80580b17a723e43e">&#9670;&#160;</a></span>OnGameInfoFetched</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a36e53175205b8ced1a0ba88e0dfa534d">MoveUpdateHandler</a> LichessNET.Entities.Game.GameStream.OnMoveMade</td>
+          <td class="memname"><a class="el" href="#a88ca81a32617fef29542d1c0be5333c3">GameInfoFetchedHandler</a>? LichessNET.Entities.Game.GameStream.OnGameInfoFetched</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Occurs when a move is made in the game. </p>
-<p>This event is triggered whenever a new move is processed in the game, providing the details of the move. The moves may be 3 to 60 seconds delayed. </p>
+</div>
+</div>
+<a id="a551b55045173c646c23cad82fa67ae96" name="a551b55045173c646c23cad82fa67ae96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a551b55045173c646c23cad82fa67ae96">&#9670;&#160;</a></span>OnMoveMade</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a36e53175205b8ced1a0ba88e0dfa534d">MoveUpdateHandler</a>? LichessNET.Entities.Game.GameStream.OnMoveMade</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
