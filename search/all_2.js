@@ -9,5 +9,6 @@ var searchData=
   ['blocking_6',['Blocking',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a092510e8bec068812f4b618afda412e8',1,'LichessNET::Entities::Social::LichessUser']]],
   ['blockplayerasync_7',['BlockPlayerAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a37f7ec4f1577c4f13784498853077d7a',1,'LichessNET::API::LichessApiClient']]],
   ['bookmark_8',['Bookmark',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a630b44a2e4450f8782dc6f15018768e1',1,'LichessNET::Entities::Stats::GameCounts']]],
-  ['bullet_9',['Bullet',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e',1,'LichessNET::Entities::Enumerations']]]
+  ['botapi_2ecs_9',['BotAPI.cs',['../BotAPI_8cs.html',1,'']]],
+  ['bullet_10',['Bullet',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e',1,'LichessNET::Entities::Enumerations']]]
 ];

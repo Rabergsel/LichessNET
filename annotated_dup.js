@@ -19,6 +19,7 @@ var annotated_dup =
           [ "MoveSequence", "classLichessNET_1_1Entities_1_1Game_1_1MoveSequence.html", "classLichessNET_1_1Entities_1_1Game_1_1MoveSequence" ],
           [ "OngoingGame", "classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html", "classLichessNET_1_1Entities_1_1Game_1_1OngoingGame" ],
           [ "Opponent", "classLichessNET_1_1Entities_1_1Game_1_1Opponent.html", "classLichessNET_1_1Entities_1_1Game_1_1Opponent" ],
+          [ "TimeControl", "classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html", "classLichessNET_1_1Entities_1_1Game_1_1TimeControl" ],
           [ "Variant", "classLichessNET_1_1Entities_1_1Game_1_1Variant.html", "classLichessNET_1_1Entities_1_1Game_1_1Variant" ]
         ] ],
         [ "Puzzle", "namespaceLichessNET_1_1Entities_1_1Puzzle.html", [
@@ -26,6 +27,9 @@ var annotated_dup =
           [ "PuzzleGame", "classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame.html", "classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame" ]
         ] ],
         [ "Social", "namespaceLichessNET_1_1Entities_1_1Social.html", [
+          [ "Challenge", "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html", "classLichessNET_1_1Entities_1_1Social_1_1Challenge" ],
+          [ "Challenger", "classLichessNET_1_1Entities_1_1Social_1_1Challenger.html", "classLichessNET_1_1Entities_1_1Social_1_1Challenger" ],
+          [ "ChallengeResponse", "classLichessNET_1_1Entities_1_1Social_1_1ChallengeResponse.html", "classLichessNET_1_1Entities_1_1Social_1_1ChallengeResponse" ],
           [ "CrossTable", "classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html", "classLichessNET_1_1Entities_1_1Social_1_1CrossTable" ],
           [ "LichessProfile", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile" ],
           [ "LichessUser", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html", "classLichessNET_1_1Entities_1_1Social_1_1LichessUser" ],

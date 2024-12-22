@@ -7,5 +7,6 @@ var namespaceLichessNET_1_1Entities_1_1Game =
     [ "MoveSequence", "classLichessNET_1_1Entities_1_1Game_1_1MoveSequence.html", "classLichessNET_1_1Entities_1_1Game_1_1MoveSequence" ],
     [ "OngoingGame", "classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html", "classLichessNET_1_1Entities_1_1Game_1_1OngoingGame" ],
     [ "Opponent", "classLichessNET_1_1Entities_1_1Game_1_1Opponent.html", "classLichessNET_1_1Entities_1_1Game_1_1Opponent" ],
+    [ "TimeControl", "classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html", "classLichessNET_1_1Entities_1_1Game_1_1TimeControl" ],
     [ "Variant", "classLichessNET_1_1Entities_1_1Game_1_1Variant.html", "classLichessNET_1_1Entities_1_1Game_1_1Variant" ]
 ];

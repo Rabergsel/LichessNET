@@ -21,9 +21,10 @@ var searchData=
   ['program_2ecs_18',['Program.cs',['../Program_8cs.html',1,'']]],
   ['progress_19',['Progress',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#a5d1a2db9e9a6fb8214e2c644a9b6aac1',1,'LichessNET::Entities::Stats::GamemodeStats']]],
   ['prov_20',['Prov',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#a6c338e9bd41f86ea421e82273bef85aa',1,'LichessNET::Entities::Stats::GamemodeStats']]],
-  ['puzzle_21',['Puzzle',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html',1,'LichessNET::Entities::Puzzle']]],
-  ['puzzle_2ecs_22',['Puzzle.cs',['../Puzzle_8cs.html',1,'']]],
-  ['puzzlegame_23',['PuzzleGame',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame.html',1,'LichessNET::Entities::Puzzle']]],
-  ['puzzlegame_2ecs_24',['PuzzleGame.cs',['../PuzzleGame_8cs.html',1,'']]],
-  ['puzzlesapi_2ecs_25',['PuzzlesAPI.cs',['../PuzzlesAPI_8cs.html',1,'']]]
+  ['provisional_21',['Provisional',['../classLichessNET_1_1Entities_1_1Social_1_1Challenger.html#a6ce9f618b4f6c241ae6a71d17dce40c3',1,'LichessNET::Entities::Social::Challenger']]],
+  ['puzzle_22',['Puzzle',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html',1,'LichessNET::Entities::Puzzle']]],
+  ['puzzle_2ecs_23',['Puzzle.cs',['../Puzzle_8cs.html',1,'']]],
+  ['puzzlegame_24',['PuzzleGame',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame.html',1,'LichessNET::Entities::Puzzle']]],
+  ['puzzlegame_2ecs_25',['PuzzleGame.cs',['../PuzzleGame_8cs.html',1,'']]],
+  ['puzzlesapi_2ecs_26',['PuzzlesAPI.cs',['../PuzzlesAPI_8cs.html',1,'']]]
 ];

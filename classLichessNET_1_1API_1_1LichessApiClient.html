@@ -137,6 +137,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad4f5bb63f79f2845ff77cb3b72183fa" id="r_aad4f5bb63f79f2845ff77cb3b72183fa"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4f5bb63f79f2845ff77cb3b72183fa">UnblockPlayerAsync</a> (string username)</td></tr>
 <tr class="memdesc:aad4f5bb63f79f2845ff77cb3b72183fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unblocks a player specified by username.  <br /></td></tr>
 <tr class="separator:aad4f5bb63f79f2845ff77cb3b72183fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed5acd6d453c0f42fdaf3f6bf88be902" id="r_aed5acd6d453c0f42fdaf3f6bf88be902"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed5acd6d453c0f42fdaf3f6bf88be902">AcceptChallengeAsync</a> (string challengeId)</td></tr>
+<tr class="memdesc:aed5acd6d453c0f42fdaf3f6bf88be902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts a challenge from Lichess.  <br /></td></tr>
+<tr class="separator:aed5acd6d453c0f42fdaf3f6bf88be902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc58cb11f75240bf7fdfa4ad6b80d45" id="r_abcc58cb11f75240bf7fdfa4ad6b80d45"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcc58cb11f75240bf7fdfa4ad6b80d45">DeclineChallengeAsync</a> (string challengeId, <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1">ChallengeDeniedReason</a> reason=ChallengeDeniedReason.Generic)</td></tr>
+<tr class="memdesc:abcc58cb11f75240bf7fdfa4ad6b80d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Declines a challenge from Lichess.  <br /></td></tr>
+<tr class="separator:abcc58cb11f75240bf7fdfa4ad6b80d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40c6c6ccd022c7118f961d9e14dff88" id="r_aa40c6c6ccd022c7118f961d9e14dff88"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1ChallengeResponse.html">ChallengeResponse</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa40c6c6ccd022c7118f961d9e14dff88">GetChallengesAsync</a> ()</td></tr>
+<tr class="memdesc:aa40c6c6ccd022c7118f961d9e14dff88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all challenges by a user. Those are sorted by incoming and outgoing challenges.  <br /></td></tr>
+<tr class="separator:aa40c6c6ccd022c7118f961d9e14dff88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a757960ff852aaaeaf3651b522ce9c682" id="r_a757960ff852aaaeaf3651b522ce9c682"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Challenge.html">Challenge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a757960ff852aaaeaf3651b522ce9c682">ChallengeUserAsync</a> (string username, bool rated=false, int clockLimit=0, int clockIncrement=0, int? days=null, string color=&quot;random&quot;, string variant=&quot;standard&quot;, string fen=null, bool keepAliveStream=false, string rules=null)</td></tr>
+<tr class="memdesc:a757960ff852aaaeaf3651b522ce9c682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Challenge a user to a game on Lichess.  <br /></td></tr>
+<tr class="separator:a757960ff852aaaeaf3651b522ce9c682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81faad054f90e22cf5341dae66287fd" id="r_ac81faad054f90e22cf5341dae66287fd"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1Game.html">Game</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac81faad054f90e22cf5341dae66287fd">GetGameAsync</a> (string gameId)</td></tr>
 <tr class="memdesc:ac81faad054f90e22cf5341dae66287fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a chess game using its unique identifier from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
 <tr class="separator:ac81faad054f90e22cf5341dae66287fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -254,6 +266,32 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aed5acd6d453c0f42fdaf3f6bf88be902" name="aed5acd6d453c0f42fdaf3f6bf88be902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed5acd6d453c0f42fdaf3f6bf88be902">&#9670;&#160;</a></span>AcceptChallengeAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; bool &gt; LichessNET.API.LichessApiClient.AcceptChallengeAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>challengeId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Accepts a challenge from Lichess. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">challengeId</td><td>The challenge ID to accept</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A bool whether the operation was successful or not</dd></dl>
+
+</div>
+</div>
 <a id="a37f7ec4f1577c4f13784498853077d7a" name="a37f7ec4f1577c4f13784498853077d7a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37f7ec4f1577c4f13784498853077d7a">&#9670;&#160;</a></span>BlockPlayerAsync()</h2>
 
@@ -277,6 +315,116 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean indicating whether the player was successfully blocked. </dd></dl>
+
+</div>
+</div>
+<a id="a757960ff852aaaeaf3651b522ce9c682" name="a757960ff852aaaeaf3651b522ce9c682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a757960ff852aaaeaf3651b522ce9c682">&#9670;&#160;</a></span>ChallengeUserAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Challenge.html">Challenge</a> &gt; LichessNET.API.LichessApiClient.ChallengeUserAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>username</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>rated</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>clockLimit</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>clockIncrement</em></span><span class="paramdefsep"> = </span><span class="paramdefval">0</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int?</td>          <td class="paramname"><span class="paramname"><em>days</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>color</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;random&quot;</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>variant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;standard&quot;</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>fen</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>keepAliveStream</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>rules</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Challenge a user to a game on Lichess. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>The user to challenge</td></tr>
+    <tr><td class="paramname">rated</td><td>Whether the game should be rated or not</td></tr>
+    <tr><td class="paramname">clockLimit</td><td>The clock limit</td></tr>
+    <tr><td class="paramname">clockIncrement</td><td>The increment on the clock</td></tr>
+    <tr><td class="paramname">days</td><td>Days per move (for correspondence)</td></tr>
+    <tr><td class="paramname">color</td><td>The color you want to play</td></tr>
+    <tr><td class="paramname">variant</td><td>The variant to play</td></tr>
+    <tr><td class="paramname">fen</td><td>The starting FEN</td></tr>
+    <tr><td class="paramname">keepAliveStream</td><td>Keep the challenge alive after 20 seconds</td></tr>
+    <tr><td class="paramname">rules</td><td>Rules</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The challenge entity</dd></dl>
+
+</div>
+</div>
+<a id="abcc58cb11f75240bf7fdfa4ad6b80d45" name="abcc58cb11f75240bf7fdfa4ad6b80d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcc58cb11f75240bf7fdfa4ad6b80d45">&#9670;&#160;</a></span>DeclineChallengeAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; bool &gt; LichessNET.API.LichessApiClient.DeclineChallengeAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>challengeId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1">ChallengeDeniedReason</a></td>          <td class="paramname"><span class="paramname"><em>reason</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ChallengeDeniedReason::Generic</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Declines a challenge from Lichess. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">challengeId</td><td>The challenge ID to decline</td></tr>
+    <tr><td class="paramname">reason</td><td>The reason why the challenge is declined. Default is ChallengeDeniedReason.Generic</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A bool whether the operation was successful or not</dd></dl>
 
 </div>
 </div>
@@ -369,6 +517,26 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation that returns a list of games retrieved from the specified arena.</dd></dl>
+
+</div>
+</div>
+<a id="aa40c6c6ccd022c7118f961d9e14dff88" name="aa40c6c6ccd022c7118f961d9e14dff88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40c6c6ccd022c7118f961d9e14dff88">&#9670;&#160;</a></span>GetChallengesAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1ChallengeResponse.html">ChallengeResponse</a> &gt; LichessNET.API.LichessApiClient.GetChallengesAsync </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets all challenges by a user. Those are sorted by incoming and outgoing challenges. </p>
+<dl class="section return"><dt>Returns</dt><dd>A struct with all challenges</dd></dl>
 
 </div>
 </div>
@@ -1193,6 +1361,7 @@ Private Attributes</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>LichessNET/API/<a class="el" href="AccountAPI_8cs.html">AccountAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="BotAPI_8cs.html">BotAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="GamesAPI_8cs.html">GamesAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="LichessAPIClient_8cs.html">LichessAPIClient.cs</a></li>
 <li>LichessNET/API/<a class="el" href="PuzzlesAPI_8cs.html">PuzzlesAPI.cs</a></li>

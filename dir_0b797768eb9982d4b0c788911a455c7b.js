@@ -7,5 +7,6 @@ var dir_0b797768eb9982d4b0c788911a455c7b =
     [ "MoveSequence.cs", "MoveSequence_8cs.html", "MoveSequence_8cs" ],
     [ "OngoingGame.cs", "OngoingGame_8cs.html", "OngoingGame_8cs" ],
     [ "Opponent.cs", "Opponent_8cs.html", "Opponent_8cs" ],
+    [ "TimeControl.cs", "TimeControl_8cs.html", "TimeControl_8cs" ],
     [ "Variant.cs", "Variant_8cs.html", "Variant_8cs" ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['whitevictory_0',['WhiteVictory',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a7206552e0c2aea5ff690787a3174a2bda63395104087c2ae76bbeec2528e4f604',1,'LichessNET::Entities::Enumerations']]]
+  ['unknown_0',['Unknown',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22a88183b946cc5f0e8c96b2e66e1c74a7e',1,'LichessNET::Entities::Enumerations']]]
 ];

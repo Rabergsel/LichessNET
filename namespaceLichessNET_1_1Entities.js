@@ -2,6 +2,19 @@ var namespaceLichessNET_1_1Entities =
 [
     [ "Account", "namespaceLichessNET_1_1Entities_1_1Account.html", "namespaceLichessNET_1_1Entities_1_1Account" ],
     [ "Enumerations", "namespaceLichessNET_1_1Entities_1_1Enumerations.html", [
+      [ "ChallengeDeniedReason", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1", [
+        [ "Generic", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a8045a0a6c688b0635e3caccc408a1446", null ],
+        [ "Later", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a61057a0c84605444201929bdd72014f0", null ],
+        [ "TooFast", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a7ed51091aa24c89cdef945fd606fafed", null ],
+        [ "TooSlow", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a7d02020399c3a285c8dafd26cc67ee2f", null ],
+        [ "TimeControl", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a006831096379f0baa8f58f345d95ee00", null ],
+        [ "Rated", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1ab5d3d3ec1fb0f09ed11b3736efafe912", null ],
+        [ "Casual", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a28d5d53226be8aa8da42d9cbdd312e62", null ],
+        [ "Standard", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1aeb6d8ae6f20283755b339c0dc273988b", null ],
+        [ "Variant", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a492f18b60811bf85ce118c0c6a1a5c4a", null ],
+        [ "NoBot", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1ac8e87426f2c74884b04c0f6ea5272aea", null ],
+        [ "OnlyBot", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1ad6874e291df48ab7afc9c029a6ac329f", null ]
+      ] ],
       [ "Gamemode", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c", [
         [ "Bullet", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e", null ],
         [ "Blitz", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca311e86effdada283219971cca5ad5a19", null ],
