@@ -10,6 +10,7 @@ var classLichessNET_1_1API_1_1LichessApiClient =
     [ "GetAccountPreferences", "classLichessNET_1_1API_1_1LichessApiClient.html#a3f53084f9b240f50f1efc4bb3b5c667f", null ],
     [ "GetArenaGames", "classLichessNET_1_1API_1_1LichessApiClient.html#a184133868f3695d978da35113ed19c7d", null ],
     [ "GetChallengesAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#aa40c6c6ccd022c7118f961d9e14dff88", null ],
+    [ "GetCloudEvaluationAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a32ecf8d6375949524b0ca895d443f44f", null ],
     [ "GetCrossTableAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a104a2e6dfd788eb6616299e60567508f", null ],
     [ "GetDailyPuzzle", "classLichessNET_1_1API_1_1LichessApiClient.html#a93e215a07660b519279fcf19f518a052", null ],
     [ "GetGameAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ac81faad054f90e22cf5341dae66287fd", null ],

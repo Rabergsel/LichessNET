@@ -47,7 +47,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Properties", "functions_prop.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ],
@@ -55,7 +55,6 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ]
       ] ]
     ] ]
@@ -65,9 +64,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "APIRatelimitController_8cs.html",
-"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a459733a57a63518ad8239985c096e6e5",
-"classLichessNET_1_1Entities_1_1Social_1_1Challenger.html#ac870cf538eae1254c713ae61c644bb37",
-"md_README.html#autotoc_md3"
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0b11a509bce0567284bdad333d5b5f14",
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#ab68b9f18767a2bd9ae4e35847f06e785",
+"functions_e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

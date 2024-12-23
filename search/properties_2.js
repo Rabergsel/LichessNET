@@ -12,6 +12,7 @@ var searchData=
   ['confirmresign_9',['ConfirmResign',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#af6c18a20b8e93a8bcb5e6ae0814bb55a',1,'LichessNET::Entities::Account::Preferences']]],
   ['coords_10',['Coords',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a8d891416feb7bab2029549ade5adc1b1',1,'LichessNET::Entities::Account::Preferences']]],
   ['count_11',['Count',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a735e54a97a3df4152b197a6005745d63',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['createdat_12',['CreatedAt',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ad1710caf9a221dbc8c0be06d008c95e0',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['currentmatchup_13',['CurrentMatchup',['../classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html#a58b9381e706ebe0f90456fbbcb9c0508',1,'LichessNET::Entities::Social::CrossTable']]]
+  ['cp_12',['Cp',['../classLichessNET_1_1Entities_1_1Analysis_1_1PrincipalVariation.html#a3a34c193fd61f2bd37995a2194da2400',1,'LichessNET::Entities::Analysis::PrincipalVariation']]],
+  ['createdat_13',['CreatedAt',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#ad1710caf9a221dbc8c0be06d008c95e0',1,'LichessNET::Entities::Social::LichessUser']]],
+  ['currentmatchup_14',['CurrentMatchup',['../classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html#a58b9381e706ebe0f90456fbbcb9c0508',1,'LichessNET::Entities::Social::CrossTable']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ongameinfofetched_0',['OnGameInfoFetched',['../Program_8cs.html#af0eeaf307ab426ff85bfee3e6d2863dd',1,'Program.cs']]],
-  ['onmovemade_1',['OnMoveMade',['../Program_8cs.html#a86bf53d644ed7c5ea2dc8dcf5db0339d',1,'Program.cs']]]
+  ['request_0',['request',['../classLichessNET_1_1API_1_1LichessStream.html#a489d478f2af26ff15b5b9fd467c80099',1,'LichessNET::API::LichessStream']]],
+  ['requesturi_1',['requestUri',['../classLichessNET_1_1API_1_1LichessStream.html#a3d1f0634eee921af1f0d1b2675491f53',1,'LichessNET::API::LichessStream']]]
 ];

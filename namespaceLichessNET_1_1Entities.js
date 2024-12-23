@@ -1,6 +1,7 @@
 var namespaceLichessNET_1_1Entities =
 [
     [ "Account", "namespaceLichessNET_1_1Entities_1_1Account.html", "namespaceLichessNET_1_1Entities_1_1Account" ],
+    [ "Analysis", "namespaceLichessNET_1_1Entities_1_1Analysis.html", "namespaceLichessNET_1_1Entities_1_1Analysis" ],
     [ "Enumerations", "namespaceLichessNET_1_1Entities_1_1Enumerations.html", [
       [ "ChallengeDeniedReason", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1", [
         [ "Generic", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a8045a0a6c688b0635e3caccc408a1446", null ],
@@ -14,6 +15,20 @@ var namespaceLichessNET_1_1Entities =
         [ "Variant", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1a492f18b60811bf85ce118c0c6a1a5c4a", null ],
         [ "NoBot", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1ac8e87426f2c74884b04c0f6ea5272aea", null ],
         [ "OnlyBot", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1ad6874e291df48ab7afc9c029a6ac329f", null ]
+      ] ],
+      [ "ChessVariant", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6", [
+        [ "Standard", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6aeb6d8ae6f20283755b339c0dc273988b", null ],
+        [ "Chess960", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6aca8db08f4e50c6c07dc44158b2ccec24", null ],
+        [ "KingOfTheHill", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6a71443ccbab8fa905b2d7377f71274180", null ],
+        [ "ThreeCheck", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6adb0fbc8627f098b35cba9c473c8e4be4", null ],
+        [ "Antichess", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6a3250932ee7827a51ace20ba73a23b828", null ],
+        [ "Atomic", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6a557eccd321b7f10f5127c1ef27aaac7d", null ],
+        [ "Horde", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6a05d822a409e1a677e40ee5ac1db7a796", null ],
+        [ "RacingKings", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6aaa7f36c1f813a5f27c4d5178e855c8fd", null ],
+        [ "Crazyhouse", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6a712a36e0753ab7fa9a6ef16b5e745e71", null ],
+        [ "Storm", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6afdcf3cdc04f367257c92382e032b6293", null ],
+        [ "Racer", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6afeee49278a3768385896d9fd6c572fdd", null ],
+        [ "Streak", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6af4bb7b4d64f470dc5e5aca7aa1cfe624", null ]
       ] ],
       [ "Gamemode", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c", [
         [ "Bullet", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e", null ],

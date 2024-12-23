@@ -15,5 +15,6 @@ var searchData=
   ['profile_12',['Profile',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#aebcfe93e1488f57c667d707736a808af',1,'LichessNET::Entities::Social::LichessUser']]],
   ['progress_13',['Progress',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#a5d1a2db9e9a6fb8214e2c644a9b6aac1',1,'LichessNET::Entities::Stats::GamemodeStats']]],
   ['prov_14',['Prov',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html#a6c338e9bd41f86ea421e82273bef85aa',1,'LichessNET::Entities::Stats::GamemodeStats']]],
-  ['provisional_15',['Provisional',['../classLichessNET_1_1Entities_1_1Social_1_1Challenger.html#a6ce9f618b4f6c241ae6a71d17dce40c3',1,'LichessNET::Entities::Social::Challenger']]]
+  ['provisional_15',['Provisional',['../classLichessNET_1_1Entities_1_1Social_1_1Challenger.html#a6ce9f618b4f6c241ae6a71d17dce40c3',1,'LichessNET::Entities::Social::Challenger']]],
+  ['pvs_16',['Pvs',['../classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html#aa8a65150e7c53b3c5f56034c97ecf577',1,'LichessNET::Entities::Analysis::PositionEvaluation']]]
 ];

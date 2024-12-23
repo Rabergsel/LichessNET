@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fen_0',['Fen',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a2905cc50a766497d8b2331ab8121447d',1,'LichessNET::Entities::Game::OngoingGame']]],
+  ['fen_0',['Fen',['../classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html#a8fddfb806d4b873a11ea15b18cf5ae1c',1,'LichessNET.Entities.Analysis.PositionEvaluation.Fen'],['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a2905cc50a766497d8b2331ab8121447d',1,'LichessNET.Entities.Game.OngoingGame.Fen']]],
   ['fetchdataformove_1',['FetchDataForMove',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a2b6f410c7e36c3434ac9e234124a98d8',1,'LichessNET::Entities::Game::GameStream']]],
   ['fetchdatafornewgame_2',['FetchDataForNewGame',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a7e6de481175ab0a8370e240e33ea12d0',1,'LichessNET::Entities::Game::GameStream']]],
   ['fiderating_3',['FideRating',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ac47e7a31368a7d33e14d3a79d3cdb442',1,'LichessNET::Entities::Social::LichessProfile']]],

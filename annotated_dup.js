@@ -11,6 +11,10 @@ var annotated_dup =
           [ "AccountPreferences", "classLichessNET_1_1Entities_1_1Account_1_1AccountPreferences.html", "classLichessNET_1_1Entities_1_1Account_1_1AccountPreferences" ],
           [ "Preferences", "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html", "classLichessNET_1_1Entities_1_1Account_1_1Preferences" ]
         ] ],
+        [ "Analysis", "namespaceLichessNET_1_1Entities_1_1Analysis.html", [
+          [ "PositionEvaluation", "classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html", "classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation" ],
+          [ "PrincipalVariation", "classLichessNET_1_1Entities_1_1Analysis_1_1PrincipalVariation.html", "classLichessNET_1_1Entities_1_1Analysis_1_1PrincipalVariation" ]
+        ] ],
         [ "Game", "namespaceLichessNET_1_1Entities_1_1Game.html", [
           [ "Game", "classLichessNET_1_1Entities_1_1Game_1_1Game.html", "classLichessNET_1_1Entities_1_1Game_1_1Game" ],
           [ "GamePlayer", "classLichessNET_1_1Entities_1_1Game_1_1GamePlayer.html", "classLichessNET_1_1Entities_1_1Game_1_1GamePlayer" ],

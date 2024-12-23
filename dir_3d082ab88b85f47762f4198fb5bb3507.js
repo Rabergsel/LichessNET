@@ -1,6 +1,7 @@
 var dir_3d082ab88b85f47762f4198fb5bb3507 =
 [
     [ "AccountAPI.cs", "AccountAPI_8cs.html", "AccountAPI_8cs" ],
+    [ "AnalysisAPI.cs", "AnalysisAPI_8cs.html", "AnalysisAPI_8cs" ],
     [ "APIRatelimitController.cs", "APIRatelimitController_8cs.html", "APIRatelimitController_8cs" ],
     [ "BotAPI.cs", "BotAPI_8cs.html", "BotAPI_8cs" ],
     [ "GamesAPI.cs", "GamesAPI_8cs.html", "GamesAPI_8cs" ],

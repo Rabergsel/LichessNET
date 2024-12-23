@@ -137,6 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad4f5bb63f79f2845ff77cb3b72183fa" id="r_aad4f5bb63f79f2845ff77cb3b72183fa"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4f5bb63f79f2845ff77cb3b72183fa">UnblockPlayerAsync</a> (string username)</td></tr>
 <tr class="memdesc:aad4f5bb63f79f2845ff77cb3b72183fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unblocks a player specified by username.  <br /></td></tr>
 <tr class="separator:aad4f5bb63f79f2845ff77cb3b72183fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ecf8d6375949524b0ca895d443f44f" id="r_a32ecf8d6375949524b0ca895d443f44f"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html">PositionEvaluation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ecf8d6375949524b0ca895d443f44f">GetCloudEvaluationAsync</a> (string fen, int multiPv=1, <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a> variant=ChessVariant.Standard)</td></tr>
+<tr class="memdesc:a32ecf8d6375949524b0ca895d443f44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the evaluation of a position from the Lichess cloud analysis.  <br /></td></tr>
+<tr class="separator:a32ecf8d6375949524b0ca895d443f44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed5acd6d453c0f42fdaf3f6bf88be902" id="r_aed5acd6d453c0f42fdaf3f6bf88be902"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed5acd6d453c0f42fdaf3f6bf88be902">AcceptChallengeAsync</a> (string challengeId)</td></tr>
 <tr class="memdesc:aed5acd6d453c0f42fdaf3f6bf88be902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts a challenge from Lichess.  <br /></td></tr>
 <tr class="separator:aed5acd6d453c0f42fdaf3f6bf88be902"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -537,6 +540,43 @@ Private Attributes</h2></td></tr>
 
 <p>Gets all challenges by a user. Those are sorted by incoming and outgoing challenges. </p>
 <dl class="section return"><dt>Returns</dt><dd>A struct with all challenges</dd></dl>
+
+</div>
+</div>
+<a id="a32ecf8d6375949524b0ca895d443f44f" name="a32ecf8d6375949524b0ca895d443f44f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ecf8d6375949524b0ca895d443f44f">&#9670;&#160;</a></span>GetCloudEvaluationAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html">PositionEvaluation</a> &gt; LichessNET.API.LichessApiClient.GetCloudEvaluationAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>fen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>multiPv</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a></td>          <td class="paramname"><span class="paramname"><em>variant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ChessVariant::Standard</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the evaluation of a position from the Lichess cloud analysis. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fen</td><td>The FEN of the position</td></tr>
+    <tr><td class="paramname">multiPv</td><td>How much different variants to include in the analysis. Can go up to 5.</td></tr>
+    <tr><td class="paramname">variant</td><td>Which chess variant the game is from</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A PositionEvaluation object</dd></dl>
 
 </div>
 </div>
@@ -1361,6 +1401,7 @@ Private Attributes</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>LichessNET/API/<a class="el" href="AccountAPI_8cs.html">AccountAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="AnalysisAPI_8cs.html">AnalysisAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="BotAPI_8cs.html">BotAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="GamesAPI_8cs.html">GamesAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="LichessAPIClient_8cs.html">LichessAPIClient.cs</a></li>

@@ -121,6 +121,24 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a93d622d02a4836f6df139f55ad5e67a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30193e4c50293c0569bbfac946689c6" id="r_ac30193e4c50293c0569bbfac946689c6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a> { <br />
+&#160;&#160;<a class="el" href="#ac30193e4c50293c0569bbfac946689c6aeb6d8ae6f20283755b339c0dc273988b">Standard</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6aca8db08f4e50c6c07dc44158b2ccec24">Chess960</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6a71443ccbab8fa905b2d7377f71274180">KingOfTheHill</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6adb0fbc8627f098b35cba9c473c8e4be4">ThreeCheck</a>
+, <br />
+&#160;&#160;<a class="el" href="#ac30193e4c50293c0569bbfac946689c6a3250932ee7827a51ace20ba73a23b828">Antichess</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6a557eccd321b7f10f5127c1ef27aaac7d">Atomic</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6a05d822a409e1a677e40ee5ac1db7a796">Horde</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6aaa7f36c1f813a5f27c4d5178e855c8fd">RacingKings</a>
+, <br />
+&#160;&#160;<a class="el" href="#ac30193e4c50293c0569bbfac946689c6a712a36e0753ab7fa9a6ef16b5e745e71">Crazyhouse</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6afdcf3cdc04f367257c92382e032b6293">Storm</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6afeee49278a3768385896d9fd6c572fdd">Racer</a>
+, <a class="el" href="#ac30193e4c50293c0569bbfac946689c6af4bb7b4d64f470dc5e5aca7aa1cfe624">Streak</a>
+<br />
+ }</td></tr>
+<tr class="separator:ac30193e4c50293c0569bbfac946689c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23f38225f0988adc0e66c8b191dc1e5c" id="r_a23f38225f0988adc0e66c8b191dc1e5c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a> { <br />
 &#160;&#160;<a class="el" href="#a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e">Bullet</a>
 , <a class="el" href="#a23f38225f0988adc0e66c8b191dc1e5ca311e86effdada283219971cca5ad5a19">Blitz</a>
@@ -142,7 +160,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#a23f38225f0988adc0e66c8b191dc1e5caf4bb7b4d64f470dc5e5aca7aa1cfe624">Streak</a>
 <br />
  }</td></tr>
-<tr class="memdesc:a23f38225f0988adc0e66c8b191dc1e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the various game modes available in Lichess.  <a href="#a23f38225f0988adc0e66c8b191dc1e5c">More...</a><br /></td></tr>
+<tr class="memdesc:a23f38225f0988adc0e66c8b191dc1e5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the various game modes available in Lichess. This also includes all time controls for standard chess, which makes this different than the ChessVariant enumeration.  <a href="#a23f38225f0988adc0e66c8b191dc1e5c">More...</a><br /></td></tr>
 <tr class="separator:a23f38225f0988adc0e66c8b191dc1e5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7206552e0c2aea5ff690787a3174a2bd" id="r_a7206552e0c2aea5ff690787a3174a2bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7206552e0c2aea5ff690787a3174a2bd">GameResult</a> { <a class="el" href="#a7206552e0c2aea5ff690787a3174a2bda63395104087c2ae76bbeec2528e4f604">WhiteVictory</a>
 , <a class="el" href="#a7206552e0c2aea5ff690787a3174a2bdaa72412a026b529ad03128dbaa431c635">BlackVictory</a>
@@ -202,6 +220,34 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<a id="ac30193e4c50293c0569bbfac946689c6" name="ac30193e4c50293c0569bbfac946689c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30193e4c50293c0569bbfac946689c6">&#9670;&#160;</a></span>ChessVariant</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#ac30193e4c50293c0569bbfac946689c6">LichessNET.Entities.Enumerations.ChessVariant</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6aeb6d8ae6f20283755b339c0dc273988b" name="ac30193e4c50293c0569bbfac946689c6aeb6d8ae6f20283755b339c0dc273988b"></a>Standard&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6aca8db08f4e50c6c07dc44158b2ccec24" name="ac30193e4c50293c0569bbfac946689c6aca8db08f4e50c6c07dc44158b2ccec24"></a>Chess960&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6a71443ccbab8fa905b2d7377f71274180" name="ac30193e4c50293c0569bbfac946689c6a71443ccbab8fa905b2d7377f71274180"></a>KingOfTheHill&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6adb0fbc8627f098b35cba9c473c8e4be4" name="ac30193e4c50293c0569bbfac946689c6adb0fbc8627f098b35cba9c473c8e4be4"></a>ThreeCheck&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6a3250932ee7827a51ace20ba73a23b828" name="ac30193e4c50293c0569bbfac946689c6a3250932ee7827a51ace20ba73a23b828"></a>Antichess&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6a557eccd321b7f10f5127c1ef27aaac7d" name="ac30193e4c50293c0569bbfac946689c6a557eccd321b7f10f5127c1ef27aaac7d"></a>Atomic&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6a05d822a409e1a677e40ee5ac1db7a796" name="ac30193e4c50293c0569bbfac946689c6a05d822a409e1a677e40ee5ac1db7a796"></a>Horde&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6aaa7f36c1f813a5f27c4d5178e855c8fd" name="ac30193e4c50293c0569bbfac946689c6aaa7f36c1f813a5f27c4d5178e855c8fd"></a>RacingKings&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6a712a36e0753ab7fa9a6ef16b5e745e71" name="ac30193e4c50293c0569bbfac946689c6a712a36e0753ab7fa9a6ef16b5e745e71"></a>Crazyhouse&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6afdcf3cdc04f367257c92382e032b6293" name="ac30193e4c50293c0569bbfac946689c6afdcf3cdc04f367257c92382e032b6293"></a>Storm&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6afeee49278a3768385896d9fd6c572fdd" name="ac30193e4c50293c0569bbfac946689c6afeee49278a3768385896d9fd6c572fdd"></a>Racer&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac30193e4c50293c0569bbfac946689c6af4bb7b4d64f470dc5e5aca7aa1cfe624" name="ac30193e4c50293c0569bbfac946689c6af4bb7b4d64f470dc5e5aca7aa1cfe624"></a>Streak&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a23f38225f0988adc0e66c8b191dc1e5c" name="a23f38225f0988adc0e66c8b191dc1e5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23f38225f0988adc0e66c8b191dc1e5c">&#9670;&#160;</a></span>Gamemode</h2>
 
@@ -214,7 +260,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Represents the various game modes available in Lichess. </p>
+<p>Represents the various game modes available in Lichess. This also includes all time controls for standard chess, which makes this different than the <a class="el" href="#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a> enumeration. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e" name="a23f38225f0988adc0e66c8b191dc1e5ca7533f96ec01fd81438833f71539c7d4e"></a>Bullet&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a23f38225f0988adc0e66c8b191dc1e5ca311e86effdada283219971cca5ad5a19" name="a23f38225f0988adc0e66c8b191dc1e5ca311e86effdada283219971cca5ad5a19"></a>Blitz&#160;</td><td class="fielddoc"></td></tr>

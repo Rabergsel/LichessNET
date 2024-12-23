@@ -2,7 +2,7 @@ var searchData=
 [
   ['dark_0',['Dark',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a9890a880da8f5766dbed43112bac2487',1,'LichessNET::Entities::Account::Preferences']]],
   ['declinechallengeasync_1',['DeclineChallengeAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#abcc58cb11f75240bf7fdfa4ad6b80d45',1,'LichessNET::API::LichessApiClient']]],
-  ['delay_2',['Delay',['../Program_8cs.html#ae3ebbc5d41a61194764543832eef8e29',1,'Program.cs']]],
+  ['depth_2',['Depth',['../classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html#a10ac189e50caddeb0cfcb5d598d31704',1,'LichessNET::Entities::Analysis::PositionEvaluation']]],
   ['description_3',['Description',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#ae74b384f6ce3636cf09a786b1edc9208',1,'LichessNET::Entities::Teams::LichessTeam']]],
   ['deserializeratings_4',['DeserializeRatings',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a9b92c0c7c3e4d38a315c6e43390fe33a',1,'LichessNET::Entities::Social::LichessUser']]],
   ['destination_5',['Destination',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a94fa626b9869cfaa6615387c7f9cb0bd',1,'LichessNET::Entities::Account::Preferences']]],
