@@ -10,7 +10,7 @@ var searchData=
   ['index_20html_20documentation_20a_7',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
   ['initialply_8',['InitialPly',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html#ae37aeef76965733348faebe00b7a1237',1,'LichessNET::Entities::Puzzle::Puzzle']]],
   ['insightshare_9',['InsightShare',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211',1,'LichessNET::Entities::Account::Preferences']]],
-  ['installation_10',['Installation',['../md_README.html#autotoc_md2',1,'']]],
+  ['installation_10',['Installation',['../md_README.html#autotoc_md3',1,'']]],
   ['io_20lichessnet_20index_20html_20documentation_20a_11',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
   ['is3d_12',['Is3d',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a6fcd28f62cd22ac6b5499b84370bae29',1,'LichessNET::Entities::Account::Preferences']]],
   ['ismyturn_13',['IsMyTurn',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a912d6b490180d7481d0324bd7a3d027c',1,'LichessNET::Entities::Game::OngoingGame']]],
