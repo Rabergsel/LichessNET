@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['variant_0',['Variant',['../classLichessNET_1_1Entities_1_1Game_1_1Variant.html',1,'LichessNET::Entities::Game']]]
+  ['userrealtimestatus_0',['UserRealTimeStatus',['../classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html',1,'LichessNET::Entities::Social']]]
 ];

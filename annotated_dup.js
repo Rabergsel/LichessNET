@@ -6,6 +6,9 @@ var annotated_dup =
         [ "LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html", "classLichessNET_1_1API_1_1LichessApiClient" ],
         [ "LichessStream", "classLichessNET_1_1API_1_1LichessStream.html", "classLichessNET_1_1API_1_1LichessStream" ]
       ] ],
+      [ "Database", "namespaceLichessNET_1_1Database.html", [
+        [ "DatabaseClient", "classLichessNET_1_1Database_1_1DatabaseClient.html", "classLichessNET_1_1Database_1_1DatabaseClient" ]
+      ] ],
       [ "Entities", "namespaceLichessNET_1_1Entities.html", [
         [ "Account", "namespaceLichessNET_1_1Entities_1_1Account.html", [
           [ "AccountPreferences", "classLichessNET_1_1Entities_1_1Account_1_1AccountPreferences.html", "classLichessNET_1_1Entities_1_1Account_1_1AccountPreferences" ],

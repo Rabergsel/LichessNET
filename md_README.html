@@ -139,7 +139,7 @@ Usage</h2>
 <p>Without Lichess Token </p><div class="fragment"><div class="line"><span class="preprocessor"> # Without Lichess Token</span></div>
 <div class="line"><span class="keyword">using </span>LichessNET.API;</div>
 <div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> LichessAPIClient();</div>
-<div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:6</div></div>
+<div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:7</div></div>
 </div><!-- fragment --><p>With Lichess Token </p><div class="fragment"><div class="line"><span class="preprocessor"> # With Lichess Token</span></div>
 <div class="line"><span class="keyword">using </span>LichessNET.API;</div>
 <div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_class" href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessApiClient</a>(<span class="comment">/* YOUR OPTIONAL LICHESS TOKEN */</span>);</div>
@@ -152,8 +152,7 @@ Code Snippets</h2>
 Access games from Lichess</summary>
 <p>By Game ID:</p>
 <div class="fragment"><div class="line"><span class="preprocessor">#</span></div>
-<div class="line">   var <a class="code hl_variable" href="Program_8cs.html#ab436be26a7ad7e3937442c0eb55f397e">game</a> = await <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.GetGameAsync(<span class="stringliteral">&quot;cFcjVWzn&quot;</span>);</div>
-<div class="ttc" id="aProgram_8cs_html_ab436be26a7ad7e3937442c0eb55f397e"><div class="ttname"><a href="Program_8cs.html#ab436be26a7ad7e3937442c0eb55f397e">game</a></div><div class="ttdeci">var game</div><div class="ttdef"><b>Definition</b> Program.cs:8</div></div>
+<div class="line">   var game = await <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.GetGameAsync(<span class="stringliteral">&quot;cFcjVWzn&quot;</span>);</div>
 </div><!-- fragment --><p>You can find the Game ID of a game in the URL of the game. </p>
 </details>
 <details >
