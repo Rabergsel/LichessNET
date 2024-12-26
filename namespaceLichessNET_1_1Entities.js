@@ -60,11 +60,16 @@ var namespaceLichessNET_1_1Entities =
         [ "Unknown", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22a88183b946cc5f0e8c96b2e66e1c74a7e", null ]
       ] ],
       [ "Title", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fab", [
-        [ "Cm", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba4d42fd7ad795178d64613eba2a2aa9ad", null ],
-        [ "Nm", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabaa4033ef25d14c21b1b5b5c56438062b5", null ],
-        [ "Im", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabad0fa7c3b5984b6f28d08dcba9cc682ec", null ],
-        [ "Gm", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba277dd68fe14717dcff20e76ca03772e4", null ],
-        [ "Lm", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba090401c358a794ab8cc43773bde7b5cd", null ],
+        [ "CM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba707354872d4e8210a2a573b99721b1fb", null ],
+        [ "NM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabae0f3dba3248a6ccb26950955635d93e2", null ],
+        [ "FM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabaff94b93682a7bb18a97d720c82e253cb", null ],
+        [ "IM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba7c78ebb4c223c96f8e6ccc29f73cc28e", null ],
+        [ "GM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba64f3bd1741ab8d6ba545a1ae09bb8728", null ],
+        [ "LM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabadfd5b430bc4db2c2836d0227ad9ac0c4", null ],
+        [ "WCM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabae514a6e7a1f8d7b161ff9aced4af8a4d", null ],
+        [ "WFM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabaf3165aa312a9014713ea6e762231a03a", null ],
+        [ "WIM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabaa10802c5706deea1d58b7bb8409ff2c6", null ],
+        [ "WGM", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabae54d36c9a14d0579c1b8d81071dc545a", null ],
         [ "None", "namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba6adf97f83acf6453d4a6a4b1070f3754", null ]
       ] ]
     ] ],

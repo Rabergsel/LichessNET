@@ -1,5 +1,10 @@
 var NAVTREEINDEX2 =
 {
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a86fb5834c73dadbe948a57d4a7e8d5cd":[3,0,0,1,4,0,6],
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9c3d486d5ce6cf332d79c67716bc6632":[2,0,0,1,5,0,4],
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9c3d486d5ce6cf332d79c67716bc6632":[3,0,0,1,4,0,4],
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9d19beadd3b8b74d97199cc50431bcf4":[2,0,0,1,5,0,0],
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9d19beadd3b8b74d97199cc50431bcf4":[3,0,0,1,4,0,0],
 "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#ab68b9f18767a2bd9ae4e35847f06e785":[2,0,0,1,5,0,1],
 "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#ab68b9f18767a2bd9ae4e35847f06e785":[3,0,0,1,4,0,1],
 "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#ac7358aa9f21819d462a6b68206f42673":[2,0,0,1,5,0,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX2 =
 "dir_e936e32774c436a64641dd1082240822.html":[4,0,1,1,2],
 "dir_ea6df8c90ec3a7940823b53fb6753211.html":[4,0,1,1,0],
 "files.html":[4,0],
-"functions.html":[3,2,0],
-"functions.html":[3,2,0,0],
-"functions_a.html":[3,2,0,1],
-"functions_b.html":[3,2,0,2],
-"functions_c.html":[3,2,0,3],
-"functions_d.html":[3,2,0,4]
+"functions.html":[3,2,0]
 };

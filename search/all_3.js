@@ -21,7 +21,7 @@ var searchData=
   ['clockbar_18',['ClockBar',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#abf1deb694480f41893039b42ffb97336',1,'LichessNET::Entities::Account::Preferences']]],
   ['clocksound_19',['ClockSound',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a00e4bb6f1d67925eca26ba4ed9ea025d',1,'LichessNET::Entities::Account::Preferences']]],
   ['clocktenths_20',['ClockTenths',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#ad4efd5755ce7c733b0bb2e59cd1abc34',1,'LichessNET::Entities::Account::Preferences']]],
-  ['cm_21',['Cm',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba4d42fd7ad795178d64613eba2a2aa9ad',1,'LichessNET::Entities::Enumerations']]],
+  ['cm_21',['CM',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba707354872d4e8210a2a573b99721b1fb',1,'LichessNET::Entities::Enumerations']]],
   ['code_20snippets_22',['Code Snippets',['../md_README.html#autotoc_md5',1,'']]],
   ['color_23',['Color',['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a791e4aa07440d0e64053f473bcc41de3',1,'LichessNET.Entities.Game.OngoingGame.Color'],['../classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#ab68b9f18767a2bd9ae4e35847f06e785',1,'LichessNET.Entities.Social.Challenge.Color']]],
   ['confirmresign_24',['ConfirmResign',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#af6c18a20b8e93a8bcb5e6ae0814bb55a',1,'LichessNET::Entities::Account::Preferences']]],

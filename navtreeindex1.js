@@ -1,5 +1,10 @@
 var NAVTREEINDEX1 =
 {
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html":[3,0,0,1,0,1],
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a00e4bb6f1d67925eca26ba4ed9ea025d":[2,0,0,1,0,1,7],
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a00e4bb6f1d67925eca26ba4ed9ea025d":[3,0,0,1,0,1,7],
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0a09f539b003284a441ad4c07dd287e5":[2,0,0,1,0,1,3],
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0a09f539b003284a441ad4c07dd287e5":[3,0,0,1,0,1,3],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0b11a509bce0567284bdad333d5b5f14":[2,0,0,1,0,1,33],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0b11a509bce0567284bdad333d5b5f14":[3,0,0,1,0,1,33],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211":[2,0,0,1,0,1,15],
@@ -244,10 +249,5 @@ var NAVTREEINDEX1 =
 "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a69525e8377f1e6eba37ada2b78878558":[3,0,0,1,4,0,9],
 "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a702ed00c49688bc0bd5edea234488039":[2,0,0,1,5,0,10],
 "classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a702ed00c49688bc0bd5edea234488039":[3,0,0,1,4,0,10],
-"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a86fb5834c73dadbe948a57d4a7e8d5cd":[2,0,0,1,5,0,6],
-"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a86fb5834c73dadbe948a57d4a7e8d5cd":[3,0,0,1,4,0,6],
-"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9c3d486d5ce6cf332d79c67716bc6632":[2,0,0,1,5,0,4],
-"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9c3d486d5ce6cf332d79c67716bc6632":[3,0,0,1,4,0,4],
-"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9d19beadd3b8b74d97199cc50431bcf4":[2,0,0,1,5,0,0],
-"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9d19beadd3b8b74d97199cc50431bcf4":[3,0,0,1,4,0,0]
+"classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a86fb5834c73dadbe948a57d4a7e8d5cd":[2,0,0,1,5,0,6]
 };

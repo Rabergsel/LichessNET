@@ -51,6 +51,6 @@ var searchData=
   ['geturibuilder_48',['GetUriBuilder',['../classLichessNET_1_1API_1_1LichessApiClient.html#a6869face1e47e7ec5ec750c338265ab8',1,'LichessNET::API::LichessApiClient']]],
   ['getuserprofile_49',['GetUserProfile',['../classLichessNET_1_1API_1_1LichessApiClient.html#abf9f0910d93ba59a790837854eeda36c',1,'LichessNET::API::LichessApiClient']]],
   ['github_20io_20lichessnet_20index_20html_20documentation_20a_50',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],
-  ['gm_51',['Gm',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba277dd68fe14717dcff20e76ca03772e4',1,'LichessNET::Entities::Enumerations']]],
+  ['gm_51',['GM',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba64f3bd1741ab8d6ba545a1ae09bb8728',1,'LichessNET::Entities::Enumerations']]],
   ['good_52',['Good',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22a0c6ad70beb3a7e76c3fc7adab7c46acc',1,'LichessNET::Entities::Enumerations']]]
 ];

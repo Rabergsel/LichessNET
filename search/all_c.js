@@ -32,7 +32,7 @@ var searchData=
   ['lichessuser_2ecs_29',['LichessUser.cs',['../LichessUser_8cs.html',1,'']]],
   ['limit_30',['Limit',['../classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#adc6bcf7647f018afb39363ae9b011590',1,'LichessNET::Entities::Game::TimeControl']]],
   ['links_31',['Links',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a8b28e0f8afb799601533d6167d87d168',1,'LichessNET::Entities::Social::LichessProfile']]],
-  ['lm_32',['Lm',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba090401c358a794ab8cc43773bde7b5cd',1,'LichessNET::Entities::Enumerations']]],
+  ['lm_32',['LM',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabadfd5b430bc4db2c2836d0227ad9ac0c4',1,'LichessNET::Entities::Enumerations']]],
   ['location_33',['Location',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ae66693011add04b79de1452b4c2d5c32',1,'LichessNET::Entities::Social::LichessProfile']]],
   ['loss_34',['Loss',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a3574ef9101f18ab4a52f56ad8f3d9518',1,'LichessNET::Entities::Stats::GameCounts']]],
   ['lossh_35',['LossH',['../classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a726339a8f6c247a13c8d1efecb6adfca',1,'LichessNET::Entities::Stats::GameCounts']]]
