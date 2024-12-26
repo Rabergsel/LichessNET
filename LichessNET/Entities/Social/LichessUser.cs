@@ -93,6 +93,17 @@ public class LichessUser
                     return Title.None;
             }
         }
+        set
+        {
+            title = value switch
+            {
+                Title.Cm => "CM",
+                Title.Im => "IM",
+                Title.Gm => "GM",
+                Title.Lm => "LM",
+                _ => null
+            };
+        }
     }
 
     /// <summary>

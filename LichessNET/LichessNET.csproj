@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageTags>lichess api</PackageTags>
-        <Version>0.2.0</Version>
+        <Version>1.0.0</Version>
         <Description>A high-level wrapper for the Lichess API in C#.
             Implements all endpoints a normal application needs, and also accepts user tokens.
             Visit the GitHub Repo for more information.
