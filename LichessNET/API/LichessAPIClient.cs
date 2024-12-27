@@ -46,14 +46,18 @@ public partial class LichessApiClient
         _logger = loggerFactory.CreateLogger("LichessAPIClient");
 
 
+        if (token == null) token = "";
+
         this.Token = token;
         if (token != "")
+        {
             _logger.LogInformation("Connecting to Lichess API with token");
+            if (!token.Contains("_"))
+                _logger.LogWarning("The token provided may not be a valid lichess API token. Please check the token.");
+        }
         else
             _logger.LogInformation("Connecting to Lichess API without token");
 
-        if (!token.Contains("_"))
-            _logger.LogWarning("The token provided may not be a valid lichess API token. Please check the token.");
 
         _logger.LogInformation("Connection to Lichess API established.");
 

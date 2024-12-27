@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LichessNET", "LichessNET\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{DECDC240-0F8A-47D2-82CB-F4788BAC774D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LichessOauthTest", "LichessOauthTest\LichessOauthTest.csproj", "{B836097D-F654-4733-9499-E0CAD006249A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DECDC240-0F8A-47D2-82CB-F4788BAC774D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECDC240-0F8A-47D2-82CB-F4788BAC774D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECDC240-0F8A-47D2-82CB-F4788BAC774D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B836097D-F654-4733-9499-E0CAD006249A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B836097D-F654-4733-9499-E0CAD006249A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B836097D-F654-4733-9499-E0CAD006249A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B836097D-F654-4733-9499-E0CAD006249A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
