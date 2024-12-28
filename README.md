@@ -60,6 +60,12 @@ var client = new LichessApiClient(/* YOUR OPTIONAL LICHESS TOKEN */);
     var game = await client.GetGameAsync("cFcjVWzn");
   ```
 
+  Download from the monthly database:
+  ```C#
+     var database = new DatabaseClient();
+     await database.DownloadMonthlyDatabase(2015, 1, ChessVariant.Atomic, "2015-01", false);
+  ```
+
 You can find the Game ID of a game in the URL of the game.
 </details>
 
