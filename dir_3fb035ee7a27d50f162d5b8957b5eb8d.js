@@ -7,5 +7,6 @@ var dir_3fb035ee7a27d50f162d5b8957b5eb8d =
     [ "Puzzle", "dir_4d4f521ed1d3fe5ca468810d9b42184b.html", "dir_4d4f521ed1d3fe5ca468810d9b42184b" ],
     [ "Social", "dir_2d827fed45a422e0d7ac7f28673e159e.html", "dir_2d827fed45a422e0d7ac7f28673e159e" ],
     [ "Stats", "dir_cff66bca550ecd4c78dd75dcb0369275.html", "dir_cff66bca550ecd4c78dd75dcb0369275" ],
-    [ "Teams", "dir_64ba856cd04c8672adb434d524cb72d8.html", "dir_64ba856cd04c8672adb434d524cb72d8" ]
+    [ "Teams", "dir_64ba856cd04c8672adb434d524cb72d8.html", "dir_64ba856cd04c8672adb434d524cb72d8" ],
+    [ "Tournament", "dir_6c246a165c1bfc3b8c3eda192c1cbd23.html", "dir_6c246a165c1bfc3b8c3eda192c1cbd23" ]
 ];

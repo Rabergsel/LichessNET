@@ -137,6 +137,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aad4f5bb63f79f2845ff77cb3b72183fa" id="r_aad4f5bb63f79f2845ff77cb3b72183fa"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4f5bb63f79f2845ff77cb3b72183fa">UnblockPlayerAsync</a> (string username)</td></tr>
 <tr class="memdesc:aad4f5bb63f79f2845ff77cb3b72183fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unblocks a player specified by username.  <br /></td></tr>
 <tr class="separator:aad4f5bb63f79f2845ff77cb3b72183fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7d8c91ef3d526d911eec7f2585002bc" id="r_ab7d8c91ef3d526d911eec7f2585002bc"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1Timeline.html">Timeline</a>?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7d8c91ef3d526d911eec7f2585002bc">GetTimelineAsync</a> (DateTime since, int nb=15)</td></tr>
+<tr class="memdesc:ab7d8c91ef3d526d911eec7f2585002bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the timeline of the authenticated user.  <br /></td></tr>
+<tr class="separator:ab7d8c91ef3d526d911eec7f2585002bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ecf8d6375949524b0ca895d443f44f" id="r_a32ecf8d6375949524b0ca895d443f44f"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html">PositionEvaluation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ecf8d6375949524b0ca895d443f44f">GetCloudEvaluationAsync</a> (string fen, int multiPv=1, <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a> variant=ChessVariant.Standard)</td></tr>
 <tr class="memdesc:a32ecf8d6375949524b0ca895d443f44f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the evaluation of a position from the Lichess cloud analysis.  <br /></td></tr>
 <tr class="separator:a32ecf8d6375949524b0ca895d443f44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,15 +196,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab26e4c05fa30618896d9509b646f3062" id="r_ab26e4c05fa30618896d9509b646f3062"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html">Puzzle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26e4c05fa30618896d9509b646f3062">GetPuzzleByID</a> (string id)</td></tr>
 <tr class="memdesc:ab26e4c05fa30618896d9509b646f3062"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a specific chess puzzle from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> using its unique identifier.  <br /></td></tr>
 <tr class="separator:ab26e4c05fa30618896d9509b646f3062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aadb59aa663012667632f7c009c029e" id="r_a7aadb59aa663012667632f7c009c029e"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1PuzzleDashboard.html">PuzzleDashboard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aadb59aa663012667632f7c009c029e">GetPuzzleDashboardAsync</a> (int days)</td></tr>
+<tr class="memdesc:a7aadb59aa663012667632f7c009c029e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the puzzle dashboard for a specified number of days.  <br /></td></tr>
+<tr class="separator:a7aadb59aa663012667632f7c009c029e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9630b635e2083fa088c0a619d285e644" id="r_a9630b635e2083fa088c0a619d285e644"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleStorm_1_1StormDashboard.html">StormDashboard</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9630b635e2083fa088c0a619d285e644">GetStormDashboardAsync</a> (string username, int days=30)</td></tr>
+<tr class="memdesc:a9630b635e2083fa088c0a619d285e644"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the storm dashboard for a specified username and number of days.  <br /></td></tr>
+<tr class="separator:a9630b635e2083fa088c0a619d285e644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a277afe4219fc19591c58b4cf69f27cdc" id="r_a277afe4219fc19591c58b4cf69f27cdc"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleRace.html">PuzzleRace</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a277afe4219fc19591c58b4cf69f27cdc">CreatePuzzleRaceAsync</a> ()</td></tr>
+<tr class="memdesc:a277afe4219fc19591c58b4cf69f27cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new private puzzle race. It will have to be started manually after creating.  <br /></td></tr>
+<tr class="separator:a277afe4219fc19591c58b4cf69f27cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184f8cf5586678677fa66f7c960707be" id="r_a184f8cf5586678677fa66f7c960707be"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Analysis_1_1TablebaseLookup.html">TablebaseLookup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a184f8cf5586678677fa66f7c960707be">GetTablebaseLookupAsync</a> (string fen, <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a> variant=ChessVariant.Standard)</td></tr>
+<tr class="memdesc:a184f8cf5586678677fa66f7c960707be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a position is avaliable in the tablebases on lichess.  <br /></td></tr>
+<tr class="separator:a184f8cf5586678677fa66f7c960707be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98270b32ae4c21a86da3fabcc50460f4" id="r_a98270b32ae4c21a86da3fabcc50460f4"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html">LichessTeam</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98270b32ae4c21a86da3fabcc50460f4">GetTeamAsync</a> (string teamId)</td></tr>
 <tr class="memdesc:a98270b32ae4c21a86da3fabcc50460f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the team with the specified ID.  <br /></td></tr>
 <tr class="separator:a98270b32ae4c21a86da3fabcc50460f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6e92f73fcdd0e8d51334ff8f1f44e1f" id="r_ac6e92f73fcdd0e8d51334ff8f1f44e1f"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html">LichessTeam</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6e92f73fcdd0e8d51334ff8f1f44e1f">GetPopularTeamsAsync</a> (int page=1)</td></tr>
+<tr class="memdesc:ac6e92f73fcdd0e8d51334ff8f1f44e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the most populat teams on Lichess in a paginated manner.  <br /></td></tr>
+<tr class="separator:ac6e92f73fcdd0e8d51334ff8f1f44e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a045270b0c30bb1d283561c98d053921a" id="r_a045270b0c30bb1d283561c98d053921a"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html">LichessTeam</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a045270b0c30bb1d283561c98d053921a">GetTeamOfUserAsync</a> (string username)</td></tr>
 <tr class="memdesc:a045270b0c30bb1d283561c98d053921a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the list of teams that the specified user is in.  <br /></td></tr>
 <tr class="separator:a045270b0c30bb1d283561c98d053921a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a975b186fdfba4428f0ef5042278187a4" id="r_a975b186fdfba4428f0ef5042278187a4"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html">TeamMember</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975b186fdfba4428f0ef5042278187a4">GetTeamMembersAsync</a> (string teamId)</td></tr>
 <tr class="memdesc:a975b186fdfba4428f0ef5042278187a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This funciton gets the members of a team, in chronoclogical order of joining the team. (Latest first), with up to 5000 members.  <br /></td></tr>
 <tr class="separator:a975b186fdfba4428f0ef5042278187a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac154f4907bc735b49b4b819b9bfda8" id="r_a2ac154f4907bc735b49b4b819b9bfda8"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Tournament_1_1SwissTournament.html">SwissTournament</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ac154f4907bc735b49b4b819b9bfda8">GetTeamSwissTournamentsAsync</a> (string teamId, int max=100)</td></tr>
+<tr class="memdesc:a2ac154f4907bc735b49b4b819b9bfda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all Swiss tournaments of a team.  <br /></td></tr>
+<tr class="separator:a2ac154f4907bc735b49b4b819b9bfda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915639c7b74931f81a646508645d6584" id="r_a915639c7b74931f81a646508645d6584"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Tournament_1_1Arena_1_1ArenaTournament.html">ArenaTournament</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a915639c7b74931f81a646508645d6584">GetTeamArenaTournamentsAsync</a> (string teamId, int max=100)</td></tr>
+<tr class="memdesc:a915639c7b74931f81a646508645d6584"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all Arena tournaments relevant to a team.  <br /></td></tr>
+<tr class="separator:a915639c7b74931f81a646508645d6584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c29e65f4515be9b78428172f71b818f" id="r_a2c29e65f4515be9b78428172f71b818f"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c29e65f4515be9b78428172f71b818f">JoinTeamAsync</a> (string teamId, string message=null, string password=null)</td></tr>
+<tr class="memdesc:a2c29e65f4515be9b78428172f71b818f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Joins a team.  <br /></td></tr>
+<tr class="separator:a2c29e65f4515be9b78428172f71b818f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c82fd0e36d5d8f2cdc56761229e96e8" id="r_a4c82fd0e36d5d8f2cdc56761229e96e8"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c82fd0e36d5d8f2cdc56761229e96e8">LeaveTeamAsync</a> (string teamId)</td></tr>
+<tr class="memdesc:a4c82fd0e36d5d8f2cdc56761229e96e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leaves a team.  <br /></td></tr>
+<tr class="separator:a4c82fd0e36d5d8f2cdc56761229e96e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a8f620c3fc3cf64c9d63342dcce96b" id="r_a36a8f620c3fc3cf64c9d63342dcce96b"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html">UserRealTimeStatus</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a8f620c3fc3cf64c9d63342dcce96b">GetRealTimeUserStatusAsync</a> (string id, bool withSignal=false, bool withGameIds=false, bool withGameMetas=false)</td></tr>
 <tr class="memdesc:a36a8f620c3fc3cf64c9d63342dcce96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the real-time status of a specified user on Lichess.  <br /></td></tr>
 <tr class="separator:a36a8f620c3fc3cf64c9d63342dcce96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,12 +241,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10abdf9ec968dd0fb7af61b0711cb375" id="r_a10abdf9ec968dd0fb7af61b0711cb375"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html">LichessUser</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10abdf9ec968dd0fb7af61b0711cb375">GetLeaderboardAsync</a> (int nb, <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a> perfType)</td></tr>
 <tr class="memdesc:a10abdf9ec968dd0fb7af61b0711cb375"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asynchronously retrieves the top players' leaderboard from Lichess for a specified number of players and game mode.  <br /></td></tr>
 <tr class="separator:a10abdf9ec968dd0fb7af61b0711cb375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af134d852555b6aa7dd57ec947c757986" id="r_af134d852555b6aa7dd57ec947c757986"><td class="memItemLeft" align="right" valign="top">async Task&lt; Dictionary&lt; <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a>, List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html">LichessUser</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af134d852555b6aa7dd57ec947c757986">GetAllLeaderboardsAsync</a> ()</td></tr>
+<tr class="separator:af134d852555b6aa7dd57ec947c757986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a104a2e6dfd788eb6616299e60567508f" id="r_a104a2e6dfd788eb6616299e60567508f"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1CrossTable.html">CrossTable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104a2e6dfd788eb6616299e60567508f">GetCrossTableAsync</a> (string user1, string user2, bool includeMatchup=false)</td></tr>
 <tr class="memdesc:a104a2e6dfd788eb6616299e60567508f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the cross table for two specified users, summarizing the results of their games.  <br /></td></tr>
 <tr class="separator:a104a2e6dfd788eb6616299e60567508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9f0910d93ba59a790837854eeda36c" id="r_abf9f0910d93ba59a790837854eeda36c"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html">LichessUser</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9f0910d93ba59a790837854eeda36c">GetUserProfile</a> (string username)</td></tr>
 <tr class="memdesc:abf9f0910d93ba59a790837854eeda36c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the profile of a specified user on Lichess.  <br /></td></tr>
 <tr class="separator:abf9f0910d93ba59a790837854eeda36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad5204c1a48dcf9ebcbbaa7e3544fa0" id="r_afad5204c1a48dcf9ebcbbaa7e3544fa0"><td class="memItemLeft" align="right" valign="top">async Task&lt; Dictionary&lt; <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a>, List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1RatingDataPoint.html">RatingDataPoint</a> &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afad5204c1a48dcf9ebcbbaa7e3544fa0">GetRatingHistory</a> (string username)</td></tr>
+<tr class="separator:afad5204c1a48dcf9ebcbbaa7e3544fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db4ba8d95e23ef1ced26bb0b54469d7" id="r_a6db4ba8d95e23ef1ced26bb0b54469d7"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PerformanceStats.html">PerformanceStats</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6db4ba8d95e23ef1ced26bb0b54469d7">GetUserPerformanceStatsAsync</a> (string username, <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a> gamemode)</td></tr>
+<tr class="memdesc:a6db4ba8d95e23ef1ced26bb0b54469d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the performance stats of a specified user on Lichess.  <br /></td></tr>
+<tr class="separator:a6db4ba8d95e23ef1ced26bb0b54469d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34869421ec3b8dd43935a79bf88fb289" id="r_a34869421ec3b8dd43935a79bf88fb289"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Stream_1_1LiveStreamer.html">LiveStreamer</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34869421ec3b8dd43935a79bf88fb289">GetAllLiveStreamers</a> ()</td></tr>
+<tr class="memdesc:a34869421ec3b8dd43935a79bf88fb289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all streamers currently being live.  <br /></td></tr>
+<tr class="separator:a34869421ec3b8dd43935a79bf88fb289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad68db8ea3230283a7c72ec2c2a282cae" id="r_ad68db8ea3230283a7c72ec2c2a282cae"><td class="memItemLeft" align="right" valign="top">async Task&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad68db8ea3230283a7c72ec2c2a282cae">AddUserNoteAsync</a> (string username, string text)</td></tr>
+<tr class="memdesc:ad68db8ea3230283a7c72ec2c2a282cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a note for the specified user.  <br /></td></tr>
+<tr class="separator:ad68db8ea3230283a7c72ec2c2a282cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f240c6ec04888b55dd574261f2c5ced" id="r_a3f240c6ec04888b55dd574261f2c5ced"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Note.html">Note</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f240c6ec04888b55dd574261f2c5ced">GetUserNotesAsync</a> (string username)</td></tr>
+<tr class="memdesc:a3f240c6ec04888b55dd574261f2c5ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the note from the authorized user for the specified user.  <br /></td></tr>
+<tr class="separator:a3f240c6ec04888b55dd574261f2c5ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -292,6 +338,37 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A bool whether the operation was successful or not</dd></dl>
+
+</div>
+</div>
+<a id="ad68db8ea3230283a7c72ec2c2a282cae" name="ad68db8ea3230283a7c72ec2c2a282cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad68db8ea3230283a7c72ec2c2a282cae">&#9670;&#160;</a></span>AddUserNoteAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; bool &gt; LichessNET.API.LichessApiClient.AddUserNoteAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>username</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>text</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a note for the specified user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>User to add the note to.</td></tr>
+    <tr><td class="paramname">text</td><td>The note</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A boolean whether the post was successful.</dd></dl>
 
 </div>
 </div>
@@ -400,6 +477,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a277afe4219fc19591c58b4cf69f27cdc" name="a277afe4219fc19591c58b4cf69f27cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a277afe4219fc19591c58b4cf69f27cdc">&#9670;&#160;</a></span>CreatePuzzleRaceAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleRace.html">PuzzleRace</a> &gt; LichessNET.API.LichessApiClient.CreatePuzzleRaceAsync </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new private puzzle race. It will have to be started manually after creating. </p>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the puzzle race data.</dd></dl>
+
+</div>
+</div>
 <a id="abcc58cb11f75240bf7fdfa4ad6b80d45" name="abcc58cb11f75240bf7fdfa4ad6b80d45"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcc58cb11f75240bf7fdfa4ad6b80d45">&#9670;&#160;</a></span>DeclineChallengeAsync()</h2>
 
@@ -494,6 +591,43 @@ Private Attributes</h2></td></tr>
 
 <p>Retrieves the account preferences of the authenticated user. </p>
 <dl class="section return"><dt>Returns</dt><dd>An instance of AccountPreferences representing the user's account preferences. </dd></dl>
+
+</div>
+</div>
+<a id="af134d852555b6aa7dd57ec947c757986" name="af134d852555b6aa7dd57ec947c757986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af134d852555b6aa7dd57ec947c757986">&#9670;&#160;</a></span>GetAllLeaderboardsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; Dictionary&lt; <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a>, List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html">LichessUser</a> &gt; &gt; &gt; LichessNET.API.LichessApiClient.GetAllLeaderboardsAsync </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34869421ec3b8dd43935a79bf88fb289" name="a34869421ec3b8dd43935a79bf88fb289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34869421ec3b8dd43935a79bf88fb289">&#9670;&#160;</a></span>GetAllLiveStreamers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Stream_1_1LiveStreamer.html">LiveStreamer</a> &gt; &gt; LichessNET.API.LichessApiClient.GetAllLiveStreamers </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all streamers currently being live. </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -911,6 +1045,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac6e92f73fcdd0e8d51334ff8f1f44e1f" name="ac6e92f73fcdd0e8d51334ff8f1f44e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e92f73fcdd0e8d51334ff8f1f44e1f">&#9670;&#160;</a></span>GetPopularTeamsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html">LichessTeam</a> &gt; &gt; LichessNET.API.LichessApiClient.GetPopularTeamsAsync </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>page</em></span><span class="paramdefsep"> = </span><span class="paramdefval">1</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the most populat teams on Lichess in a paginated manner. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>Page number, defaults to 1</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The list of the most popular teams on the specified page.</dd></dl>
+
+</div>
+</div>
 <a id="ab26e4c05fa30618896d9509b646f3062" name="ab26e4c05fa30618896d9509b646f3062"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab26e4c05fa30618896d9509b646f3062">&#9670;&#160;</a></span>GetPuzzleByID()</h2>
 
@@ -937,6 +1097,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7aadb59aa663012667632f7c009c029e" name="a7aadb59aa663012667632f7c009c029e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aadb59aa663012667632f7c009c029e">&#9670;&#160;</a></span>GetPuzzleDashboardAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1PuzzleDashboard.html">PuzzleDashboard</a> &gt; LichessNET.API.LichessApiClient.GetPuzzleDashboardAsync </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>days</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the puzzle dashboard for a specified number of days. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">days</td><td>The number of days to look back when aggregating puzzle results.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the puzzle dashboard data.</dd></dl>
+
+</div>
+</div>
 <a id="a8dc714ee0c380103dd17d927ca4e8c6c" name="a8dc714ee0c380103dd17d927ca4e8c6c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8dc714ee0c380103dd17d927ca4e8c6c">&#9670;&#160;</a></span>GetRandomPuzzle()</h2>
 
@@ -954,6 +1140,23 @@ Private Attributes</h2></td></tr>
 
 <p>Fetches a random chess puzzle from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A Puzzle object representing the random chess puzzle, including its associated game details. </dd></dl>
+
+</div>
+</div>
+<a id="afad5204c1a48dcf9ebcbbaa7e3544fa0" name="afad5204c1a48dcf9ebcbbaa7e3544fa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afad5204c1a48dcf9ebcbbaa7e3544fa0">&#9670;&#160;</a></span>GetRatingHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; Dictionary&lt; <a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a>, List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1RatingDataPoint.html">RatingDataPoint</a> &gt; &gt; &gt; LichessNET.API.LichessApiClient.GetRatingHistory </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>username</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1072,6 +1275,37 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9630b635e2083fa088c0a619d285e644" name="a9630b635e2083fa088c0a619d285e644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9630b635e2083fa088c0a619d285e644">&#9670;&#160;</a></span>GetStormDashboardAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleStorm_1_1StormDashboard.html">StormDashboard</a> &gt; LichessNET.API.LichessApiClient.GetStormDashboardAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>username</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>days</em></span><span class="paramdefsep"> = </span><span class="paramdefval">30</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the storm dashboard for a specified username and number of days. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>The username of the player.</td></tr>
+    <tr><td class="paramname">days</td><td>The number of days of history to return. Default is 30.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the storm dashboard data.</dd></dl>
+
+</div>
+</div>
 <a id="acbf4e25c433f701174ef2be40125233a" name="acbf4e25c433f701174ef2be40125233a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acbf4e25c433f701174ef2be40125233a">&#9670;&#160;</a></span>GetSwissGames()</h2>
 
@@ -1095,6 +1329,74 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, with a list of Swiss tournament games as the result.</dd></dl>
+
+</div>
+</div>
+<a id="a184f8cf5586678677fa66f7c960707be" name="a184f8cf5586678677fa66f7c960707be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184f8cf5586678677fa66f7c960707be">&#9670;&#160;</a></span>GetTablebaseLookupAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Analysis_1_1TablebaseLookup.html">TablebaseLookup</a> &gt; LichessNET.API.LichessApiClient.GetTablebaseLookupAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>fen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6">ChessVariant</a></td>          <td class="paramname"><span class="paramname"><em>variant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">ChessVariant::Standard</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a position is avaliable in the tablebases on lichess. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fen</td><td>The position to check</td></tr>
+    <tr><td class="paramname">variant</td><td>The variant for which a position should be looked up. Currently supported are Standard, Chess960, Atomic and Antichess </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A TablebaseLookup object</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentException</td><td>Thrown when an invalid variant was requested</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a915639c7b74931f81a646508645d6584" name="a915639c7b74931f81a646508645d6584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a915639c7b74931f81a646508645d6584">&#9670;&#160;</a></span>GetTeamArenaTournamentsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Tournament_1_1Arena_1_1ArenaTournament.html">ArenaTournament</a> &gt; &gt; LichessNET.API.LichessApiClient.GetTeamArenaTournamentsAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>teamId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>max</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves all Arena tournaments relevant to a team. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">teamId</td><td>The ID of the team.</td></tr>
+    <tr><td class="paramname">max</td><td>The maximum number of tournaments to download. Default is 100.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the list of Arena tournaments.</dd></dl>
 
 </div>
 </div>
@@ -1176,6 +1478,68 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a2ac154f4907bc735b49b4b819b9bfda8" name="a2ac154f4907bc735b49b4b819b9bfda8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac154f4907bc735b49b4b819b9bfda8">&#9670;&#160;</a></span>GetTeamSwissTournamentsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Tournament_1_1SwissTournament.html">SwissTournament</a> &gt; &gt; LichessNET.API.LichessApiClient.GetTeamSwissTournamentsAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>teamId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>max</em></span><span class="paramdefsep"> = </span><span class="paramdefval">100</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves all Swiss tournaments of a team. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">teamId</td><td>The ID of the team.</td></tr>
+    <tr><td class="paramname">max</td><td>The maximum number of tournaments to download. Default is 100.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the list of Swiss tournaments.</dd></dl>
+
+</div>
+</div>
+<a id="ab7d8c91ef3d526d911eec7f2585002bc" name="ab7d8c91ef3d526d911eec7f2585002bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7d8c91ef3d526d911eec7f2585002bc">&#9670;&#160;</a></span>GetTimelineAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1Timeline.html">Timeline</a>?&gt; LichessNET.API.LichessApiClient.GetTimelineAsync </td>
+          <td>(</td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>since</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">15</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the timeline of the authenticated user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">since</td><td>When the timeline should start</td></tr>
+    <tr><td class="paramname">nb</td><td>The number of timeline events that should be loaded. Defaults to 15, the maximum is 50.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A Timeline object</dd></dl>
+
+</div>
+</div>
 <a id="a6869face1e47e7ec5ec750c338265ab8" name="a6869face1e47e7ec5ec750c338265ab8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6869face1e47e7ec5ec750c338265ab8">&#9670;&#160;</a></span>GetUriBuilder()</h2>
 
@@ -1214,6 +1578,63 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3f240c6ec04888b55dd574261f2c5ced" name="a3f240c6ec04888b55dd574261f2c5ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f240c6ec04888b55dd574261f2c5ced">&#9670;&#160;</a></span>GetUserNotesAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Social_1_1Note.html">Note</a> &gt; &gt; LichessNET.API.LichessApiClient.GetUserNotesAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>username</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the note from the authorized user for the specified user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>The user to get the notes for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of notes</dd></dl>
+
+</div>
+</div>
+<a id="a6db4ba8d95e23ef1ced26bb0b54469d7" name="a6db4ba8d95e23ef1ced26bb0b54469d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db4ba8d95e23ef1ced26bb0b54469d7">&#9670;&#160;</a></span>GetUserPerformanceStatsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PerformanceStats.html">PerformanceStats</a> &gt; LichessNET.API.LichessApiClient.GetUserPerformanceStatsAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>username</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5c">Gamemode</a></td>          <td class="paramname"><span class="paramname"><em>gamemode</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the performance stats of a specified user on Lichess. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">username</td><td>The user to load</td></tr>
+    <tr><td class="paramname">perf</td><td>The gamemode of which to load the performance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
 <a id="abf9f0910d93ba59a790837854eeda36c" name="abf9f0910d93ba59a790837854eeda36c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf9f0910d93ba59a790837854eeda36c">&#9670;&#160;</a></span>GetUserProfile()</h2>
 
@@ -1237,6 +1658,69 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the user's profile. </dd></dl>
+
+</div>
+</div>
+<a id="a2c29e65f4515be9b78428172f71b818f" name="a2c29e65f4515be9b78428172f71b818f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c29e65f4515be9b78428172f71b818f">&#9670;&#160;</a></span>JoinTeamAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; bool &gt; LichessNET.API.LichessApiClient.JoinTeamAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>teamId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>message</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>password</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Joins a team. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">teamId</td><td>The ID of the team.</td></tr>
+    <tr><td class="paramname">message</td><td>The message for the team join request, required if the team manually reviews admission requests.</td></tr>
+    <tr><td class="paramname">password</td><td>The password for the team, if required.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the join team response.</dd></dl>
+
+</div>
+</div>
+<a id="a4c82fd0e36d5d8f2cdc56761229e96e8" name="a4c82fd0e36d5d8f2cdc56761229e96e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c82fd0e36d5d8f2cdc56761229e96e8">&#9670;&#160;</a></span>LeaveTeamAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async Task&lt; bool &gt; LichessNET.API.LichessApiClient.LeaveTeamAsync </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>teamId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Leaves a team. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">teamId</td><td>The ID of the team.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A task representing the asynchronous operation, containing the leave team response.</dd></dl>
 
 </div>
 </div>
@@ -1406,6 +1890,7 @@ Private Attributes</h2></td></tr>
 <li>LichessNET/API/<a class="el" href="GamesAPI_8cs.html">GamesAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="LichessAPIClient_8cs.html">LichessAPIClient.cs</a></li>
 <li>LichessNET/API/<a class="el" href="PuzzlesAPI_8cs.html">PuzzlesAPI.cs</a></li>
+<li>LichessNET/API/<a class="el" href="TablebaseAPI_8cs.html">TablebaseAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="TeamAPI_8cs.html">TeamAPI.cs</a></li>
 <li>LichessNET/API/<a class="el" href="UsersAPI_8cs.html">UsersAPI.cs</a></li>
 </ul>

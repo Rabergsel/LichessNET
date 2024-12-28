@@ -1,5 +1,6 @@
 var namespaceLichessNET_1_1Entities_1_1Game =
 [
+    [ "Clock", "classLichessNET_1_1Entities_1_1Game_1_1Clock.html", "classLichessNET_1_1Entities_1_1Game_1_1Clock" ],
     [ "Game", "classLichessNET_1_1Entities_1_1Game_1_1Game.html", "classLichessNET_1_1Entities_1_1Game_1_1Game" ],
     [ "GamePlayer", "classLichessNET_1_1Entities_1_1Game_1_1GamePlayer.html", "classLichessNET_1_1Entities_1_1Game_1_1GamePlayer" ],
     [ "GameStream", "classLichessNET_1_1Entities_1_1Game_1_1GameStream.html", "classLichessNET_1_1Entities_1_1Game_1_1GameStream" ],

@@ -5,6 +5,7 @@ var searchData=
   ['challenger_2ecs_2',['Challenger.cs',['../Challenger_8cs.html',1,'']]],
   ['challengeresponse_2ecs_3',['ChallengeResponse.cs',['../ChallengeResponse_8cs.html',1,'']]],
   ['chessvariant_2ecs_4',['ChessVariant.cs',['../ChessVariant_8cs.html',1,'']]],
-  ['constants_2ecs_5',['Constants.cs',['../Constants_8cs.html',1,'']]],
-  ['crosstable_2ecs_6',['CrossTable.cs',['../CrossTable_8cs.html',1,'']]]
+  ['clock_2ecs_5',['Clock.cs',['../Clock_8cs.html',1,'']]],
+  ['constants_2ecs_6',['Constants.cs',['../Constants_8cs.html',1,'']]],
+  ['crosstable_2ecs_7',['CrossTable.cs',['../CrossTable_8cs.html',1,'']]]
 ];

@@ -8,6 +8,7 @@ var dir_3d082ab88b85f47762f4198fb5bb3507 =
     [ "LichessAPIClient.cs", "LichessAPIClient_8cs.html", "LichessAPIClient_8cs" ],
     [ "LichessStream.cs", "LichessStream_8cs.html", "LichessStream_8cs" ],
     [ "PuzzlesAPI.cs", "PuzzlesAPI_8cs.html", "PuzzlesAPI_8cs" ],
+    [ "TablebaseAPI.cs", "TablebaseAPI_8cs.html", "TablebaseAPI_8cs" ],
     [ "TeamAPI.cs", "TeamAPI_8cs.html", "TeamAPI_8cs" ],
     [ "UsersAPI.cs", "UsersAPI_8cs.html", "UsersAPI_8cs" ]
 ];

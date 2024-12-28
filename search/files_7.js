@@ -5,5 +5,6 @@ var searchData=
   ['lichessstream_2ecs_2',['LichessStream.cs',['../LichessStream_8cs.html',1,'']]],
   ['lichessteam_2ecs_3',['LichessTeam.cs',['../LichessTeam_8cs.html',1,'']]],
   ['lichessuser_2ecs_4',['LichessUser.cs',['../LichessUser_8cs.html',1,'']]],
-  ['longextensions_2ecs_5',['LongExtensions.cs',['../LongExtensions_8cs.html',1,'']]]
+  ['livestreamer_2ecs_5',['LiveStreamer.cs',['../LiveStreamer_8cs.html',1,'']]],
+  ['longextensions_2ecs_6',['LongExtensions.cs',['../LongExtensions_8cs.html',1,'']]]
 ];

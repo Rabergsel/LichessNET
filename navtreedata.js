@@ -48,6 +48,7 @@ var NAVTREE =
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
@@ -70,9 +71,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "APIRatelimitController_8cs.html",
-"classLichessNET_1_1Database_1_1DatabaseClient.html#a3cdbfae166c1c951bfa2ed73f7ad92fb",
-"classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame.html#a731c6697ab4bcb13c69c2d2834714a26",
-"dir_0b797768eb9982d4b0c788911a455c7b.html"
+"classLichessNET_1_1API_1_1LichessApiClient.html#a975b186fdfba4428f0ef5042278187a4",
+"classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1UserId.html#af8d58ea577e58e4f5487d898d1b5b9f7",
+"classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#aef3308ac3f93bbdb141e3d46280ca51a",
+"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa",
+"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#aea52e966a3467493e7893312e28440eb",
+"functions_prop_h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

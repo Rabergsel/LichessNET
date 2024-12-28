@@ -77,5 +77,6 @@ var namespaceLichessNET_1_1Entities =
     [ "Puzzle", "namespaceLichessNET_1_1Entities_1_1Puzzle.html", "namespaceLichessNET_1_1Entities_1_1Puzzle" ],
     [ "Social", "namespaceLichessNET_1_1Entities_1_1Social.html", "namespaceLichessNET_1_1Entities_1_1Social" ],
     [ "Stats", "namespaceLichessNET_1_1Entities_1_1Stats.html", "namespaceLichessNET_1_1Entities_1_1Stats" ],
-    [ "Teams", "namespaceLichessNET_1_1Entities_1_1Teams.html", "namespaceLichessNET_1_1Entities_1_1Teams" ]
+    [ "Teams", "namespaceLichessNET_1_1Entities_1_1Teams.html", "namespaceLichessNET_1_1Entities_1_1Teams" ],
+    [ "Tournament", "namespaceLichessNET_1_1Entities_1_1Tournament.html", "namespaceLichessNET_1_1Entities_1_1Tournament" ]
 ];

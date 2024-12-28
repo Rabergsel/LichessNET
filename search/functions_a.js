@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['sendrequest_0',['SendRequest',['../classLichessNET_1_1API_1_1LichessApiClient.html#a50af9f1eed96a40e680638d590160de3',1,'LichessNET::API::LichessApiClient']]],
-  ['setkidmodestatus_1',['SetKidModeStatus',['../classLichessNET_1_1API_1_1LichessApiClient.html#a08ea2b5a216801ce752d2a5f80781674',1,'LichessNET::API::LichessApiClient']]],
-  ['streamgameasync_2',['StreamGameAsync',['../classLichessNET_1_1API_1_1LichessStream.html#ac8a54341019a61699b66b7e098e62ef8',1,'LichessNET::API::LichessStream']]]
+  ['ratingdatapoint_0',['RatingDataPoint',['../classLichessNET_1_1Entities_1_1Social_1_1RatingDataPoint.html#aa82fd0cfcd6ea470d77cf6f45d5ff185',1,'LichessNET::Entities::Social::RatingDataPoint']]],
+  ['registerbucket_1',['RegisterBucket',['../classLichessNET_1_1API_1_1ApiRatelimitController.html#ab79ba8cc02314d8afc3f480a46b901cb',1,'LichessNET::API::ApiRatelimitController']]],
+  ['reportblock_2',['ReportBlock',['../classLichessNET_1_1API_1_1ApiRatelimitController.html#ad70bef25965f496290f28ddf0da22b78',1,'LichessNET::API::ApiRatelimitController']]]
 ];
