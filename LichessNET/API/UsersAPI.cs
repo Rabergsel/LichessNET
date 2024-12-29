@@ -314,4 +314,31 @@ public partial class LichessApiClient
         var notes = JsonConvert.DeserializeObject<List<Note>>(content);
         return notes;
     }
+
+
+    /// <summary>
+    /// Retrieves the list of users followed by the logged-in user.
+    /// </summary>
+    /// <returns>A task representing the asynchronous operation, containing the list of followed users.</returns>
+    public async Task<List<LichessUser>> GetFollowedUsersAsync()
+    {
+        _ratelimitController.Consume("api/rel/following", false);
+
+        var request = GetRequestScaffold("api/rel/following");
+        var response = await SendRequest(request);
+        var content = await response.Content.ReadAsStringAsync();
+
+        var followedUsers = new List<LichessUser>();
+        using (var reader = new StringReader(content))
+        {
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                var user = JsonConvert.DeserializeObject<LichessUser>(line);
+                followedUsers.Add(user);
+            }
+        }
+
+        return followedUsers;
+    }
 }

@@ -248,4 +248,30 @@ public partial class LichessApiClient
         var jobj = JsonConvert.DeserializeObject<JObject>(content);
         return jobj["nowPlaying"].ToObject<List<OngoingGame>>();
     }
+
+    /// <summary>
+    /// Imports a game from PGN.
+    /// </summary>
+    /// <param name="pgn">The PGN of the game to import.</param>
+    /// <returns>A task representing the asynchronous operation, containing the import game response.</returns>
+    public async Task<string> ImportGameAsync(string pgn)
+    {
+        _ratelimitController.Consume();
+
+        var endpoint = "api/import";
+        var request = GetRequestScaffold(endpoint);
+
+        var formData = new Dictionary<string, string>
+        {
+            { "pgn", pgn }
+        };
+
+        request.Content = new FormUrlEncodedContent(formData);
+
+        var response = await SendRequest(request, HttpMethod.Post);
+        var content = await response.Content.ReadAsStringAsync();
+        var obj = JsonConvert.DeserializeObject<dynamic>(content);
+        var importGameID = obj["id"].ToString();
+        return importGameID;
+    }
 }
