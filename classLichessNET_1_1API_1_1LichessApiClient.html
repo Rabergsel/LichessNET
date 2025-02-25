@@ -184,16 +184,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab72782fc7fea47701cc8a45083007923" id="r_ab72782fc7fea47701cc8a45083007923"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab72782fc7fea47701cc8a45083007923">GetOngoingGamesAsync</a> (int maxGames=9)</td></tr>
 <tr class="memdesc:ab72782fc7fea47701cc8a45083007923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the ongoing games for the current user.  <br /></td></tr>
 <tr class="separator:ab72782fc7fea47701cc8a45083007923"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1300b06fea4e07918b4511a421db0cab" id="r_a1300b06fea4e07918b4511a421db0cab"><td class="memItemLeft" align="right" valign="top">string?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1300b06fea4e07918b4511a421db0cab">GetToken</a> ()</td></tr>
-<tr class="separator:a1300b06fea4e07918b4511a421db0cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c29d60f096763aeb9fd7e82c4a60b1b" id="r_a2c29d60f096763aeb9fd7e82c4a60b1b"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c29d60f096763aeb9fd7e82c4a60b1b">SetToken</a> (string? value)</td></tr>
-<tr class="separator:a2c29d60f096763aeb9fd7e82c4a60b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab460cdb8ff2084715dcd1292112a7ff" id="r_aab460cdb8ff2084715dcd1292112a7ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab460cdb8ff2084715dcd1292112a7ff">LichessApiClient</a> ()</td></tr>
 <tr class="memdesc:aab460cdb8ff2084715dcd1292112a7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> client, according to settings.  <br /></td></tr>
 <tr class="separator:aab460cdb8ff2084715dcd1292112a7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1300b06fea4e07918b4511a421db0cab" id="r_a1300b06fea4e07918b4511a421db0cab"><td class="memItemLeft" align="right" valign="top">string?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1300b06fea4e07918b4511a421db0cab">GetToken</a> ()</td></tr>
+<tr class="memdesc:a1300b06fea4e07918b4511a421db0cab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns used token for the <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
+<tr class="separator:a1300b06fea4e07918b4511a421db0cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c29d60f096763aeb9fd7e82c4a60b1b" id="r_a2c29d60f096763aeb9fd7e82c4a60b1b"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c29d60f096763aeb9fd7e82c4a60b1b">SetToken</a> (string? value)</td></tr>
+<tr class="memdesc:a2c29d60f096763aeb9fd7e82c4a60b1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets token to use for requests to the <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
+<tr class="separator:a2c29d60f096763aeb9fd7e82c4a60b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae370d675323640e08ade92460b3c37d4" id="r_ae370d675323640e08ade92460b3c37d4"><td class="memItemLeft" align="right" valign="top">async Task&lt; Dictionary&lt; string, <a class="el" href="classLichessNET_1_1Entities_1_1OAuth_1_1TokenInfo.html">TokenInfo</a>?&gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae370d675323640e08ade92460b3c37d4">TestTokensAsync</a> (List&lt; string &gt; tokens)</td></tr>
+<tr class="memdesc:ae370d675323640e08ade92460b3c37d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests if a token is valid.  <br /></td></tr>
 <tr class="separator:ae370d675323640e08ade92460b3c37d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac91a0c9ea8729fc84057059fd09456f5" id="r_ac91a0c9ea8729fc84057059fd09456f5"><td class="memItemLeft" align="right" valign="top">async Task&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac91a0c9ea8729fc84057059fd09456f5">DeleteTokenAsync</a> (string token)</td></tr>
+<tr class="memdesc:ac91a0c9ea8729fc84057059fd09456f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a token.  <br /></td></tr>
 <tr class="separator:ac91a0c9ea8729fc84057059fd09456f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93e215a07660b519279fcf19f518a052" id="r_a93e215a07660b519279fcf19f518a052"><td class="memItemLeft" align="right" valign="top">async Task&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html">Puzzle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e215a07660b519279fcf19f518a052">GetDailyPuzzle</a> ()</td></tr>
 <tr class="memdesc:a93e215a07660b519279fcf19f518a052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the daily puzzle from the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
@@ -297,10 +301,10 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a client for the lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. It handles all ratelimits and requests. </p>
-<p>This example shows how to initialize the LichessAPIClient. </p><div class="fragment"><div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_function" href="#aab460cdb8ff2084715dcd1292112a7ff">LichessApiClient</a>(<span class="stringliteral">&quot;YOUR_API_TOKEN&quot;</span>);</div>
-<div class="line">Console.WriteLine($<span class="stringliteral">&quot;User is part of {team.Count} teams.&quot;</span>);</div>
+<p>This example shows how to initialize the LichessAPIClient. </p><div class="fragment"><div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_function" href="#aab460cdb8ff2084715dcd1292112a7ff">LichessApiClient</a>();</div>
+<div class="line"><a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.SetToken(<span class="stringliteral">&quot;yourToken&quot;</span>);</div>
 <div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:7</div></div>
-<div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html_aab460cdb8ff2084715dcd1292112a7ff"><div class="ttname"><a href="#aab460cdb8ff2084715dcd1292112a7ff">LichessNET.API.LichessApiClient.LichessApiClient</a></div><div class="ttdeci">LichessApiClient()</div><div class="ttdoc">Creates a lichess API client, according to settings.</div><div class="ttdef"><b>Definition</b> LichessAPIClient.cs:62</div></div>
+<div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html_aab460cdb8ff2084715dcd1292112a7ff"><div class="ttname"><a href="#aab460cdb8ff2084715dcd1292112a7ff">LichessNET.API.LichessApiClient.LichessApiClient</a></div><div class="ttdeci">LichessApiClient()</div><div class="ttdoc">Creates a lichess API client, according to settings.</div><div class="ttdef"><b>Definition</b> LichessAPIClient.cs:41</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aab460cdb8ff2084715dcd1292112a7ff" name="aab460cdb8ff2084715dcd1292112a7ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab460cdb8ff2084715dcd1292112a7ff">&#9670;&#160;</a></span>LichessApiClient()</h2>
@@ -555,6 +559,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Deletes a token. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">token</td><td>Token to delete</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1585,6 +1597,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns used token for the <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Used token</dd></dl>
+
 </div>
 </div>
 <a id="a6869face1e47e7ec5ec750c338265ab8" name="a6869face1e47e7ec5ec750c338265ab8"></a>
@@ -1851,6 +1866,20 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets token to use for requests to the <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td><a class="el" href="namespaceLichessNET_1_1API.html">API</a> Token. If null, this client wont use a token, resulting in a reduced ratelimit</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnauthorizedAccessException</td><td>Thrown when token is invalid</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="ae370d675323640e08ade92460b3c37d4" name="ae370d675323640e08ade92460b3c37d4"></a>
@@ -1867,6 +1896,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tests if a token is valid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tokens</td><td>List of tokens to test</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A tuple of the token itself and the corresponding <a class="el" href="classLichessNET_1_1Entities_1_1OAuth_1_1TokenInfo.html">TokenInfo</a> object, which can also be null</dd></dl>
 
 </div>
 </div>

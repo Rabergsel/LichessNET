@@ -14,7 +14,7 @@ var searchData=
   ['sendrequest_11',['SendRequest',['../classLichessNET_1_1API_1_1LichessApiClient.html#aa9743a298cca7e60d3e6521f0fea920e',1,'LichessNET::API::LichessApiClient']]],
   ['service_12',['Service',['../classLichessNET_1_1Entities_1_1Social_1_1Stream_1_1Stream.html#a106148f90906155719c16ac5337fc347',1,'LichessNET::Entities::Social::Stream::Stream']]],
   ['setkidmodestatus_13',['SetKidModeStatus',['../classLichessNET_1_1API_1_1LichessApiClient.html#a08ea2b5a216801ce752d2a5f80781674',1,'LichessNET::API::LichessApiClient']]],
-  ['settoken_14',['SetToken',['../classLichessNET_1_1API_1_1LichessApiClient.html#a2c29d60f096763aeb9fd7e82c4a60b1b',1,'LichessNET::API::LichessApiClient']]],
+  ['settoken_14',['SetToken',['../classLichessNET_1_1API_1_1LichessApiClient.html#a2c29d60f096763aeb9fd7e82c4a60b1b',1,'LichessNET.API.LichessApiClient.SetToken()'],['../Program_8cs.html#a2db5c74e60791bfcb846520d9961e3e0',1,'SetToken():&#160;Program.cs']]],
   ['show_15',['Show',['../classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#aead3181ff44f86ae8625ffde200ea924',1,'LichessNET::Entities::Game::TimeControl']]],
   ['signalconnection_16',['SignalConnection',['../classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#a87c5978a9709902eb574f996078a9c74',1,'LichessNET.Entities.Social.UserRealTimeStatus.SignalConnection'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22',1,'LichessNET.Entities.Enumerations.SignalConnection']]],
   ['signalconnection_2ecs_17',['SignalConnection.cs',['../SignalConnection_8cs.html',1,'']]],

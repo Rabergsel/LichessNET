@@ -17,7 +17,7 @@ var searchData=
   ['following_14',['Following',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#acc02987de6a37886502ad7631ad0460c',1,'LichessNET::Entities::Social::LichessUser']]],
   ['followplayerasync_15',['FollowPlayerAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#ac4fa60fe828a10f6fd52131b5e7561f6',1,'LichessNET::API::LichessApiClient']]],
   ['followsyou_16',['FollowsYou',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a292591c00df12572422502c591d2fb31',1,'LichessNET::Entities::Social::LichessUser']]],
-  ['foreach_17',['foreach',['../Program_8cs.html#a41d18d57d4cfc42e48cf3f92f4bfeea7',1,'Program.cs']]],
+  ['for_17',['for',['../Program_8cs.html#af1ab6610b642f2ef8d430148e72d0018',1,'Program.cs']]],
   ['forumposteventdata_18',['ForumPostEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1ForumPostEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
   ['freq_19',['Freq',['../classLichessNET_1_1Entities_1_1Tournament_1_1Arena_1_1Schedule.html#aaab773dab719e57abd90a72050960e32',1,'LichessNET::Entities::Tournament::Arena::Schedule']]],
   ['from_20',['From',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1From.html',1,'LichessNET.Entities.Account.Performance.From'],['../classLichessNET_1_1Entities_1_1Social_1_1Note.html#a6ddb78a6f064154c64f45089fb3bbe49',1,'LichessNET.Entities.Social.Note.From'],['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Max.html#aa54c0027b9b45a0f18ba677f568a4536',1,'LichessNET.Entities.Account.Performance.Max.From']]],
