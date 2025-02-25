@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fm_0',['FM',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabaff94b93682a7bb18a97d720c82e253cb',1,'LichessNET::Entities::Enumerations']]]
+  ['excellent_0',['Excellent',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22afcc2d28a33d2df558f18766e067569c6',1,'LichessNET::Entities::Enumerations']]]
 ];

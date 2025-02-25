@@ -1,17 +1,19 @@
 var searchData=
 [
-  ['tablebaselookup_0',['TablebaseLookup',['../classLichessNET_1_1Entities_1_1Analysis_1_1TablebaseLookup.html',1,'LichessNET::Entities::Analysis']]],
-  ['tablebasemove_1',['TablebaseMove',['../classLichessNET_1_1Entities_1_1Analysis_1_1TablebaseMove.html',1,'LichessNET::Entities::Analysis']]],
-  ['teamcreateeventdata_2',['TeamCreateEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TeamCreateEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
-  ['teamjoineventdata_3',['TeamJoinEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TeamJoinEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
-  ['teamleader_4',['TeamLeader',['../classLichessNET_1_1Entities_1_1Social_1_1TeamLeader.html',1,'LichessNET::Entities::Social']]],
-  ['teammember_5',['TeamMember',['../classLichessNET_1_1Entities_1_1Teams_1_1TeamMember.html',1,'LichessNET::Entities::Teams']]],
-  ['time_6',['Time',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Time.html',1,'LichessNET::Entities::Account::Performance']]],
-  ['timecontrol_7',['TimeControl',['../classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html',1,'LichessNET::Entities::Game']]],
-  ['timeline_8',['Timeline',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1Timeline.html',1,'LichessNET::Entities::Social::Timeline']]],
-  ['timelineentry_9',['TimelineEntry',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TimelineEntry.html',1,'LichessNET::Entities::Social::Timeline']]],
-  ['timelineeventdata_10',['TimelineEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TimelineEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
-  ['timelineuser_11',['TimelineUser',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TimelineUser.html',1,'LichessNET::Entities::Social::Timeline']]],
-  ['to_12',['To',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1To.html',1,'LichessNET::Entities::Account::Performance']]],
-  ['tourjoineventdata_13',['TourJoinEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TourJoinEventData.html',1,'LichessNET::Entities::Social::Timeline']]]
+  ['schedule_0',['Schedule',['../classLichessNET_1_1Entities_1_1Tournament_1_1Arena_1_1Schedule.html',1,'LichessNET::Entities::Tournament::Arena']]],
+  ['secondstotimespanconverter_1',['SecondsToTimeSpanConverter',['../classLichessNET_1_1Converters_1_1SecondsToTimeSpanConverter.html',1,'LichessNET::Converters']]],
+  ['simulcreateeventdata_2',['SimulCreateEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1SimulCreateEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
+  ['simuljoineventdata_3',['SimulJoinEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1SimulJoinEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
+  ['stat_4',['Stat',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Stat.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['stormdashboard_5',['StormDashboard',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleStorm_1_1StormDashboard.html',1,'LichessNET::Entities::Puzzle::PuzzleStorm']]],
+  ['stormday_6',['StormDay',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleStorm_1_1StormDay.html',1,'LichessNET::Entities::Puzzle::PuzzleStorm']]],
+  ['stormhigh_7',['StormHigh',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleStorm_1_1StormHigh.html',1,'LichessNET::Entities::Puzzle::PuzzleStorm']]],
+  ['streak_8',['Streak',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Streak.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['stream_9',['Stream',['../classLichessNET_1_1Entities_1_1Social_1_1Stream_1_1Stream.html',1,'LichessNET::Entities::Social::Stream']]],
+  ['streamer_10',['Streamer',['../classLichessNET_1_1Entities_1_1Social_1_1Stream_1_1Streamer.html',1,'LichessNET::Entities::Social::Stream']]],
+  ['streaminginfo_11',['StreamingInfo',['../classLichessNET_1_1Entities_1_1Social_1_1StreamingInfo.html',1,'LichessNET::Entities::Social']]],
+  ['streamstarteventdata_12',['StreamStartEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1StreamStartEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
+  ['studylikeeventdata_13',['StudyLikeEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1StudyLikeEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
+  ['swisstournament_14',['SwissTournament',['../classLichessNET_1_1Entities_1_1Tournament_1_1SwissTournament.html',1,'LichessNET::Entities::Tournament']]],
+  ['swisstournamentstats_15',['SwissTournamentStats',['../classLichessNET_1_1Entities_1_1Tournament_1_1SwissTournamentStats.html',1,'LichessNET::Entities::Tournament']]]
 ];

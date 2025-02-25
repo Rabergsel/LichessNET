@@ -4,6 +4,8 @@ var dir_3fb035ee7a27d50f162d5b8957b5eb8d =
     [ "Analysis", "dir_e472bf63594c49d851eb6baae1160143.html", "dir_e472bf63594c49d851eb6baae1160143" ],
     [ "Enumerations", "dir_e936e32774c436a64641dd1082240822.html", "dir_e936e32774c436a64641dd1082240822" ],
     [ "Game", "dir_0b797768eb9982d4b0c788911a455c7b.html", "dir_0b797768eb9982d4b0c788911a455c7b" ],
+    [ "Interfaces", "dir_e0db4e748a825d156c7799c785fc9eff.html", "dir_e0db4e748a825d156c7799c785fc9eff" ],
+    [ "OAuth", "dir_68b72f6e5ecd393d744f558375bae283.html", "dir_68b72f6e5ecd393d744f558375bae283" ],
     [ "Puzzle", "dir_4d4f521ed1d3fe5ca468810d9b42184b.html", "dir_4d4f521ed1d3fe5ca468810d9b42184b" ],
     [ "Social", "dir_2d827fed45a422e0d7ac7f28673e159e.html", "dir_2d827fed45a422e0d7ac7f28673e159e" ],
     [ "Stats", "dir_cff66bca550ecd4c78dd75dcb0369275.html", "dir_cff66bca550ecd4c78dd75dcb0369275" ],

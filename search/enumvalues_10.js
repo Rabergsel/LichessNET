@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['unknown_0',['Unknown',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22a88183b946cc5f0e8c96b2e66e1c74a7e',1,'LichessNET::Entities::Enumerations']]]
+  ['stalemate_0',['Stalemate',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a7206552e0c2aea5ff690787a3174a2bdacf707b8fe61c9f34bbb3750574420a41',1,'LichessNET.Entities.Enumerations.Stalemate'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac3d99dbd528eada132ed08e7d6baf14eacf707b8fe61c9f34bbb3750574420a41',1,'LichessNET.Entities.Enumerations.Stalemate']]],
+  ['standard_1',['Standard',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1aeb6d8ae6f20283755b339c0dc273988b',1,'LichessNET.Entities.Enumerations.Standard'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6aeb6d8ae6f20283755b339c0dc273988b',1,'LichessNET.Entities.Enumerations.Standard']]],
+  ['started_2',['Started',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac3d99dbd528eada132ed08e7d6baf14ea8428552d86c0d262a542a528af490afa',1,'LichessNET::Entities::Enumerations']]],
+  ['storm_3',['Storm',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6afdcf3cdc04f367257c92382e032b6293',1,'LichessNET.Entities.Enumerations.Storm'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5cafdcf3cdc04f367257c92382e032b6293',1,'LichessNET.Entities.Enumerations.Storm']]],
+  ['streak_4',['Streak',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6af4bb7b4d64f470dc5e5aca7aa1cfe624',1,'LichessNET.Entities.Enumerations.Streak'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5caf4bb7b4d64f470dc5e5aca7aa1cfe624',1,'LichessNET.Entities.Enumerations.Streak']]]
 ];

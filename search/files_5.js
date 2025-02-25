@@ -7,7 +7,9 @@ var searchData=
   ['gameplayer_2ecs_4',['GamePlayer.cs',['../GamePlayer_8cs.html',1,'']]],
   ['gameresult_2ecs_5',['GameResult.cs',['../GameResult_8cs.html',1,'']]],
   ['gamesapi_2ecs_6',['GamesAPI.cs',['../GamesAPI_8cs.html',1,'']]],
-  ['gamestream_2ecs_7',['GameStream.cs',['../GameStream_8cs.html',1,'']]],
-  ['glicko_2ecs_8',['Glicko.cs',['../Glicko_8cs.html',1,'']]],
-  ['globalpuzzleperformance_2ecs_9',['GlobalPuzzlePerformance.cs',['../GlobalPuzzlePerformance_8cs.html',1,'']]]
+  ['gamestatsconverter_2ecs_7',['GameStatsConverter.cs',['../GameStatsConverter_8cs.html',1,'']]],
+  ['gamestatus_2ecs_8',['GameStatus.cs',['../GameStatus_8cs.html',1,'']]],
+  ['gamestream_2ecs_9',['GameStream.cs',['../GameStream_8cs.html',1,'']]],
+  ['glicko_2ecs_10',['Glicko.cs',['../Glicko_8cs.html',1,'']]],
+  ['globalpuzzleperformance_2ecs_11',['GlobalPuzzlePerformance.cs',['../GlobalPuzzlePerformance_8cs.html',1,'']]]
 ];

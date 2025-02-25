@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "LichessNET Documentation", "index.html", [
-    [ "readme", "md_doxygen__css_2readme.html", null ],
     [ "README", "md_README.html", [
       [ "LichessNET", "md_README.html#autotoc_md0", [
         [ "Documentation", "md_README.html#autotoc_md1", null ],
@@ -71,13 +70,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "APIRatelimitController_8cs.html",
-"classLichessNET_1_1API_1_1LichessApiClient.html#a975b186fdfba4428f0ef5042278187a4",
-"classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1UserId.html#af8d58ea577e58e4f5487d898d1b5b9f7",
-"classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#aef3308ac3f93bbdb141e3d46280ca51a",
-"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa",
-"classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#aea52e966a3467493e7893312e28440eb",
-"functions_prop_h.html"
+"classLichessNET_1_1API_1_1LichessApiClient.html#af21245db8968adf1d7873c092d647657",
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a19b5cd944eec52cbb07e401c34becebb",
+"classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#aa080c5b21069765815119c8e7f2e39be",
+"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878",
+"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a15257c241ad8690a124419dcce625317",
+"functions_prop_g.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';

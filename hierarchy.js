@@ -16,12 +16,23 @@ var hierarchy =
     [ "LichessNET.Entities.Account.Performance.From", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1From.html", null ],
     [ "LichessNET.Entities.Game.Game", "classLichessNET_1_1Entities_1_1Game_1_1Game.html", null ],
     [ "LichessNET.Entities.Stats.GameCounts", "classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html", null ],
-    [ "LichessNET.Entities.Stats.GamemodeStats", "classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html", null ],
     [ "LichessNET.Entities.Game.GamePlayer", "classLichessNET_1_1Entities_1_1Game_1_1GamePlayer.html", null ],
     [ "LichessNET.Entities.Game.GameStream", "classLichessNET_1_1Entities_1_1Game_1_1GameStream.html", null ],
     [ "LichessNET.Entities.Account.Performance.Glicko", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Glicko.html", null ],
     [ "LichessNET.Entities.Puzzle.Dashboard.GlobalPuzzlePerformance", "classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1GlobalPuzzlePerformance.html", null ],
     [ "LichessNET.Entities.Account.Performance.Highest", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Highest.html", null ],
+    [ "LichessNET.Entities.Interfaces.IGameStats", "interfaceLichessNET_1_1Entities_1_1Interfaces_1_1IGameStats.html", [
+      [ "LichessNET.Entities.Stats.GamemodeStats", "classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html", null ],
+      [ "LichessNET.Entities.Stats.RunStats", "classLichessNET_1_1Entities_1_1Stats_1_1RunStats.html", null ]
+    ] ],
+    [ "JsonConverter", null, [
+      [ "LichessNET.Converters.MillisecondUnixConverter", "classLichessNET_1_1Converters_1_1MillisecondUnixConverter.html", null ],
+      [ "LichessNET.Converters.PermissionJsonConverter", "classLichessNET_1_1Converters_1_1PermissionJsonConverter.html", null ],
+      [ "LichessNET.Converters.SecondsToTimeSpanConverter", "classLichessNET_1_1Converters_1_1SecondsToTimeSpanConverter.html", null ]
+    ] ],
+    [ "JsonConverter", null, [
+      [ "LichessNET.Converters.GameStatsConverter", "classLichessNET_1_1Converters_1_1GameStatsConverter.html", null ]
+    ] ],
     [ "LichessNET.API.LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html", null ],
     [ "LichessNET.Entities.Social.LichessProfile", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html", null ],
     [ "LichessNET.API.LichessStream", "classLichessNET_1_1API_1_1LichessStream.html", null ],
@@ -42,7 +53,7 @@ var hierarchy =
     [ "LichessNET.Entities.Account.Performance.PerformanceStats", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PerformanceStats.html", null ],
     [ "LichessNET.Entities.Account.Performance.PerfType", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PerfType.html", null ],
     [ "LichessNET.Entities.Account.Performance.PlayStreak", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PlayStreak.html", null ],
-    [ "LichessNET.Entities.Stats.PlaytimeStats", "classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html", null ],
+    [ "LichessNET.Entities.Stats.Playtime", "classLichessNET_1_1Entities_1_1Stats_1_1Playtime.html", null ],
     [ "LichessNET.Entities.Analysis.PositionEvaluation", "classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html", null ],
     [ "LichessNET.Entities.Account.Preferences", "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html", null ],
     [ "LichessNET.Entities.Analysis.PrincipalVariation", "classLichessNET_1_1Entities_1_1Analysis_1_1PrincipalVariation.html", null ],
@@ -94,6 +105,7 @@ var hierarchy =
     ] ],
     [ "LichessNET.Entities.Social.Timeline.TimelineUser", "classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1TimelineUser.html", null ],
     [ "LichessNET.Entities.Account.Performance.To", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1To.html", null ],
+    [ "LichessNET.Entities.OAuth.TokenInfo", "classLichessNET_1_1Entities_1_1OAuth_1_1TokenInfo.html", null ],
     [ "LichessNET.Entities.Account.Performance.UserId", "classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1UserId.html", null ],
     [ "LichessNET.Entities.Social.UserOverview", "classLichessNET_1_1Entities_1_1Social_1_1UserOverview.html", null ],
     [ "LichessNET.Entities.Social.UserRealTimeStatus", "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html", null ],

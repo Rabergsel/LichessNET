@@ -5,7 +5,8 @@ var searchData=
   ['gameendeventdata_2',['GameEndEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1GameEndEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
   ['gamemodestats_3',['GamemodeStats',['../classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html',1,'LichessNET::Entities::Stats']]],
   ['gameplayer_4',['GamePlayer',['../classLichessNET_1_1Entities_1_1Game_1_1GamePlayer.html',1,'LichessNET::Entities::Game']]],
-  ['gamestream_5',['GameStream',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html',1,'LichessNET::Entities::Game']]],
-  ['glicko_6',['Glicko',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Glicko.html',1,'LichessNET::Entities::Account::Performance']]],
-  ['globalpuzzleperformance_7',['GlobalPuzzlePerformance',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1GlobalPuzzlePerformance.html',1,'LichessNET::Entities::Puzzle::Dashboard']]]
+  ['gamestatsconverter_5',['GameStatsConverter',['../classLichessNET_1_1Converters_1_1GameStatsConverter.html',1,'LichessNET::Converters']]],
+  ['gamestream_6',['GameStream',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html',1,'LichessNET::Entities::Game']]],
+  ['glicko_7',['Glicko',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Glicko.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['globalpuzzleperformance_8',['GlobalPuzzlePerformance',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1GlobalPuzzlePerformance.html',1,'LichessNET::Entities::Puzzle::Dashboard']]]
 ];

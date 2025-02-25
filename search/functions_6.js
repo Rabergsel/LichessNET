@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jointeamasync_0',['JoinTeamAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a2c29e65f4515be9b78428172f71b818f',1,'LichessNET::API::LichessApiClient']]]
+  ['isallowed_0',['IsAllowed',['../classLichessNET_1_1Entities_1_1OAuth_1_1TokenInfo.html#a157d075984f1663de860ef43a492d24a',1,'LichessNET::Entities::OAuth::TokenInfo']]]
 ];

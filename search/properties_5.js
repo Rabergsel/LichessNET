@@ -1,11 +1,11 @@
 var searchData=
 [
   ['fen_0',['Fen',['../classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html#a8fddfb806d4b873a11ea15b18cf5ae1c',1,'LichessNET.Entities.Analysis.PositionEvaluation.Fen'],['../classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html#a2905cc50a766497d8b2331ab8121447d',1,'LichessNET.Entities.Game.OngoingGame.Fen']]],
-  ['fiderating_1',['FideRating',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ac47e7a31368a7d33e14d3a79d3cdb442',1,'LichessNET::Entities::Social::LichessProfile']]],
+  ['fiderating_1',['FideRating',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a96e3a945f2c9ae4eb18d8db4fa836614',1,'LichessNET::Entities::Social::LichessProfile']]],
   ['finalcolor_2',['FinalColor',['../classLichessNET_1_1Entities_1_1Social_1_1Challenge.html#a9c3d486d5ce6cf332d79c67716bc6632',1,'LichessNET::Entities::Social::Challenge']]],
   ['finishesat_3',['FinishesAt',['../classLichessNET_1_1Entities_1_1Tournament_1_1Arena_1_1ArenaTournament.html#aedd7ad714d61ff66eb25d5ef7f0753fa',1,'LichessNET::Entities::Tournament::Arena::ArenaTournament']]],
   ['firstwins_4',['FirstWins',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1GlobalPuzzlePerformance.html#ae2d453ede3b9022a20bff87e87fde299',1,'LichessNET.Entities.Puzzle.Dashboard.GlobalPuzzlePerformance.FirstWins'],['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1PuzzleResults.html#a0b6ec71ddf65392746ceb565b9057dcf',1,'LichessNET.Entities.Puzzle.Dashboard.PuzzleResults.FirstWins']]],
-  ['flag_5',['Flag',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ac43088e7a09166b5397f6d65a03c56fb',1,'LichessNET::Entities::Social::LichessProfile']]],
+  ['flag_5',['Flag',['../classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a31c4cd66dea73d62e727f2384f4ebed6',1,'LichessNET::Entities::Social::LichessProfile']]],
   ['flair_6',['Flair',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a2f26a2fe7e805d774a621a3ca2700901',1,'LichessNET.Entities.Social.LichessUser.Flair'],['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#a8c64bbdf4b12028163df37d67266b46d',1,'LichessNET.Entities.Teams.LichessTeam.Flair'],['../classLichessNET_1_1Entities_1_1Social_1_1TeamLeader.html#ab25fcb40df2ed6da72436b9efdf39b35',1,'LichessNET.Entities.Social.TeamLeader.Flair']]],
   ['follow_7',['Follow',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a5041b886f0134ef68add6ed6ddb39fb4',1,'LichessNET::Entities::Account::Preferences']]],
   ['followable_8',['Followable',['../classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#a8651929961265618540a6d95f33dd0ef',1,'LichessNET::Entities::Social::LichessUser']]],

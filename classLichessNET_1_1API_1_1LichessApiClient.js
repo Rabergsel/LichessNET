@@ -1,12 +1,13 @@
 var classLichessNET_1_1API_1_1LichessApiClient =
 [
-    [ "LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html#a04168d76fb6f84ad24c72409f1af3c66", null ],
+    [ "LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html#aab460cdb8ff2084715dcd1292112a7ff", null ],
     [ "AcceptChallengeAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#aed5acd6d453c0f42fdaf3f6bf88be902", null ],
     [ "AddUserNoteAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ad68db8ea3230283a7c72ec2c2a282cae", null ],
     [ "BlockPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a37f7ec4f1577c4f13784498853077d7a", null ],
     [ "ChallengeUserAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a757960ff852aaaeaf3651b522ce9c682", null ],
     [ "CreatePuzzleRaceAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a277afe4219fc19591c58b4cf69f27cdc", null ],
     [ "DeclineChallengeAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#abcc58cb11f75240bf7fdfa4ad6b80d45", null ],
+    [ "DeleteTokenAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ac91a0c9ea8729fc84057059fd09456f5", null ],
     [ "FollowPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ac4fa60fe828a10f6fd52131b5e7561f6", null ],
     [ "GetAccountEmail", "classLichessNET_1_1API_1_1LichessApiClient.html#a917ef80f794478a36f65414656950aef", null ],
     [ "GetAccountPreferences", "classLichessNET_1_1API_1_1LichessApiClient.html#a3f53084f9b240f50f1efc4bb3b5c667f", null ],
@@ -45,16 +46,21 @@ var classLichessNET_1_1API_1_1LichessApiClient =
     [ "GetTeamOfUserAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a045270b0c30bb1d283561c98d053921a", null ],
     [ "GetTeamSwissTournamentsAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a2ac154f4907bc735b49b4b819b9bfda8", null ],
     [ "GetTimelineAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ab7d8c91ef3d526d911eec7f2585002bc", null ],
+    [ "GetToken", "classLichessNET_1_1API_1_1LichessApiClient.html#a1300b06fea4e07918b4511a421db0cab", null ],
     [ "GetUriBuilder", "classLichessNET_1_1API_1_1LichessApiClient.html#a6869face1e47e7ec5ec750c338265ab8", null ],
     [ "GetUserNotesAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a3f240c6ec04888b55dd574261f2c5ced", null ],
     [ "GetUserPerformanceStatsAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a6db4ba8d95e23ef1ced26bb0b54469d7", null ],
     [ "GetUserProfile", "classLichessNET_1_1API_1_1LichessApiClient.html#abf9f0910d93ba59a790837854eeda36c", null ],
     [ "JoinTeamAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a2c29e65f4515be9b78428172f71b818f", null ],
     [ "LeaveTeamAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a4c82fd0e36d5d8f2cdc56761229e96e8", null ],
-    [ "SendRequest", "classLichessNET_1_1API_1_1LichessApiClient.html#a50af9f1eed96a40e680638d590160de3", null ],
+    [ "SendRequest", "classLichessNET_1_1API_1_1LichessApiClient.html#aa9743a298cca7e60d3e6521f0fea920e", null ],
     [ "SetKidModeStatus", "classLichessNET_1_1API_1_1LichessApiClient.html#a08ea2b5a216801ce752d2a5f80781674", null ],
+    [ "SetToken", "classLichessNET_1_1API_1_1LichessApiClient.html#a2c29d60f096763aeb9fd7e82c4a60b1b", null ],
+    [ "TestTokensAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ae370d675323640e08ade92460b3c37d4", null ],
     [ "UnblockPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#aad4f5bb63f79f2845ff77cb3b72183fa", null ],
     [ "UnfollowPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a328556d7e335fc272bbf86632e36cfd6", null ],
+    [ "_httpClient", "classLichessNET_1_1API_1_1LichessApiClient.html#ab6f2d1fd83944e0e38b26ad74ee881db", null ],
     [ "_logger", "classLichessNET_1_1API_1_1LichessApiClient.html#aad653976de2cb96ef48ce5a22cfa6f80", null ],
-    [ "_ratelimitController", "classLichessNET_1_1API_1_1LichessApiClient.html#a93944bb11c049c26e0c6989b1ba871c7", null ]
+    [ "_ratelimitController", "classLichessNET_1_1API_1_1LichessApiClient.html#a93944bb11c049c26e0c6989b1ba871c7", null ],
+    [ "_token", "classLichessNET_1_1API_1_1LichessApiClient.html#a88a2c938b85a0b768ae806c691e48e7e", null ]
 ];

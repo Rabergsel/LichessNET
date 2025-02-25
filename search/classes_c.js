@@ -1,6 +1,20 @@
 var searchData=
 [
-  ['ratingdatapoint_0',['RatingDataPoint',['../classLichessNET_1_1Entities_1_1Social_1_1RatingDataPoint.html',1,'LichessNET::Entities::Social']]],
-  ['result_1',['Result',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Result.html',1,'LichessNET::Entities::Account::Performance']]],
-  ['resultstreak_2',['ResultStreak',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1ResultStreak.html',1,'LichessNET::Entities::Account::Performance']]]
+  ['perf_0',['Perf',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1Perf.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['performancestats_1',['PerformanceStats',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PerformanceStats.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['perftype_2',['PerfType',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PerfType.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['permissionjsonconverter_3',['PermissionJsonConverter',['../classLichessNET_1_1Converters_1_1PermissionJsonConverter.html',1,'LichessNET::Converters']]],
+  ['planreneweventdata_4',['PlanRenewEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1PlanRenewEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
+  ['planstarteventdata_5',['PlanStartEventData',['../classLichessNET_1_1Entities_1_1Social_1_1Timeline_1_1PlanStartEventData.html',1,'LichessNET::Entities::Social::Timeline']]],
+  ['playstreak_6',['PlayStreak',['../classLichessNET_1_1Entities_1_1Account_1_1Performance_1_1PlayStreak.html',1,'LichessNET::Entities::Account::Performance']]],
+  ['playtime_7',['Playtime',['../classLichessNET_1_1Entities_1_1Stats_1_1Playtime.html',1,'LichessNET::Entities::Stats']]],
+  ['positionevaluation_8',['PositionEvaluation',['../classLichessNET_1_1Entities_1_1Analysis_1_1PositionEvaluation.html',1,'LichessNET::Entities::Analysis']]],
+  ['preferences_9',['Preferences',['../classLichessNET_1_1Entities_1_1Account_1_1Preferences.html',1,'LichessNET::Entities::Account']]],
+  ['principalvariation_10',['PrincipalVariation',['../classLichessNET_1_1Entities_1_1Analysis_1_1PrincipalVariation.html',1,'LichessNET::Entities::Analysis']]],
+  ['puzzle_11',['Puzzle',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Puzzle.html',1,'LichessNET::Entities::Puzzle']]],
+  ['puzzledashboard_12',['PuzzleDashboard',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1PuzzleDashboard.html',1,'LichessNET::Entities::Puzzle::Dashboard']]],
+  ['puzzlegame_13',['PuzzleGame',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleGame.html',1,'LichessNET::Entities::Puzzle']]],
+  ['puzzlerace_14',['PuzzleRace',['../classLichessNET_1_1Entities_1_1Puzzle_1_1PuzzleRace.html',1,'LichessNET::Entities::Puzzle']]],
+  ['puzzleresults_15',['PuzzleResults',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1PuzzleResults.html',1,'LichessNET::Entities::Puzzle::Dashboard']]],
+  ['puzzletheme_16',['PuzzleTheme',['../classLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard_1_1PuzzleTheme.html',1,'LichessNET::Entities::Puzzle::Dashboard']]]
 ];

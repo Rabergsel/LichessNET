@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['nm_0',['NM',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1fabae0f3dba3248a6ccb26950955635d93e2',1,'LichessNET::Entities::Enumerations']]],
-  ['nobot_1',['NoBot',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a93d622d02a4836f6df139f55ad5e67a1ac8e87426f2c74884b04c0f6ea5272aea',1,'LichessNET::Entities::Enumerations']]],
-  ['none_2',['None',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba6adf97f83acf6453d4a6a4b1070f3754',1,'LichessNET::Entities::Enumerations']]]
+  ['manageengines_0',['ManageEngines',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a49bf83ad2abcf8b4372f8878a965c102ad884c0ddbae4bd72d939240f7d0227a1',1,'LichessNET::Entities::Enumerations']]],
+  ['manageteams_1',['ManageTeams',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a49bf83ad2abcf8b4372f8878a965c102a00e201785d31331dfbf5ca773fa23387',1,'LichessNET::Entities::Enumerations']]],
+  ['mate_2',['Mate',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac3d99dbd528eada132ed08e7d6baf14ea9e8bfc8ba6e2cb084fac0d2fb97c07b2',1,'LichessNET::Entities::Enumerations']]],
+  ['medium_3',['Medium',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22a87f8a6ab85c9ced3702b4ea641ad4bb5',1,'LichessNET::Entities::Enumerations']]]
 ];

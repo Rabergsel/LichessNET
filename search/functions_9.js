@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['processdata_0',['ProcessData',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a51e9da5904a088309810ccb73aca85b7',1,'LichessNET::Entities::Game::GameStream']]]
+  ['moveupdatehandler_0',['MoveUpdateHandler',['../classLichessNET_1_1Entities_1_1Game_1_1GameStream.html#a36e53175205b8ced1a0ba88e0dfa534d',1,'LichessNET::Entities::Game::GameStream']]]
 ];

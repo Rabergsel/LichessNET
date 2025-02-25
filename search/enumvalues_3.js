@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['excellent_0',['Excellent',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a6cf19a7b400002f8b4760c20e23fbe22afcc2d28a33d2df558f18766e067569c6',1,'LichessNET::Entities::Enumerations']]]
+  ['draw_0',['Draw',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac3d99dbd528eada132ed08e7d6baf14ea2d03c2d5a7ec65ef4619e0582c272ec2',1,'LichessNET::Entities::Enumerations']]]
 ];

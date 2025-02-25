@@ -1,13 +1,13 @@
 var classLichessNET_1_1Entities_1_1Social_1_1LichessProfile =
 [
-    [ "Bio", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#adc1f171be5a6acb320f1e20c46eaef37", null ],
-    [ "CfcRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ad3b8562802b54c40f1d7b898c42026d8", null ],
-    [ "DsbRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a0c58ef96404139778f27805e4013b7bb", null ],
-    [ "EcfRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a724fade2210d9c2df1865f1d4d0b2098", null ],
-    [ "FideRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ac47e7a31368a7d33e14d3a79d3cdb442", null ],
-    [ "Flag", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ac43088e7a09166b5397f6d65a03c56fb", null ],
-    [ "Links", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a8b28e0f8afb799601533d6167d87d168", null ],
-    [ "Location", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ae66693011add04b79de1452b4c2d5c32", null ],
-    [ "RealName", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a45df26430cd3cdce33be1c812d40013e", null ],
-    [ "UsCfRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a2140c37e2d01eed216ca700665f26d88", null ]
+    [ "Bio", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a09d58806f4e833be650dd054c9b291a2", null ],
+    [ "CfcRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ad1748ceb0ecb9d10840e967c710f1a6e", null ],
+    [ "DsbRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#aee161a87256739120fe51242c957965f", null ],
+    [ "EcfRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#addad99eeaf80b3a98f841f9d3d5a0a1e", null ],
+    [ "FideRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a96e3a945f2c9ae4eb18d8db4fa836614", null ],
+    [ "Flag", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a31c4cd66dea73d62e727f2384f4ebed6", null ],
+    [ "Links", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#ae2db7d0050104eb8b3c33792954de8b0", null ],
+    [ "Location", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#aa89b9dcdafb521b828f35cd23c6692da", null ],
+    [ "RealName", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#afff4d88b7dc8bb0be0f63ce1605d4540", null ],
+    [ "UsCfRating", "classLichessNET_1_1Entities_1_1Social_1_1LichessProfile.html#a853055e7f283e0ccf6efa525569e7d19", null ]
 ];

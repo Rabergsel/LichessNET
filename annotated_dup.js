@@ -6,6 +6,12 @@ var annotated_dup =
         [ "LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html", "classLichessNET_1_1API_1_1LichessApiClient" ],
         [ "LichessStream", "classLichessNET_1_1API_1_1LichessStream.html", "classLichessNET_1_1API_1_1LichessStream" ]
       ] ],
+      [ "Converters", "namespaceLichessNET_1_1Converters.html", [
+        [ "GameStatsConverter", "classLichessNET_1_1Converters_1_1GameStatsConverter.html", "classLichessNET_1_1Converters_1_1GameStatsConverter" ],
+        [ "MillisecondUnixConverter", "classLichessNET_1_1Converters_1_1MillisecondUnixConverter.html", "classLichessNET_1_1Converters_1_1MillisecondUnixConverter" ],
+        [ "PermissionJsonConverter", "classLichessNET_1_1Converters_1_1PermissionJsonConverter.html", "classLichessNET_1_1Converters_1_1PermissionJsonConverter" ],
+        [ "SecondsToTimeSpanConverter", "classLichessNET_1_1Converters_1_1SecondsToTimeSpanConverter.html", "classLichessNET_1_1Converters_1_1SecondsToTimeSpanConverter" ]
+      ] ],
       [ "Database", "namespaceLichessNET_1_1Database.html", [
         [ "DatabaseClient", "classLichessNET_1_1Database_1_1DatabaseClient.html", "classLichessNET_1_1Database_1_1DatabaseClient" ]
       ] ],
@@ -54,6 +60,12 @@ var annotated_dup =
           [ "Opponent", "classLichessNET_1_1Entities_1_1Game_1_1Opponent.html", "classLichessNET_1_1Entities_1_1Game_1_1Opponent" ],
           [ "TimeControl", "classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html", "classLichessNET_1_1Entities_1_1Game_1_1TimeControl" ],
           [ "Variant", "classLichessNET_1_1Entities_1_1Game_1_1Variant.html", "classLichessNET_1_1Entities_1_1Game_1_1Variant" ]
+        ] ],
+        [ "Interfaces", "namespaceLichessNET_1_1Entities_1_1Interfaces.html", [
+          [ "IGameStats", "interfaceLichessNET_1_1Entities_1_1Interfaces_1_1IGameStats.html", null ]
+        ] ],
+        [ "OAuth", "namespaceLichessNET_1_1Entities_1_1OAuth.html", [
+          [ "TokenInfo", "classLichessNET_1_1Entities_1_1OAuth_1_1TokenInfo.html", "classLichessNET_1_1Entities_1_1OAuth_1_1TokenInfo" ]
         ] ],
         [ "Puzzle", "namespaceLichessNET_1_1Entities_1_1Puzzle.html", [
           [ "Dashboard", "namespaceLichessNET_1_1Entities_1_1Puzzle_1_1Dashboard.html", [
@@ -116,7 +128,8 @@ var annotated_dup =
         [ "Stats", "namespaceLichessNET_1_1Entities_1_1Stats.html", [
           [ "GameCounts", "classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html", "classLichessNET_1_1Entities_1_1Stats_1_1GameCounts" ],
           [ "GamemodeStats", "classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats.html", "classLichessNET_1_1Entities_1_1Stats_1_1GamemodeStats" ],
-          [ "PlaytimeStats", "classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats.html", "classLichessNET_1_1Entities_1_1Stats_1_1PlaytimeStats" ]
+          [ "Playtime", "classLichessNET_1_1Entities_1_1Stats_1_1Playtime.html", "classLichessNET_1_1Entities_1_1Stats_1_1Playtime" ],
+          [ "RunStats", "classLichessNET_1_1Entities_1_1Stats_1_1RunStats.html", "classLichessNET_1_1Entities_1_1Stats_1_1RunStats" ]
         ] ],
         [ "Teams", "namespaceLichessNET_1_1Entities_1_1Teams.html", [
           [ "LichessTeam", "classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html", "classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam" ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['im_0',['IM',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a8ce10ccfded776fc4ae674045e0f1faba7c78ebb4c223c96f8e6ccc29f73cc28e',1,'LichessNET::Entities::Enumerations']]]
+  ['horde_0',['Horde',['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#ac30193e4c50293c0569bbfac946689c6a05d822a409e1a677e40ee5ac1db7a796',1,'LichessNET.Entities.Enumerations.Horde'],['../namespaceLichessNET_1_1Entities_1_1Enumerations.html#a23f38225f0988adc0e66c8b191dc1e5ca05d822a409e1a677e40ee5ac1db7a796',1,'LichessNET.Entities.Enumerations.Horde']]]
 ];
