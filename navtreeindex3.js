@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#a48edc78c7782c18f25fd58108ac197e3":[2,0,0,3,2,8,3],
+"classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#aa080c5b21069765815119c8e7f2e39be":[1,0,0,3,3,8,0],
 "classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#aa080c5b21069765815119c8e7f2e39be":[2,0,0,3,2,8,0],
 "classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#adc6bcf7647f018afb39363ae9b011590":[1,0,0,3,3,8,1],
 "classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#adc6bcf7647f018afb39363ae9b011590":[2,0,0,3,2,8,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#acc02987de6a37886502ad7631ad0460c":[2,0,0,3,6,7,6],
 "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#aebcfe93e1488f57c667d707736a808af":[1,0,0,3,7,7,12],
 "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#aebcfe93e1488f57c667d707736a808af":[2,0,0,3,6,7,12],
-"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa":[1,0,0,3,7,7,20],
-"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa":[2,0,0,3,6,7,20],
-"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878":[1,0,0,3,7,7,15]
+"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa":[1,0,0,3,7,7,20]
 };

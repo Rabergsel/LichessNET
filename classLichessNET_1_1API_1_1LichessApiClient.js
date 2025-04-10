@@ -1,6 +1,6 @@
 var classLichessNET_1_1API_1_1LichessApiClient =
 [
-    [ "LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html#aab460cdb8ff2084715dcd1292112a7ff", null ],
+    [ "LichessApiClient", "classLichessNET_1_1API_1_1LichessApiClient.html#a7fdce9e5d709e20e0ff9d38a5c4cce81", null ],
     [ "AcceptChallengeAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#aed5acd6d453c0f42fdaf3f6bf88be902", null ],
     [ "AddUserNoteAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ad68db8ea3230283a7c72ec2c2a282cae", null ],
     [ "BlockPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a37f7ec4f1577c4f13784498853077d7a", null ],
@@ -59,6 +59,7 @@ var classLichessNET_1_1API_1_1LichessApiClient =
     [ "TestTokensAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#ae370d675323640e08ade92460b3c37d4", null ],
     [ "UnblockPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#aad4f5bb63f79f2845ff77cb3b72183fa", null ],
     [ "UnfollowPlayerAsync", "classLichessNET_1_1API_1_1LichessApiClient.html#a328556d7e335fc272bbf86632e36cfd6", null ],
+    [ "_doLogging", "classLichessNET_1_1API_1_1LichessApiClient.html#a15efdb82a44cc72164ef41345bd5f54b", null ],
     [ "_httpClient", "classLichessNET_1_1API_1_1LichessApiClient.html#ab6f2d1fd83944e0e38b26ad74ee881db", null ],
     [ "_logger", "classLichessNET_1_1API_1_1LichessApiClient.html#aad653976de2cb96ef48ce5a22cfa6f80", null ],
     [ "_ratelimitController", "classLichessNET_1_1API_1_1LichessApiClient.html#a93944bb11c049c26e0c6989b1ba871c7", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa":[2,0,0,3,6,7,20],
+"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878":[1,0,0,3,7,7,15],
 "classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878":[2,0,0,3,6,7,15],
 "classLichessNET_1_1Entities_1_1Social_1_1Matchup.html":[1,0,0,3,7,8],
 "classLichessNET_1_1Entities_1_1Social_1_1Matchup.html":[2,0,0,3,6,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#ae28261aae0eb9ca09355af0d9f59e69c":[2,0,0,3,6,14,0],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#aea52e966a3467493e7893312e28440eb":[1,0,0,3,7,14,3],
 "classLichessNET_1_1Entities_1_1Social_1_1UserRealTimeStatus.html#aea52e966a3467493e7893312e28440eb":[2,0,0,3,6,14,3],
-"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html":[1,0,0,3,8,0],
-"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html":[2,0,0,3,7,0],
-"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a15257c241ad8690a124419dcce625317":[1,0,0,3,8,0,9]
+"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html":[1,0,0,3,8,0]
 };

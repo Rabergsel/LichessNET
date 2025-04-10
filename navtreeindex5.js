@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html":[2,0,0,3,7,0],
+"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a15257c241ad8690a124419dcce625317":[1,0,0,3,8,0,9],
 "classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a15257c241ad8690a124419dcce625317":[2,0,0,3,7,0,9],
 "classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a1edcd53ebb7afa75751e33c4f00fc490":[1,0,0,3,8,0,3],
 "classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a1edcd53ebb7afa75751e33c4f00fc490":[2,0,0,3,7,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "functions_prop.html":[2,3,3,0],
 "functions_prop_b.html":[2,3,3,1],
 "functions_prop_c.html":[2,3,3,2],
-"functions_prop_d.html":[2,3,3,3],
-"functions_prop_e.html":[2,3,3,4],
-"functions_prop_f.html":[2,3,3,5]
+"functions_prop_d.html":[2,3,3,3]
 };

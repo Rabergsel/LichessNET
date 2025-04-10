@@ -70,12 +70,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "APIRatelimitController_8cs.html",
-"classLichessNET_1_1API_1_1LichessApiClient.html#af21245db8968adf1d7873c092d647657",
-"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a19b5cd944eec52cbb07e401c34becebb",
-"classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#aa080c5b21069765815119c8e7f2e39be",
-"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#affcd0ad51a1bd60c537a39287e1a7878",
-"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html#a15257c241ad8690a124419dcce625317",
-"functions_prop_g.html"
+"classLichessNET_1_1API_1_1LichessApiClient.html#af134d852555b6aa7dd57ec947c757986",
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211",
+"classLichessNET_1_1Entities_1_1Game_1_1TimeControl.html#a48edc78c7782c18f25fd58108ac197e3",
+"classLichessNET_1_1Entities_1_1Social_1_1LichessUser.html#af5ae95d81398ef46db60fec006bd92fa",
+"classLichessNET_1_1Entities_1_1Stats_1_1GameCounts.html",
+"functions_prop_e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
