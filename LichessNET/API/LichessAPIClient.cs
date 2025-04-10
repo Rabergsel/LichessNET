@@ -3,6 +3,7 @@ using System.Net.Http.Headers;
 using System.Web;
 using LichessNET.Entities.OAuth;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using TokenBucket;
 using Vertical.SpectreLogger;
 
@@ -23,7 +24,7 @@ public partial class LichessApiClient
 {
     private readonly HttpClient _httpClient;
     private readonly ILogger _logger;
-
+    private readonly bool _doLogging;
     /// <summary>
     ///     Bucket handler for ratelimits
     /// </summary>
@@ -37,14 +38,23 @@ public partial class LichessApiClient
     /// <summary>
     ///     Creates a lichess API client, according to settings
     /// </summary>
-    /// <param name="token">The token for accessing the lichess API</param>
-    public LichessApiClient()
+    /// <param name="doLogging">Whether to log requests and responses</param>
+    public LichessApiClient(bool doLogging = true)
     {
-        var loggerFactory = LoggerFactory.Create(builder => builder
+        _doLogging = doLogging;
+        if (!_doLogging)
+        {
+            _logger = NullLogger.Instance;
+        }
+        else
+        {
+            var loggerFactory = LoggerFactory.Create(builder => builder
             .SetMinimumLevel(Constants.MinimumLogLevel)
             .AddSpectreConsole());
 
-        _logger = loggerFactory.CreateLogger("LichessAPIClient");
+            _logger = loggerFactory.CreateLogger("LichessAPIClient");
+        }
+
 
 
         _httpClient = new HttpClient();
