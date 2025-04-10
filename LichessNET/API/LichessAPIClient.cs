@@ -24,8 +24,6 @@ public partial class LichessApiClient
     private readonly HttpClient _httpClient;
     private readonly ILogger _logger;
 
-    private readonly bool doLogging = true;
-
     /// <summary>
     ///     Bucket handler for ratelimits
     /// </summary>
@@ -39,11 +37,9 @@ public partial class LichessApiClient
     /// <summary>
     ///     Creates a lichess API client, according to settings
     /// </summary>
-    /// <param name="doLogging">Sets whether logging messages should appear at all</param>
-    public LichessApiClient(bool doLogging = true)
+    /// <param name="token">The token for accessing the lichess API</param>
+    public LichessApiClient()
     {
-        this.doLogging = doLogging;
-        
         var loggerFactory = LoggerFactory.Create(builder => builder
             .SetMinimumLevel(Constants.MinimumLogLevel)
             .AddSpectreConsole());
@@ -129,18 +125,18 @@ public partial class LichessApiClient
         request.Method = method;
         request.Content = content;
 
-        if(doLogging) _logger.LogInformation("Sending request to " + request.RequestUri);
+        _logger.LogInformation("Sending request to " + request.RequestUri);
         var response = await client.SendAsync(request);
         if (response.IsSuccessStatusCode)
         {
-            if(doLogging)  _logger.LogInformation("Request to " + request.RequestUri + " successful.");
-            if(doLogging) _logger.LogDebug("Response: \n" + response.Content.ReadAsStringAsync().Result);
+            _logger.LogInformation("Request to " + request.RequestUri + " successful.");
+            _logger.LogDebug("Response: \n" + response.Content.ReadAsStringAsync().Result);
             return response;
         }
 
         if (response.StatusCode == HttpStatusCode.TooManyRequests)
         {
-            if(doLogging) _logger.LogError("Ratelimited by Lichess API. Waiting for 60 seconds.");
+            _logger.LogError("Ratelimited by Lichess API. Waiting for 60 seconds.");
             _ratelimitController.ReportBlock();
             return null;
         }
@@ -155,8 +151,8 @@ public partial class LichessApiClient
             throw new UnauthorizedAccessException("Api Key is invalid.");
         }
 
-        if(doLogging) _logger.LogError("Error while fetching data from Lichess API. Status code: " + response.StatusCode);
-        if(doLogging) _logger.LogInformation("Response: \n" + response.Content.ReadAsStringAsync().Result);
+        _logger.LogError("Error while fetching data from Lichess API. Status code: " + response.StatusCode);
+        _logger.LogInformation("Response: \n" + response.Content.ReadAsStringAsync().Result);
         return null;
     }
 }
