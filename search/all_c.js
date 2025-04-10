@@ -9,7 +9,7 @@ var searchData=
   ['leader_6',['Leader',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#ac765d7c93cdf6cb4256eb2e44a67d17c',1,'LichessNET::Entities::Teams::LichessTeam']]],
   ['leaders_7',['Leaders',['../classLichessNET_1_1Entities_1_1Teams_1_1LichessTeam.html#a2262493db46c9575ea2d3ed02c5fc6ef',1,'LichessNET::Entities::Teams::LichessTeam']]],
   ['leaveteamasync_8',['LeaveTeamAsync',['../classLichessNET_1_1API_1_1LichessApiClient.html#a4c82fd0e36d5d8f2cdc56761229e96e8',1,'LichessNET::API::LichessApiClient']]],
-  ['lichessapiclient_9',['LichessApiClient',['../classLichessNET_1_1API_1_1LichessApiClient.html',1,'LichessNET.API.LichessApiClient'],['../classLichessNET_1_1API_1_1LichessApiClient.html#a7fdce9e5d709e20e0ff9d38a5c4cce81',1,'LichessNET.API.LichessApiClient.LichessApiClient()']]],
+  ['lichessapiclient_9',['LichessApiClient',['../classLichessNET_1_1API_1_1LichessApiClient.html',1,'LichessNET.API.LichessApiClient'],['../classLichessNET_1_1API_1_1LichessApiClient.html#aab460cdb8ff2084715dcd1292112a7ff',1,'LichessNET.API.LichessApiClient.LichessApiClient()']]],
   ['lichessapiclient_2ecs_10',['LichessAPIClient.cs',['../LichessAPIClient_8cs.html',1,'']]],
   ['lichessnet_11',['LichessNET',['../namespaceLichessNET.html',1,'LichessNET'],['../md_README.html#autotoc_md0',1,'LichessNET']]],
   ['lichessnet_20index_20html_20documentation_20a_12',['&lt;a href=&quot;https://rabergsel.github.io/LichessNET/index.html&quot; &gt;Documentation&lt;/a&gt;',['../md_README.html#autotoc_md1',1,'']]],

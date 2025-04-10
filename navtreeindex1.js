@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"classLichessNET_1_1API_1_1LichessApiClient.html#af134d852555b6aa7dd57ec947c757986":[2,0,0,0,1,11],
-"classLichessNET_1_1API_1_1LichessApiClient.html#af21245db8968adf1d7873c092d647657":[1,0,0,0,1,34],
 "classLichessNET_1_1API_1_1LichessApiClient.html#af21245db8968adf1d7873c092d647657":[2,0,0,0,1,34],
 "classLichessNET_1_1API_1_1LichessApiClient.html#afad5204c1a48dcf9ebcbbaa7e3544fa0":[1,0,0,0,1,33],
 "classLichessNET_1_1API_1_1LichessApiClient.html#afad5204c1a48dcf9ebcbbaa7e3544fa0":[2,0,0,0,1,33],
@@ -249,5 +247,7 @@ var NAVTREEINDEX1 =
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0a09f539b003284a441ad4c07dd287e5":[2,0,0,3,0,2,3],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0b11a509bce0567284bdad333d5b5f14":[1,0,0,3,0,2,33],
 "classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a0b11a509bce0567284bdad333d5b5f14":[2,0,0,3,0,2,33],
-"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211":[1,0,0,3,0,2,15]
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211":[1,0,0,3,0,2,15],
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a10654716aa962f6cd9af5dbeb6cda211":[2,0,0,3,0,2,15],
+"classLichessNET_1_1Entities_1_1Account_1_1Preferences.html#a19b5cd944eec52cbb07e401c34becebb":[1,0,0,3,0,2,20]
 };
