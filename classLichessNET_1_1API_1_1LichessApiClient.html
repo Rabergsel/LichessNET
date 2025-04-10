@@ -184,9 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab72782fc7fea47701cc8a45083007923" id="r_ab72782fc7fea47701cc8a45083007923"><td class="memItemLeft" align="right" valign="top">async Task&lt; List&lt; <a class="el" href="classLichessNET_1_1Entities_1_1Game_1_1OngoingGame.html">OngoingGame</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab72782fc7fea47701cc8a45083007923">GetOngoingGamesAsync</a> (int maxGames=9)</td></tr>
 <tr class="memdesc:ab72782fc7fea47701cc8a45083007923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetches the ongoing games for the current user.  <br /></td></tr>
 <tr class="separator:ab72782fc7fea47701cc8a45083007923"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab460cdb8ff2084715dcd1292112a7ff" id="r_aab460cdb8ff2084715dcd1292112a7ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab460cdb8ff2084715dcd1292112a7ff">LichessApiClient</a> ()</td></tr>
-<tr class="memdesc:aab460cdb8ff2084715dcd1292112a7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> client, according to settings.  <br /></td></tr>
-<tr class="separator:aab460cdb8ff2084715dcd1292112a7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdce9e5d709e20e0ff9d38a5c4cce81" id="r_a7fdce9e5d709e20e0ff9d38a5c4cce81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fdce9e5d709e20e0ff9d38a5c4cce81">LichessApiClient</a> (bool <a class="el" href="#a38515cf5935ad4bf643a85f804b197ee">doLogging</a>=true)</td></tr>
+<tr class="memdesc:a7fdce9e5d709e20e0ff9d38a5c4cce81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> client, according to settings.  <br /></td></tr>
+<tr class="separator:a7fdce9e5d709e20e0ff9d38a5c4cce81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1300b06fea4e07918b4511a421db0cab" id="r_a1300b06fea4e07918b4511a421db0cab"><td class="memItemLeft" align="right" valign="top">string?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1300b06fea4e07918b4511a421db0cab">GetToken</a> ()</td></tr>
 <tr class="memdesc:a1300b06fea4e07918b4511a421db0cab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns used token for the <a class="el" href="namespaceLichessNET_1_1API.html">API</a>.  <br /></td></tr>
 <tr class="separator:a1300b06fea4e07918b4511a421db0cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,6 +292,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab6f2d1fd83944e0e38b26ad74ee881db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad653976de2cb96ef48ce5a22cfa6f80" id="r_aad653976de2cb96ef48ce5a22cfa6f80"><td class="memItemLeft" align="right" valign="top">readonly ILogger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad653976de2cb96ef48ce5a22cfa6f80">_logger</a></td></tr>
 <tr class="separator:aad653976de2cb96ef48ce5a22cfa6f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38515cf5935ad4bf643a85f804b197ee" id="r_a38515cf5935ad4bf643a85f804b197ee"><td class="memItemLeft" align="right" valign="top">readonly bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38515cf5935ad4bf643a85f804b197ee">doLogging</a> = true</td></tr>
+<tr class="separator:a38515cf5935ad4bf643a85f804b197ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93944bb11c049c26e0c6989b1ba871c7" id="r_a93944bb11c049c26e0c6989b1ba871c7"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="classLichessNET_1_1API_1_1ApiRatelimitController.html">ApiRatelimitController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93944bb11c049c26e0c6989b1ba871c7">_ratelimitController</a> = new()</td></tr>
 <tr class="memdesc:a93944bb11c049c26e0c6989b1ba871c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bucket handler for ratelimits.  <br /></td></tr>
 <tr class="separator:a93944bb11c049c26e0c6989b1ba871c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,13 +303,13 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a client for the lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. It handles all ratelimits and requests. </p>
-<p>This example shows how to initialize the LichessAPIClient. </p><div class="fragment"><div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_function" href="#aab460cdb8ff2084715dcd1292112a7ff">LichessApiClient</a>();</div>
+<p>This example shows how to initialize the LichessAPIClient. </p><div class="fragment"><div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_function" href="#a7fdce9e5d709e20e0ff9d38a5c4cce81">LichessApiClient</a>();</div>
 <div class="line"><a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.SetToken(<span class="stringliteral">&quot;yourToken&quot;</span>);</div>
 <div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:7</div></div>
-<div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html_aab460cdb8ff2084715dcd1292112a7ff"><div class="ttname"><a href="#aab460cdb8ff2084715dcd1292112a7ff">LichessNET.API.LichessApiClient.LichessApiClient</a></div><div class="ttdeci">LichessApiClient()</div><div class="ttdoc">Creates a lichess API client, according to settings.</div><div class="ttdef"><b>Definition</b> LichessAPIClient.cs:41</div></div>
+<div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html_a7fdce9e5d709e20e0ff9d38a5c4cce81"><div class="ttname"><a href="#a7fdce9e5d709e20e0ff9d38a5c4cce81">LichessNET.API.LichessApiClient.LichessApiClient</a></div><div class="ttdeci">LichessApiClient(bool doLogging=true)</div><div class="ttdoc">Creates a lichess API client, according to settings.</div><div class="ttdef"><b>Definition</b> LichessAPIClient.cs:43</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aab460cdb8ff2084715dcd1292112a7ff" name="aab460cdb8ff2084715dcd1292112a7ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab460cdb8ff2084715dcd1292112a7ff">&#9670;&#160;</a></span>LichessApiClient()</h2>
+<a id="a7fdce9e5d709e20e0ff9d38a5c4cce81" name="a7fdce9e5d709e20e0ff9d38a5c4cce81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fdce9e5d709e20e0ff9d38a5c4cce81">&#9670;&#160;</a></span>LichessApiClient()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,7 +317,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">LichessNET.API.LichessApiClient.LichessApiClient </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>doLogging</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -324,7 +326,7 @@ Private Attributes</h2></td></tr>
 <p>Creates a lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a> client, according to settings. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">token</td><td>The token for accessing the lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a></td></tr>
+    <tr><td class="paramname">doLogging</td><td>Sets whether logging messages should appear at all</td></tr>
   </table>
   </dd>
 </dl>
@@ -2050,6 +2052,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The token to access the Lichess <a class="el" href="namespaceLichessNET_1_1API.html">API</a>. </p>
+
+</div>
+</div>
+<a id="a38515cf5935ad4bf643a85f804b197ee" name="a38515cf5935ad4bf643a85f804b197ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38515cf5935ad4bf643a85f804b197ee">&#9670;&#160;</a></span>doLogging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly bool LichessNET.API.LichessApiClient.doLogging = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

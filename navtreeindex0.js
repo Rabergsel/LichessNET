@@ -163,6 +163,8 @@ var NAVTREEINDEX0 =
 "classLichessNET_1_1API_1_1LichessApiClient.html#a36a8f620c3fc3cf64c9d63342dcce96b":[2,0,0,0,1,35],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a37f7ec4f1577c4f13784498853077d7a":[1,0,0,0,1,3],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a37f7ec4f1577c4f13784498853077d7a":[2,0,0,0,1,3],
+"classLichessNET_1_1API_1_1LichessApiClient.html#a38515cf5935ad4bf643a85f804b197ee":[1,0,0,0,1,63],
+"classLichessNET_1_1API_1_1LichessApiClient.html#a38515cf5935ad4bf643a85f804b197ee":[2,0,0,0,1,63],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a3f240c6ec04888b55dd574261f2c5ced":[1,0,0,0,1,48],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a3f240c6ec04888b55dd574261f2c5ced":[2,0,0,0,1,48],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a3f53084f9b240f50f1efc4bb3b5c667f":[1,0,0,0,1,10],
@@ -183,6 +185,8 @@ var NAVTREEINDEX0 =
 "classLichessNET_1_1API_1_1LichessApiClient.html#a757960ff852aaaeaf3651b522ce9c682":[2,0,0,0,1,4],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a7aadb59aa663012667632f7c009c029e":[1,0,0,0,1,31],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a7aadb59aa663012667632f7c009c029e":[2,0,0,0,1,31],
+"classLichessNET_1_1API_1_1LichessApiClient.html#a7fdce9e5d709e20e0ff9d38a5c4cce81":[1,0,0,0,1,0],
+"classLichessNET_1_1API_1_1LichessApiClient.html#a7fdce9e5d709e20e0ff9d38a5c4cce81":[2,0,0,0,1,0],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a88a2c938b85a0b768ae806c691e48e7e":[1,0,0,0,1,62],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a88a2c938b85a0b768ae806c691e48e7e":[2,0,0,0,1,62],
 "classLichessNET_1_1API_1_1LichessApiClient.html#a8dc714ee0c380103dd17d927ca4e8c6c":[1,0,0,0,1,32],
@@ -209,8 +213,6 @@ var NAVTREEINDEX0 =
 "classLichessNET_1_1API_1_1LichessApiClient.html#aa40c6c6ccd022c7118f961d9e14dff88":[2,0,0,0,1,14],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aa9743a298cca7e60d3e6521f0fea920e":[1,0,0,0,1,53],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aa9743a298cca7e60d3e6521f0fea920e":[2,0,0,0,1,53],
-"classLichessNET_1_1API_1_1LichessApiClient.html#aab460cdb8ff2084715dcd1292112a7ff":[1,0,0,0,1,0],
-"classLichessNET_1_1API_1_1LichessApiClient.html#aab460cdb8ff2084715dcd1292112a7ff":[2,0,0,0,1,0],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aad4f5bb63f79f2845ff77cb3b72183fa":[1,0,0,0,1,57],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aad4f5bb63f79f2845ff77cb3b72183fa":[2,0,0,0,1,57],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aad653976de2cb96ef48ce5a22cfa6f80":[1,0,0,0,1,60],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classLichessNET_1_1API_1_1LichessApiClient.html#ae370d675323640e08ade92460b3c37d4":[2,0,0,0,1,56],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aed5acd6d453c0f42fdaf3f6bf88be902":[1,0,0,0,1,1],
 "classLichessNET_1_1API_1_1LichessApiClient.html#aed5acd6d453c0f42fdaf3f6bf88be902":[2,0,0,0,1,1],
-"classLichessNET_1_1API_1_1LichessApiClient.html#af134d852555b6aa7dd57ec947c757986":[1,0,0,0,1,11],
-"classLichessNET_1_1API_1_1LichessApiClient.html#af134d852555b6aa7dd57ec947c757986":[2,0,0,0,1,11],
-"classLichessNET_1_1API_1_1LichessApiClient.html#af21245db8968adf1d7873c092d647657":[1,0,0,0,1,34]
+"classLichessNET_1_1API_1_1LichessApiClient.html#af134d852555b6aa7dd57ec947c757986":[1,0,0,0,1,11]
 };
