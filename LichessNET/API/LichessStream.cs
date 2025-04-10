@@ -91,13 +91,11 @@ public class LichessStream
                         var json = JObject.Parse(line);
                         // Raise the event when a game update is received
                         GameUpdateReceived?.Invoke(this, json);
-                        Console.WriteLine(line);
                     }
                 }
             }
         }
 
-        Console.WriteLine("Exiting Lichess Stream");
         LichessStreamCounter--;
     }
 }
