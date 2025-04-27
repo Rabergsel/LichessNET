@@ -46,7 +46,8 @@ var client = new LichessAPIClient();
 With Lichess Token
 ```C# With Lichess Token
 using LichessNET.API;
-var client = new LichessApiClient(/* YOUR OPTIONAL LICHESS TOKEN */);
+var client = new LichessApiClient();
+client.SetToken(<your-token-goes-here>); //Optional token
 //If your token became invalid, the client will fall back to not using a token.
 ```
 
