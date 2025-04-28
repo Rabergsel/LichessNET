@@ -142,7 +142,8 @@ Usage</h2>
 <div class="ttc" id="aProgram_8cs_html_af46081dcabb4da1ee7ca00228506bcb7"><div class="ttname"><a href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a></div><div class="ttdeci">var client</div><div class="ttdef"><b>Definition</b> Program.cs:7</div></div>
 </div><!-- fragment --><p>With Lichess Token </p><div class="fragment"><div class="line"><span class="preprocessor"> # With Lichess Token</span></div>
 <div class="line"><span class="keyword">using </span>LichessNET.API;</div>
-<div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_class" href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessApiClient</a>(<span class="comment">/* YOUR OPTIONAL LICHESS TOKEN */</span>);</div>
+<div class="line">var <a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a> = <span class="keyword">new</span> <a class="code hl_class" href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessApiClient</a>();</div>
+<div class="line"><a class="code hl_variable" href="Program_8cs.html#af46081dcabb4da1ee7ca00228506bcb7">client</a>.SetToken(&lt;your-token-goes-here&gt;); <span class="comment">//Optional token</span></div>
 <div class="line"><span class="comment">//If your token became invalid, the client will fall back to not using a token.</span></div>
 <div class="ttc" id="aclassLichessNET_1_1API_1_1LichessApiClient_html"><div class="ttname"><a href="classLichessNET_1_1API_1_1LichessApiClient.html">LichessNET.API.LichessApiClient</a></div><div class="ttdoc">This class represents a client for the lichess API. It handles all ratelimits and requests.</div><div class="ttdef"><b>Definition</b> AccountAPI.cs:11</div></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
